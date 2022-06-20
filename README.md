@@ -14,13 +14,13 @@
 
 - 2.1 Mapping
 
-  - Step 2.1.1 ```bowtie2-build ./renamed.contigs.fa ./output_file```
+     -Step 2.1.1 ```bowtie2-build ./renamed.contigs.fa ./output_file```
 
-  - Step 2.1.2 ```bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam```
+     -Step 2.1.2 ```bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam```
 
-  - Step 2.1.3 ```samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam```
+     -Step 2.1.3 ```samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam```
 
-  - Step 2.1.4 ```anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam```
+     -Step 2.1.4 ```anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam```
 
 - 2.2 CONCOCT Binning: Non-competitive
 
