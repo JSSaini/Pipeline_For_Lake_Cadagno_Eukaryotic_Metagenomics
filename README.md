@@ -3,18 +3,22 @@
 ## 1. Pre-processing, and assembly of raw reads
 - Pre-prosessing including Quality check and normalization of raw reads using BBDuk and BBnorm using BBTools package.
 - Assembled using SPAdes (version 3.15.0) 
+
 ```spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta``` 
 - Contig names were simplified using Anvio with minimum length of 1KB 
-- ```anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt```
+
+```anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt```
 
 ## 2. Mapping and Binning from Assemblies
 - Mapping
+
 ```bowtie2-build ./renamed.contigs.fa ./output_file```
 ```bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam```
 ```samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam```
 ```anvi-init-bam ./output_file-RAW.bam -o ./output_file-RAW.bam```
 
--External Binning 
+-External Binning
+
 ```cut_up_fasta.py ./Spades_13m/Anvio.13m.S.contigs.fa -c 10000 -o 0 --merge_last -b spa_13contig_10k.bed > spa_contigs13_10k.fa```
 ```concoct_coverage_table.py spa_13contig_10k.bed ./04_MAPPING/Sample_13_M.bam ./Sample_15mw_S.bam > coverage_table_spa13.tsv```
 ```concoct --composition_file spa_contigs13_10k.fa --coverage_file coverage_table_spa13.tsv  -b ./spa_concoct_13/ -t 8```
