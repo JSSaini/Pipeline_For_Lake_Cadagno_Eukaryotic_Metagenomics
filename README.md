@@ -37,11 +37,11 @@
 ## 3. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
 
 - 3.1 CAT BAT Taxonomic Classification
-  Step 3.1.1 CAT bins -b /folder_containing_bins/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/ -n 16 --block_size 20 --index_chunks 1
-  Step 3.1.2  CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
+      Step 3.1.1 CAT bins -b /folder_containing_bins/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/ -n 16 --block_size 20 --index_chunks 1
+      Step 3.1.2 CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
 
-- 3.1 Quality Assessment of MAGs using BUSCO
-
+- 3.2 Quality Assessment of MAGs using BUSCO
+      Step 3.2.1 busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
 
 
 
