@@ -14,15 +14,15 @@
 
 - Mapping
 
-```bowtie2-build ./renamed.contigs.fa ./output_file```
+Step 2.1 ```bowtie2-build ./renamed.contigs.fa ./output_file```
 
-```bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam```
+Step 2.2 ```bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam```
 
-```samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam```
+Step 2.3 ```samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam```
 
-```anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam```
+Step 2.4 ```anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam```
 
--CONCOCT Binning: Non-competitive
+- CONCOCT Binning: Non-competitive
 
 ```cut_up_fasta.py ./renamed.contigs.fa -c 10000 -o 0 --merge_last -b renamed.contigs_10k.bed > renamed.contigs_10k.fa```
 
