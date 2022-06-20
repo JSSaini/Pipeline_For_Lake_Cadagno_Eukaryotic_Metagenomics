@@ -1,4 +1,4 @@
-# Pipeline for Eukaryotic Metagenomics analysis of Lake Cadagno. 
+# Pipeline for Eukaryotic Metagenomics of Lake Cadagno. 
 
 ## 1. Pre-processing and assembly of reads
 - Preprosessing including Quality check and normalization of raw reads using BBDuk and BBnorm using BBTools package.
