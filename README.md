@@ -1,1 +1,1 @@
-# Eukaryotic_Metagenomic_Lake_Cadagno
+# Pipeline for Euakryotic Metagenomics of Lake Cadagno. 
