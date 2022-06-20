@@ -5,10 +5,11 @@
 - Pre-prosessing including Quality check and normalization of raw reads using BBDuk and BBnorm using BBTools package.
 - Assembled using SPAdes (version 3.15.0) 
 
-  - ```spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta``` 
+  ```spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta```
+  
 - Contig names were simplified using Anvio with minimum length of 1KB 
 
-  - ```anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt```
+  ```anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt```
 
 ## 2. Mapping and Binning from Assemblies
 
@@ -37,10 +38,13 @@
 ## 3. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
 
 - 3.1 CAT BAT Taxonomic Classification
+      
       Step 3.1.1 CAT bins -b /folder_containing_bins/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/ -n 16 --block_size 20 --index_chunks 1
+      
       Step 3.1.2 CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
 
 - 3.2 Quality Assessment of MAGs using BUSCO
+      
       Step 3.2.1 busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
 
 
