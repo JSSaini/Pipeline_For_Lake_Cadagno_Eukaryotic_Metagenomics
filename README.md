@@ -1,7 +1,7 @@
 
 #   Pipeline for Eukaryotic Metagenomics of Lake Cadagno.
 
-##  Metagenomics provides a near-complete genome of microbial eukaryote Chlorella from a high alpine meromictic lake and reveals its potential for carbon, sulphur and nitrogen metabolism
+##  *Metagenomics provides a near-complete genome of microbial eukaryote Chlorella from a high alpine meromictic lake and reveals its potential for carbon, sulphur and nitrogen metabolism*
 
 
 ### 1. Pre-processing, and assembly of raw reads
@@ -177,7 +177,7 @@
        Reverse reads         = /R2.fastq
        Store Hash            =
 
- - 7.4 Annotation and Visualization of Chloroplast Genomes using online GeSeq Platform
+ - 7.4 Visualization of Circularized Chloroplast Genomes using online GeSeq Platform
  
        https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
