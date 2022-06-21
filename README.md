@@ -131,28 +131,57 @@
            ~/blobtoolkit/blobtools2/blobtools create --fasta ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_bin2.fa  --cov ../lib_13_15_5m_mapped_F_13_15p5_filter_nohit.bam --hits ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_blast.out --taxdump ~/blobtoolkit/taxdump --threads 4 --replace /home/users/s/saini7/scratch/MS2/Anvio2/refined_bin/bin_by_bin/Chlorophyta_1/busco_chlo2k/busco/blob2
            
 
-## 7. Organelle (Chloroplast) hunting
-         
-         #Example code 
-         CAT bins -b /MAG_folder/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/  -n 16 --block_size 20 --index_chunks 1
-         CAT add_names -i  out.BAT.bin2classification.txt -o name_of_output_fle.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
+## 7. Organelle (Chloroplast) hunting and Visualization
+- 7.1 Performing BLAST using available NCBI chloroplast genomes
+      
+      #Blast using NCBI Parachlorella kessleri chloroplast genome (NC_012978.1) 
+      blastn -db ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa -query NC_012978.1_para_chlorella.fa -outfmt 6 -max_target_seqs 1 > 15mw_PC_chloroplast.out
+
+      #Blast using NCBI Cryptomonas curvata chloroplast genome (KY856939.1) 
+      blastn -db ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa -query KY856939.1.fasta -outfmt 6 -max_target_seqs 1 > 15m_GT_chloroplast.out
+
+ - 7.2 Extraction of contigs/prospective chloroplast genomes from main assemblies
  
+       #Contig with promising hit against Parachlorella kessleri chloroplast genome (NC_012978.1) 
+       printf "c_000000000152" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa  - > c_000000000152_PC_O_15mw.fa
+       
+       #Contig with promising hit against Cryptomonas curvata chloroplast genome (KY856939.1) 
+       printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm.fa
+     
+ - 7.3 Circularization of given template Chloroplast Genomes using NOVOPlasty
+       
+       #Example script
+       Project:
+       -----------------------
+       Project name          = CC_15_5m
+       Type                  = chloro
+       Genome Range          = 80000-200000
+       K-mer                 = 33
+       Max memory            =
+       Extended log          = 0
+       Save assembled reads  = no
+       Seed Input            = ./c_000000000134_GT_15mm.fa
+       Extend seed directly  = yes
+       Reference sequence    = ./KY856939.1.fasta 
+       Variance detection    =
+       Chloroplast sequence  =
 
-/home/users/s/saini7/scratch/13m/norgal/NOVOPlasty/chloroplasts_cryptomonas/PP_cov
+       Dataset 1:
+       -----------------------
+       Read Length           = 151
+       Insert size           = 300
+       Platform              = illumina
+       Single/Paired         = PE
+       Combined reads        =
+       Forward reads         = /R1.fastq
+       Reverse reads         = /R2.fastq
+       Store Hash            =
 
-blastn -db ~/scratch/15_5m/Spades_15_5pm/Anvio.15_5m.S.contigs.fa -query GT_final_chloroplast_novoplasty.fa -outfmt 6 -max_target_seqs 1 > 15_5m_GT_chloroplast.out
+ - 7.4 Annotation and Visualization of Chloroplast Genomes using online GeSeq Platform
+ 
+       https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
 
-printf "c_000000022062" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000025377_GT_O_15mm
-printf "c_000000000179" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa - > c_000000000179_GT_O_15mw
-printf "c_000000025377" | seqtk subseq ~/scratch/13m/Spades_13m/Anvio.13m.S.contigs.fa - > c_000000025377_GT_O_13m
-printf "c_000000048963" | seqtk subseq ~/scratch/15_5m/Spades_15_5pm/Anvio.15_5m.S.contigs.fa - > c_000000048963_GT_O_15_5m
-
-
-printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm
-printf "c_000000020454" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa - > c_000000020454_GT_15mw
-printf "c_000000003144" | seqtk subseq ~/scratch/13m/Spades_13m/Anvio.13m.S.contigs.fa - > c_000000025377_GT_13m
-printf "c_000000000257" | seqtk subseq ~/scratch/15_5m/Spades_15_5pm/Anvio.15_5m.S.contigs.fa - > c_000000000257_GT_15_5m
 
 
 
