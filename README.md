@@ -1,7 +1,8 @@
 
-#   Metagenomics provides a near-complete genome of microbial eukaryote Chlorella from a high alpine meromictic lake and reveals its potential for carbon, sulphur and nitrogen metabolism
+#   Pipeline for Eukaryotic Metagenomics of Lake Cadagno.
 
-## Pipeline for Eukaryotic Metagenomics of Lake Cadagno. 
+##  Metagenomics provides a near-complete genome of microbial eukaryote Chlorella from a high alpine meromictic lake and reveals its potential for carbon, sulphur and nitrogen metabolism
+
 
 ### 1. Pre-processing, and assembly of raw reads
 
@@ -128,12 +129,30 @@
    - 6.3 Blobtools command line
           
            ~/blobtoolkit/blobtools2/blobtools create --fasta ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_bin2.fa  --cov ../lib_13_15_5m_mapped_F_13_15p5_filter_nohit.bam --hits ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_blast.out --taxdump ~/blobtoolkit/taxdump --threads 4 --replace /home/users/s/saini7/scratch/MS2/Anvio2/refined_bin/bin_by_bin/Chlorophyta_1/busco_chlo2k/busco/blob2
+           
 
-
+## 7. Organelle (Chloroplast) hunting
+         
+         #Example code 
+         CAT bins -b /MAG_folder/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/  -n 16 --block_size 20 --index_chunks 1
+         CAT add_names -i  out.BAT.bin2classification.txt -o name_of_output_fle.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
  
- 
+
+/home/users/s/saini7/scratch/13m/norgal/NOVOPlasty/chloroplasts_cryptomonas/PP_cov
+
+blastn -db ~/scratch/15_5m/Spades_15_5pm/Anvio.15_5m.S.contigs.fa -query GT_final_chloroplast_novoplasty.fa -outfmt 6 -max_target_seqs 1 > 15_5m_GT_chloroplast.out
 
 
+printf "c_000000022062" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000025377_GT_O_15mm
+printf "c_000000000179" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa - > c_000000000179_GT_O_15mw
+printf "c_000000025377" | seqtk subseq ~/scratch/13m/Spades_13m/Anvio.13m.S.contigs.fa - > c_000000025377_GT_O_13m
+printf "c_000000048963" | seqtk subseq ~/scratch/15_5m/Spades_15_5pm/Anvio.15_5m.S.contigs.fa - > c_000000048963_GT_O_15_5m
+
+
+printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm
+printf "c_000000020454" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa - > c_000000020454_GT_15mw
+printf "c_000000003144" | seqtk subseq ~/scratch/13m/Spades_13m/Anvio.13m.S.contigs.fa - > c_000000025377_GT_13m
+printf "c_000000000257" | seqtk subseq ~/scratch/15_5m/Spades_15_5pm/Anvio.15_5m.S.contigs.fa - > c_000000000257_GT_15_5m
 
 
 
