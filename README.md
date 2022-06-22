@@ -149,7 +149,7 @@
        #Contig with promising hit against Cryptomonas curvata chloroplast genome (KY856939.1) 
        printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm.fa
      
- - 7.3 Circularization of given template Chloroplast Genomes using NOVOPlasty
+ - 7.3 Circularization of Chloroplast genomes by NOVOPlasty 
        
        #Example script
        Project:
