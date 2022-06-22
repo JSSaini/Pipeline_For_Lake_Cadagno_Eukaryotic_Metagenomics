@@ -209,9 +209,9 @@
       
       Step 8.3.6 anvi-interactive -c ./contigs_197.db -p ./All_SAMPLES-MERGED_P/PROFILE.db --server-only -P 8008
 
-## 9. Phylogenomic analysis of Microbial Eukaryote and Chloroplast Genomes 
+## 9. Phylogenomic analyses of Microbial Eukaryote and Chloroplast Genomes 
 
-- 9.1 Phylogenomics of Chloroplasts 
+- 9.1 Chloroplasts 
 
       Step 9.1.1 Concatenation of 18 marker genes were aligned using MAFFT and ambigious sequences were removed from Gblocks.
       
@@ -219,7 +219,7 @@
       
       List of Marker genes ATP synthase (atpA, atpB, atpC), large ribosomal subunits (rpl2, rpl5, rpl12, rpl14, rpl19, rpl23) and small ribosomal subunits (rps3, rps8, rps9, rps19), photosystem I (psaC) and photosystem II (psbA, psbB, psbE, psbH).
 
-- 9.2 Phylogenomics of Microbial Eukaryote Nuclear Genome
+- 9.2 Microbial Eukaryote Nuclear Genome
 
 
 
