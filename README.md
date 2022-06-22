@@ -183,6 +183,34 @@
        https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
 
+## 8. Metabolic Prediction of Eukaryotic Genomes 
+
+- 8.1 EukMetaSanity was used for gene prediction
+      
+      yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory
+
+- 8.2 Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
+
+      https://www.kegg.jp/ghostkoala/
+      
+**OR**
+
+- 8.3 Anvio Metabolism Prediction
+      
+      Step 8.3.1 anvi-setup-kegg-kofams --reset
+
+      Step 8.3.2 anvi-gen-contigs-database -f 197.fa -o contigs_197.db -n 'An example contigs database'
+
+      Step 8.3.3 anvi-run-hmms -c contigs_197.db -T 4
+      
+      Step 8.3.4 anvi-run-kegg-kofams -c contigs_197.db -T 16 --just-do-it
+                 
+      Step 8.3.5 anvi-estimate-metabolism -c contigs_197.db  -p ./All_SAMPLES-MERGED_P/PROFILE.db  --add-coverage -O kegg_out_f_jan22
+      
+      Step 8.3.6 anvi-interactive -c ./contigs_197.db -p ./All_SAMPLES-MERGED_P/PROFILE.db --server-only -P 8008
+
+
+
 
 
 
