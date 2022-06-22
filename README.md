@@ -132,6 +132,7 @@
            
 
 ## 7. Organelle (Chloroplast) hunting and Visualization
+
 - 7.1 Performing BLAST using available NCBI chloroplast genomes
       
       #Blast using NCBI Parachlorella kessleri chloroplast genome (NC_012978.1) 
