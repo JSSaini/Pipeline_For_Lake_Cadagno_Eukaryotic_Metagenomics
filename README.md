@@ -80,7 +80,7 @@
        Step 4.4.1 spades.py -1 lib_13m_mapped.1.fastq -2 lib_13m_mapped.2.fastq -1 lib_15_5m_mapped.1.fastq -2 lib_15_5m_mapped.2.fastq  -o ./Anvio2/Spades_13_15p5_Map_GBII
 
          
-  ## 5. Manual Refinement of Eukaryotic Genome Assembly through Anvio & Command line
+  ## 5. Manual Refinement of Microbial Eukaryotic Genome Assembly through Anvio & Command line
   
   - 5.1 Anvio steps to generate contigs and profile database from Eukaryotic Genome Assembly 
   
@@ -113,7 +113,7 @@
         Step 5.1.7  #filter minimum length 2500
         reformat.sh in=Chlophyta_2ks_nohit_filtered_bin.fa out=Chlophyta_2ks_nohit_filtered_bin2.fa minlength=2500
         
-   ## 6. Eukaryotic Genome visualization through BlobTools
+   ## 6. Microbial Eukaryotic Genome visualization through BlobTools
    - 6.1 Generating BAM files with reads from 13 m and 15.5 m samples
           
           #Creating BAM files
@@ -183,7 +183,7 @@
        https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
 
-## 8. Metabolic Prediction of Eukaryotic Genomes 
+## 8. Metabolic Prediction of Microbial Eukaryotic Genomes 
 
 - 8.1 EukMetaSanity was used for gene prediction
       
