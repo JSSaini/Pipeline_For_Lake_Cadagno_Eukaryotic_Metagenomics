@@ -3,55 +3,71 @@
 
 ##  *Metagenomics provides a near-complete genome of microbial eukaryote Chlorella from a high alpine meromictic lake and reveals its potential for carbon, sulphur and nitrogen metabolism*
 
+### Following are the tools and steps with example used for Eukaryotic Metagenomics pipeline:
 
-### 1. Pre-processing, and assembly of raw reads
+#### 1. Pre-processing, and assembly of raw reads
 
-- Pre-prosessing including Quality check and normalization of raw reads using BBDuk and BBnorm using BBTools package.
-- Assembled using SPAdes (version 3.15.0) 
+ - Step 1.1 Trimming of reads prior to assembly to remove low quality calls
+   
+            bbduk.sh in1=read1.fq in2=read2.fq out1=clean1.fq out2=clean2.fq
 
-  ```spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta```
+ - Step 1.2 Error-correction and normalization of reads
+            
+            bbnorm.sh in=<input> out=<reads to keep> outt=<reads to toss> hist=<histogram output>
+ 
+ - Step 1.3 Assembly of raw reads using SPAdes 
+
+            spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta
   
-- Contig names were simplified using Anvio with minimum length of 1KB 
+ - Step 1.4 Contig names were simplified using Anvio with minimum length of 1KB 
 
-  ```anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt```
+            anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt
 
-### 2. Mapping and Binning from Assemblies
+#### 2. Mapping and Binning from Assemblies
 
-- 2.1 Mapping
+ - Step 2.1  Mapping
 
-      Step 2.1.1 bowtie2-build ./renamed.contigs.fa ./output_file
+             #Creating BAM file
+             bowtie2-build ./renamed.contigs.fa ./output_file
 
-      Step 2.1.2 bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam
+             bowtie2 --threads 16 -x ./output_file -1 R1.fastq -2 R2.fastq -S output_file.sam
 
-      Step 2.1.3 samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam
+             samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam
+       
+             #Sorting and indexing BAM files
+             anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam
 
-      Step 2.1.4 anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam
+- Step 2.2 CONCOCT Non-competitive Binning
 
-- 2.2 CONCOCT Binning: Non-competitive
+           cut_up_fasta.py ./renamed.contigs.fa -c 10000 -o 0 --merge_last -b renamed.contigs_10k.bed > renamed.contigs_10k.fa
 
-      Step 2.2.1 cut_up_fasta.py ./renamed.contigs.fa -c 10000 -o 0 --merge_last -b renamed.contigs_10k.bed > renamed.contigs_10k.fa
+           concoct_coverage_table.py renamed.contigs_10k.bed ./output_file.bam > coverage_table.tsv
 
-      Step 2.2.2 concoct_coverage_table.py renamed.contigs_10k.bed ./output_file.bam > coverage_table.tsv
+           concoct --composition_file renamed.contigs_10k.fa --coverage_file coverage_table.tsv  -b ./output_folder_name/ -t 8
 
-      Step 2.2.3 concoct --composition_file renamed.contigs_10k.fa --coverage_file coverage_table.tsv  -b ./output_folder_name/ -t 8
+           merge_cutup_clustering.py ./output_folder_name/clustering_gt1000.csv > ./output_folder_name/clustering_merged.csv
 
-      Step 2.2.4 merge_cutup_clustering.py ./output_folder_name/clustering_gt1000.csv > ./output_folder_name/clustering_merged.csv
+           extract_fasta_bins.py ./renamed.contigs.fa ./output_folder_name/clustering_merged.csv --output_path ./output_folder_name/
 
-      Step 2.2.5 extract_fasta_bins.py ./renamed.contigs.fa ./output_folder_name/clustering_merged.csv --output_path ./output_folder_name/
+#### 3. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
 
-### 3. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
-
-- 3.1 CAT BAT Taxonomic Classification
+- Step 3.1 CAT BAT Taxonomic Classification
+           
+           #Requires high memory: 250GB RAM with 16 cores
+           CAT bins -b /folder_containing_bins/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/ -n 16 --block_size 20 --index_chunks 1
       
-      Step 3.1.1 CAT bins -b /folder_containing_bins/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/ -n 16 --block_size 20 --index_chunks 1
-      
-      Step 3.1.2 CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
+           #Getting taxonomy for each MAG
+           CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
 
-- 3.2 Quality Assessment of MAGs using BUSCO
+- Step 3.2 Quality Assessment of MAGs using BUSCO
       
-      Step 3.2.1 busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
-      
- ## 4. Extracting raw reads specific to eukaryotic genome and re-assembling
+           busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
+ 
+    
+    ***NOTE: AT THIS STAGE BUSCO DETECTED A HIGH QUALITY CHLOROPHYTA GENOME IN ALL 4 SAMPLES OF CHEMOCLINE***
+ 
+ 
+ #### 4. Extracting raw reads of Chlorophyta genome and re-assembling
  
        #Refinement includes re-assembly and re-binning of raw reads extracted using concatenated eukaryotic MAGs from same species. Following are the steps:
        
