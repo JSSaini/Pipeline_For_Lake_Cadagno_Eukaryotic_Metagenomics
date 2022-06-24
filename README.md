@@ -139,40 +139,40 @@
   
   - Step 6.1 Generating BAM files with reads from 13 m and 15.5 m samples
           
-          #Creating BAM files
-           bowtie2-build /home/users/s/saini7/scratch/MS2/Spades_13_15p5_Map/Anvio_13_15p5.fasta ./Spades.contigs_13_15p5m
-           bowtie2 --threads 16 -x ./Spades.contigs_13_15p5m -1 ../lib_13m_mapped.1.fastq -2 ../lib_13m_mapped.2.fastq -1 ../lib_15_5m_mapped.1.fastq -2 ../lib_15_5m_mapped.2.fastq -S lib_13_15_5m_mapped_F_13_15p5.sam
-           samtools view -F 4 -bS ./lib_13_15_5m_mapped_F_13_15p5.sam > ./lib_13_15_5m_mapped_F_13_15p5-RAW.bam
-           anvi-init-bam ./lib_13_15_5m_mapped_F_13_15p5-RAW.bam -o ./lib_13_15_5m_mapped_F_13_15p5.bam
+             #Creating BAM files
+             bowtie2-build /home/users/s/saini7/scratch/MS2/Spades_13_15p5_Map/Anvio_13_15p5.fasta ./Spades.contigs_13_15p5m
+             bowtie2 --threads 16 -x ./Spades.contigs_13_15p5m -1 ../lib_13m_mapped.1.fastq -2 ../lib_13m_mapped.2.fastq -1 ../lib_15_5m_mapped.1.fastq -2 ../lib_15_5m_mapped.2.fastq -S lib_13_15_5m_mapped_F_13_15p5.sam
+             samtools view -F 4 -bS ./lib_13_15_5m_mapped_F_13_15p5.sam > ./lib_13_15_5m_mapped_F_13_15p5-RAW.bam
+             anvi-init-bam ./lib_13_15_5m_mapped_F_13_15p5-RAW.bam -o ./lib_13_15_5m_mapped_F_13_15p5.bam
 
   - Step 6.2 Performing Blastx required for blobtools. 
           
-           diamond blastx -query /Refined_Eukaryotic_genome.fa --db ./nr_Final2.dmnd --outfmt 6 qseqid staxids bitscore qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue --sensitive --max-target-seqs 1 --evalue 1e-25 --threads 16 > /home/users/s/saini7/scratch/MS2/Anvio_P/Refined_Eukaryotic_genome_dmnd.blastx.out
+             diamond blastx -query /Refined_Eukaryotic_genome.fa --db ./nr_Final2.dmnd --outfmt 6 qseqid staxids bitscore qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue --sensitive --max-target-seqs 1 --evalue 1e-25 --threads 16 > /home/users/s/saini7/scratch/MS2/Anvio_P/Refined_Eukaryotic_genome_dmnd.blastx.out
 
-   - Step 6.3 Blobtools command line
+  - Step 6.3 Blobtools command line
           
-           ~/blobtoolkit/blobtools2/blobtools create --fasta ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_bin2.fa  --cov ../lib_13_15_5m_mapped_F_13_15p5_filter_nohit.bam --hits ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_blast.out --taxdump ~/blobtoolkit/taxdump --threads 4 --replace /home/users/s/saini7/scratch/MS2/Anvio2/refined_bin/bin_by_bin/Chlorophyta_1/busco_chlo2k/busco/blob2
+             ~/blobtoolkit/blobtools2/blobtools create --fasta ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_bin2.fa  --cov ../lib_13_15_5m_mapped_F_13_15p5_filter_nohit.bam --hits ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_blast.out --taxdump ~/blobtoolkit/taxdump --threads 4 --replace /home/users/s/saini7/scratch/MS2/Anvio2/refined_bin/bin_by_bin/Chlorophyta_1/busco_chlo2k/busco/blob2
            
 
-## 7. Organelle (Chloroplast) hunting and Visualization
+#### 7. Organelle (Chloroplast) hunting and Visualization
 
-- 7.1 Performing BLAST using available NCBI chloroplast genomes
+  - Step 7.1 Performing BLAST using available NCBI chloroplast genomes
       
-      #Blast using NCBI Parachlorella kessleri chloroplast genome (NC_012978.1) 
-      blastn -db ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa -query NC_012978.1_para_chlorella.fa -outfmt 6 -max_target_seqs 1 > 15mw_PC_chloroplast.out
+             #Blast using NCBI Parachlorella kessleri chloroplast genome (NC_012978.1) 
+             blastn -db ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa -query NC_012978.1_para_chlorella.fa -outfmt 6 -max_target_seqs 1 > 15mw_PC_chloroplast.out
 
-      #Blast using NCBI Cryptomonas curvata chloroplast genome (KY856939.1) 
-      blastn -db ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa -query KY856939.1.fasta -outfmt 6 -max_target_seqs 1 > 15m_GT_chloroplast.out
+             #Blast using NCBI Cryptomonas curvata chloroplast genome (KY856939.1) 
+             blastn -db ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa -query KY856939.1.fasta -outfmt 6 -max_target_seqs 1 > 15m_GT_chloroplast.out
 
- - 7.2 Extraction of contigs/prospective chloroplast genomes from main assemblies
+  - Step 7.2 Extraction of contigs/prospective chloroplast genomes from main assemblies
  
-       #Contig with promising hit against Parachlorella kessleri chloroplast genome (NC_012978.1) 
-       printf "c_000000000152" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa  - > c_000000000152_PC_O_15mw.fa
+             #Contig with promising hit against Parachlorella kessleri chloroplast genome (NC_012978.1) 
+             printf "c_000000000152" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa  - > c_000000000152_PC_O_15mw.fa
        
-       #Contig with promising hit against Cryptomonas curvata chloroplast genome (KY856939.1) 
-       printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm.fa
+             #Contig with promising hit against Cryptomonas curvata chloroplast genome (KY856939.1) 
+             printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm.fa
      
- - 7.3 Circularization of Chloroplast genomes by NOVOPlasty 
+  - Step 7.3 Circularization of Chloroplast genomes by NOVOPlasty 
        
        #Example script
        Project:
@@ -201,46 +201,46 @@
        Reverse reads         = /R2.fastq
        Store Hash            =
 
- - 7.4 Visualization of Circularized Chloroplast Genomes using online GeSeq Platform
+ - Step 7.4 Visualization of Circularized Chloroplast Genomes using online GeSeq Platform
  
-       https://chlorobox.mpimp-golm.mpg.de/geseq.html
+            https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
 
-## 8. Metabolic Prediction of Microbial Eukaryotic Genomes 
+#### 8. Metabolic Prediction of Microbial Eukaryotic Genomes 
 
-- 8.1 EukMetaSanity was used for gene prediction
+- Step 8.1  EukMetaSanity was used for gene prediction
       
-      yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory
+            yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory
 
-- 8.2 Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
+- Step 8.2  Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
 
-      [] https://www.kegg.jp/ghostkoala/
+            https://www.kegg.jp/ghostkoala/
       
 **OR**
 
-- 8.3 Anvio Metabolism Prediction
+- Step 8.3  Anvio Metabolism Prediction
       
-      Step 8.3.1 anvi-setup-kegg-kofams --reset
+            anvi-setup-kegg-kofams --reset
 
-      Step 8.3.2 anvi-gen-contigs-database -f 197.fa -o contigs_197.db -n 'An example contigs database'
+            anvi-gen-contigs-database -f 197.fa -o contigs_197.db -n 'An example contigs database'
 
-      Step 8.3.3 anvi-run-hmms -c contigs_197.db -T 4
+            anvi-run-hmms -c contigs_197.db -T 4
       
-      Step 8.3.4 anvi-run-kegg-kofams -c contigs_197.db -T 16 --just-do-it
+            anvi-run-kegg-kofams -c contigs_197.db -T 16 --just-do-it
                  
-      Step 8.3.5 anvi-estimate-metabolism -c contigs_197.db  -p ./All_SAMPLES-MERGED_P/PROFILE.db  --add-coverage -O kegg_out_f_jan22
+            anvi-estimate-metabolism -c contigs_197.db  -p ./All_SAMPLES-MERGED_P/PROFILE.db  --add-coverage -O kegg_out_f_jan22
       
-      Step 8.3.6 anvi-interactive -c ./contigs_197.db -p ./All_SAMPLES-MERGED_P/PROFILE.db --server-only -P 8008
+            anvi-interactive -c ./contigs_197.db -p ./All_SAMPLES-MERGED_P/PROFILE.db --server-only -P 8008
 
-## 9. Phylogenomic analyses of Microbial Eukaryote and Chloroplast Genomes 
+#### 9. Phylogenomic analyses of Microbial Eukaryote and Chloroplast Genomes 
 
-- 9.1 Chloroplasts 
+ - Step 9.1 Chloroplasts 
 
-      Step 9.1.1 Concatenation of 18 marker genes were aligned using MAFFT and ambigious sequences were removed from Gblocks.
+            #Concatenation of 18 marker genes were aligned using MAFFT and ambigious sequences were removed from Gblocks.List of Marker genes ATP synthase (atpA, atpB, atpC), large ribosomal subunits (rpl2, rpl5, rpl12, rpl14, rpl19, rpl23) and small ribosomal subunits (rps3, rps8, rps9, rps19), photosystem I (psaC) and photosystem II (psbA, psbB, psbE, psbH).
       
-      https://mafft.cbrc.jp/alignment/software/
+            https://mafft.cbrc.jp/alignment/software/
       
-      List of Marker genes ATP synthase (atpA, atpB, atpC), large ribosomal subunits (rpl2, rpl5, rpl12, rpl14, rpl19, rpl23) and small ribosomal subunits (rps3, rps8, rps9, rps19), photosystem I (psaC) and photosystem II (psbA, psbB, psbE, psbH).
+      
 
 - 9.2 Microbial Eukaryote Nuclear Genome
 
