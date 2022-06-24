@@ -174,32 +174,32 @@
      
   - Step 7.3 Circularization of Chloroplast genomes by NOVOPlasty 
        
-       #Example script
-       Project:
-       -----------------------
-       Project name          = CC_15_5m
-       Type                  = chloro
-       Genome Range          = 80000-200000
-       K-mer                 = 33
-       Max memory            =
-       Extended log          = 0
-       Save assembled reads  = no
-       Seed Input            = ./c_000000000134_GT_15mm.fa
-       Extend seed directly  = yes
-       Reference sequence    = ./KY856939.1.fasta 
-       Variance detection    =
-       Chloroplast sequence  =
+             #Example script
+             Project:
+             -----------------------
+             Project name          = CC_15_5m
+             Type                  = chloro
+             Genome Range          = 80000-200000
+             K-mer                 = 33
+             Max memory            =
+             Extended log          = 0
+             Save assembled reads  = no
+             Seed Input            = ./c_000000000134_GT_15mm.fa
+             Extend seed directly  = yes
+             Reference sequence    = ./KY856939.1.fasta 
+             Variance detection    =
+             Chloroplast sequence  =
 
-       Dataset 1:
-       -----------------------
-       Read Length           = 151
-       Insert size           = 300
-       Platform              = illumina
-       Single/Paired         = PE
-       Combined reads        =
-       Forward reads         = /R1.fastq
-       Reverse reads         = /R2.fastq
-       Store Hash            =
+             Dataset 1:
+             -----------------------
+             Read Length           = 151
+             Insert size           = 300
+             Platform              = illumina
+             Single/Paired         = PE
+             Combined reads        =
+             Forward reads         = /R1.fastq
+             Reverse reads         = /R2.fastq
+             Store Hash            =
 
  - Step 7.4 Visualization of Circularized Chloroplast Genomes using online GeSeq Platform
  
