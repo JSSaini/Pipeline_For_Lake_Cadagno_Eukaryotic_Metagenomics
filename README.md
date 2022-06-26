@@ -239,13 +239,16 @@
             #Concatenation of 18 marker genes were aligned using MAFFT and ambigious sequences were removed from Gblocks.List of Marker genes ATP synthase (atpA, atpB, atpC), large ribosomal subunits (rpl2, rpl5, rpl12, rpl14, rpl19, rpl23) and small ribosomal subunits (rps3, rps8, rps9, rps19), photosystem I (psaC) and photosystem II (psbA, psbB, psbE, psbH).
       
             https://mafft.cbrc.jp/alignment/software/
-      
-      
 
-- 9.2 Microbial Eukaryote Nuclear Genome
-
-
-
+- Step 9.2 Microbial Eukaryote Nuclear Genome
+           
+           #Extraction of Markers
+           
+           #Alignment
+           
+           #Phylogenomic inference
+           
+           [selected_markers_with_links_and_description.txt]    (https://github.com/JSSaini/Eukaryotic_Metagenomic_Lake_Cadagno/files/8986487/selected_markers_with_links_and_description.txt)
 
 
 
