@@ -118,8 +118,8 @@
             #Refine assembly by Anvio interface
             anvi-refine -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db --server-only -P 8080
  
-            anvi-cluster-contigs  -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db -C CONCOCT --driver CONCOCT -T 8 --just-do-it
-            anvi-summarize -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db -o ./mapping2/SAMPLES-SUMMARY_run23 -C CONCOCT
+            anvi-cluster-contigs  -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db -C CONCOCT2 --driver CONCOCT -T 8 --just-do-it
+            anvi-summarize -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db -o ./mapping2/SAMPLES-SUMMARY_run23 -C CONCOCT2
 
  
  - Step 5.2 Removal of contigs using command line
