@@ -254,6 +254,10 @@
            
            [selected_markers_with_links_and_description.txt]    (https://github.com/JSSaini/Eukaryotic_Metagenomic_Lake_Cadagno/files/8986487/selected_markers_with_links_and_description.txt)
 
+#### 10. SSU rRNA Eukaryotic Community Composition
+
+         phyloFlash.pl -lib run01 -read1 reads_F.fq.gz -read2 reads_R.fq.gz -readlength 150
+         http://hrgv.github.io/phyloFlash/usage.html
 
 
 
