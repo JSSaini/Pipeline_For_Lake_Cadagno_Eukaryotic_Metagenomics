@@ -3,6 +3,8 @@
 
 ##  *Metagenomics provides a near-complete genome of microbial eukaryote Chlorella from a high alpine meromictic lake and reveals its potential for carbon, sulphur and nitrogen metabolism*
 
+![Screenshot](screenshot.png)
+
 ### Following are the tools and steps with example used for Eukaryotic Metagenomics pipeline:
 
 #### 1. Pre-processing, and assembly of raw reads
