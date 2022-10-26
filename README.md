@@ -4,30 +4,119 @@ Publication under review (Saini et al. ISMEJ 2022)
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
 
 #### 1-3 Pre-processing, and assembly of raw reads
-For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
+For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
 
 #### 4-5 Pre-processing, and assembly of raw reads
 > Required tools with intallation links: Anvio: https://anvio.org/install/ | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
 
- - 1.1 Trimming of reads prior to assembly to remove low quality calls
+ - 4.1 Trimming of reads prior to assembly to remove low quality calls
    
             bbduk.sh in1=read1.fq in2=read2.fq out1=clean1.fq out2=clean2.fq
 
- - 1.2 Error-correction and normalization of reads
+ - 4.2 Error-correction and normalization of reads
             
             bbnorm.sh in=<input> out=<reads to keep> outt=<reads to toss> hist=<histogram output>
  
- - 1.3 Assembly of raw reads using SPAdes 
+ - 5.1 Assembly of raw reads using SPAdes 
 
             spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta
   
- - 1.4 Contig names were simplified using Anvio with minimum length of 1KB 
+ - 5.2 Contig names were simplified using Anvio with minimum length of 1KB 
 
             anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt
 
-#### 2. Mapping and Binning from Assemblies
+#### 6 Competitive and Non Competitive Binning from Assemblies 
 
- - Step 2.1  Mapping
+##### 6.1 CONCOCT based competitive binning using Anvio
+
+> Required tools with intallation links: Anvio: https://anvio.org/install/ | Bowtie2 and Samtools (Already installed with Anvio). 
+
+- Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapped to different samples (5m, 9m, 11m, 13m, 15mw, 15mm, 15.5m, 17m). There are total of eight metagenomics samples collected from the Lake. Four samples are from the chemocline (13m, 15mw, 15mm, 17m).
+      
+      bowtie2-build ../Anvio.15_5m.S.contigs.fa   ./Anvio.15_5m.S.contigs
+      
+      #15.5m Assembly mapped to 5m sample raw reads
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119834_R1.fastq \
+                                              -2 Sample_119834_R2.fastq \
+                                               -S lib_15_5m_mapped_5m_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_5m_r.sam > lib_15_5m_mapped_5m_r-RAW.bam
+      
+      #15.5m Assembly mapped to 9m sample raw reads
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119835_R1.fastq \
+                                              -2 Sample_119835_R2.fastq \
+                                               -S lib_15_5m_mapped_9m_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_9m_r.sam > lib_15_5m_mapped_9m_r-RAW.bam
+      
+      #15.5m Assembly mapped to 11m sample raw reads
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119836_R1.fastq \
+                                                -2 Sample_119836_R2.fastq \
+                                                -S lib_15_5m_mapped_11m_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_11m_r.sam > lib_15_5m_mapped_11m_r-RAW.bam
+      
+      
+      #15.5m Assembly mapped to 13m sample raw reads
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119837_R1.fastq \
+                                                -2 Sample_119837_R2.fastq \
+                                               -S lib_15_5m_mapped_13m_r.sam                                 
+      samtools view -F 4 -bS lib_15_5m_mapped_13m_r.sam > lib_15_5m_mapped_13m_r-RAW.bam
+      
+      #15.5m Assembly mapped to 15mw sample raw reads (whole water sample)
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119838_R1.fastq \
+                                                -2 Sample_119838_R2.fastq \
+                                                -S lib_15_5m_mapped_15mw_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_15mw_r.sam > lib_15_5m_mapped_15mw_r-RAW.bam
+
+      #15.5m Assembly mapped to 15mm sample raw reads 
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119839_R1.fastq \
+                                                     -2 Sample_119839_R2.fastq \
+                                               -S lib_15_5m_mapped_15mm_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_15mm_r.sam > lib_15_5m_mapped_15mm_r-RAW.bam
+      
+      #15.5m Assembly mapped to 15.5m sample raw reads 
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119840_R1.fastq \
+                                                -2  Sample_119840_R2.fastq \
+                                                -S lib_15_5m_mapped_15_5m_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_15_5m_r.sam > lib_15_5m_mapped_15_5m_r-RAW.bam
+
+
+      #15.5m Assembly mapped to 17m sample raw reads 
+      bowtie2 --threads 32 -x ./Anvio.15_5m.S.contigs -1 Sample_119841_R1.fastq \
+                                                     -2 Sample_119841_R2.fastq \
+                                                     -S lib_15_5m_mapped_17m_r.sam
+      samtools view -F 4 -bS lib_15_5m_mapped_17m_r.sam > lib_15_5m_mapped_17m_r-RAW.bam
+
+
+      #Sorting RAW bam using Anvio
+       anvi-init-bam lib_15_5m_mapped_15mw_r-RAW.bam -o lib_15_5m_mapped_15mw_r.bam
+       anvi-init-bam lib_15_5m_mapped_15mm_r-RAW.bam -o lib_15_5m_mapped_15mm_r.bam
+       anvi-init-bam lib_15_5m_mapped_15_5m_r-RAW.bam -o lib_15_5m_mapped_15_5m_r.bam
+       anvi-init-bam lib_15_5m_mapped_17m_r-RAW.bam -o lib_15_5m_mapped_17m_r.bam
+       anvi-init-bam lib_15_5m_mapped_9m_r-RAW.bam -o lib_15_5m_mapped_9m_r.bam
+       anvi-init-bam lib_15_5m_mapped_5m_r-RAW.bam -o lib_15_5m_mapped_5m_r.bam
+       anvi-init-bam lib_15_5m_mapped_13m_r-RAW.bam -o lib_15_5m_mapped_13m_r.bam
+       anvi-init-bam lib_15_5m_mapped_11m_r-RAW.bam -o lib_15_5m_mapped_11m_r.bam
+
+      #Generating Anvio profiles using BAM files
+
+       anvi-profile -i lib_15_5m_mapped_11m_r.bam -c ../Anvio.15_5m.S.contigs.db -T 32
+       anvi-profile -i lib_15_5m_mapped_13m_r.bam -c ../Anvio.15_5m.S.contigs.db  -T 32
+       anvi-profile -i lib_15_5m_mapped_15mm_r.bam -c ../Anvio.15_5m.S.contigs.db -T 32
+       anvi-profile -i lib_15_5m_mapped_15mw_r.bam -c ../Anvio.15_5m.S.contigs.db  -T 32
+       anvi-profile -i lib_15_5m_mapped_15_5m_r.bam -c ../Anvio.15_5m.S.contigs.db  -T 32
+       anvi-profile -i lib_15_5m_mapped_17m_r.bam -c ../Anvio.15_5m.S.contigs.db  -T 32
+       anvi-profile -i lib_15_5m_mapped_5m_r.bam -c ../Anvio.15_5m.S.contigs.db  -T 32
+       anvi-profile -i lib_15_5m_mapped_9m_r.bam -c ../Anvio.15_5m.S.contigs.db - -T 32
+ 
+      anvi-merge ./lib_15_5m_mapped_5m_r/PROFILE.db ./lib_15_5m_mapped_9m_r/PROFILE.db ./lib_15_5m_mapped_11m_r/PROFILE.db ./lib_15_5m_mapped_13m_r/PROFILE.db \
+          ./lib_15_5m_mapped_15mm_r/PROFILE.db  ./lib_15_5m_mapped_15mw_r/PROFILE.db ./lib_15_5m_mapped_15_5m_r/PROFILE.db \
+          ./lib_15_5m_mapped_17m_r/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db  -o ../All_SAMPLES-MERGED_P --enforce-hierarchical-clustering -W
+
+     anvi-cluster-contigs -p ./All_SAMPLES-MERGED_P/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db -C Bins_concoct_15_5m --driver concoct --just-do-it -T 32
+
+
+##### 6.2 CONCOCT based non competitive binning (optional)
+
+ - 2.1  Mapping
 
              #Creating BAM file
              bowtie2-build ./renamed.contigs.fa ./output_file
@@ -38,8 +127,9 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
        
              #Sorting and indexing BAM files
              anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam
+             
 
-- Step 2.2 CONCOCT Non-competitive Binning
+- 2.2 CONCOCT Non-competitive Binning
 
            cut_up_fasta.py ./renamed.contigs.fa -c 10000 -o 0 --merge_last -b renamed.contigs_10k.bed > renamed.contigs_10k.fa
 
@@ -50,10 +140,13 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            merge_cutup_clustering.py ./output_folder_name/clustering_gt1000.csv > ./output_folder_name/clustering_merged.csv
 
            extract_fasta_bins.py ./renamed.contigs.fa ./output_folder_name/clustering_merged.csv --output_path ./output_folder_name/
+           
+           
 
-#### 3. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
 
-- Step 3.1 CAT BAT Taxonomic Classification
+#### 7. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
+
+- 7.1 CAT BAT Taxonomic Classification
            
            #Requires high memory: 250GB RAM with 16 cores
            CAT bins -b /folder_containing_bins/ -s .fa -d ../CAT_database.2021-07-24/ -t ../CAT_taxonomy.2021-07-24/ -n 16 --block_size 20 --index_chunks 1
