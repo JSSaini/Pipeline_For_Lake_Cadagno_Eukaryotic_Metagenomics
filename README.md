@@ -7,7 +7,7 @@ Publication under review (Saini et al. ISMEJ 2022)
 For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
 
 #### 4-5 Pre-processing, and assembly of raw reads
-> Required tools with intallation links: Anvio: https://anvio.org/install/ | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
+> Required tools with intallation links: Anvio: https://anvio.org/install/  | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
 
  - 4.1 Trimming of reads prior to assembly to remove low quality calls
    
@@ -29,7 +29,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
 
 ##### 6.1 CONCOCT based competitive binning using Anvio
 
-> Required tools with intallation links: Anvio: https://anvio.org/install/ | Bowtie2 and Samtools (Already installed with Anvio). 
+> Required tools with intallation links: Anvio: https://anvio.org/install/ | Concoct https://anaconda.org/bioconda/concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
 - Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapped to different samples (5m, 9m, 11m, 13m, 15mw, 15mm, 15.5m, 17m). There are total of eight metagenomics samples collected from the Lake. Four samples are from the chemocline (13m, 15mw, 15mm, 17m).
       
@@ -107,17 +107,18 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
        anvi-profile -i lib_15_5m_mapped_5m_r.bam -c ../Anvio.15_5m.S.contigs.db  -T 32
        anvi-profile -i lib_15_5m_mapped_9m_r.bam -c ../Anvio.15_5m.S.contigs.db - -T 32
  
-      anvi-merge ./lib_15_5m_mapped_5m_r/PROFILE.db ./lib_15_5m_mapped_9m_r/PROFILE.db ./lib_15_5m_mapped_11m_r/PROFILE.db ./lib_15_5m_mapped_13m_r/PROFILE.db \
+       anvi-merge ./lib_15_5m_mapped_5m_r/PROFILE.db ./lib_15_5m_mapped_9m_r/PROFILE.db ./lib_15_5m_mapped_11m_r/PROFILE.db ./lib_15_5m_mapped_13m_r/PROFILE.db \
           ./lib_15_5m_mapped_15mm_r/PROFILE.db  ./lib_15_5m_mapped_15mw_r/PROFILE.db ./lib_15_5m_mapped_15_5m_r/PROFILE.db \
           ./lib_15_5m_mapped_17m_r/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db  -o ../All_SAMPLES-MERGED_P 
 
-     #Concoct binning inside Anvio using coverage information stored from all the samples. 
+      #Concoct binning inside Anvio using coverage information stored from all the samples. 
       anvi-cluster-contigs -p ./All_SAMPLES-MERGED_P/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db -C Bins_concoct_15_5m --driver concoct --just-do-it -T 32
 
 
-##### 6.2 CONCOCT based non competitive binning (optional)
+##### 6.2 CONCOCT based non competitive binning (optional) 
+> Required tools with intallation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
- - 2.1  Mapping
+       #Mapping followed by Binning
 
              #Creating BAM file
              bowtie2-build ./renamed.contigs.fa ./output_file
@@ -130,7 +131,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
              anvi-init-bam ./output_file-RAW.bam -o ./output_file.bam
              
 
-- 2.2 CONCOCT Non-competitive Binning
+       #CONCOCT based non-competitve binning steps
 
            cut_up_fasta.py ./renamed.contigs.fa -c 10000 -o 0 --merge_last -b renamed.contigs_10k.bed > renamed.contigs_10k.fa
 
@@ -141,9 +142,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            merge_cutup_clustering.py ./output_folder_name/clustering_gt1000.csv > ./output_folder_name/clustering_merged.csv
 
            extract_fasta_bins.py ./renamed.contigs.fa ./output_folder_name/clustering_merged.csv --output_path ./output_folder_name/
-           
-           
-
+                   
 
 #### 7. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
 
@@ -155,13 +154,12 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            #Getting taxonomy for each MAG
            CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
 
-- Step 3.2 Quality Assessment of MAGs using BUSCO
+- 7.2 Quality Assessment of MAGs using BUSCO
       
            busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
  
  
- ***NOTE: AT THIS STAGE BUSCO DETECTED A HIGH QUALITY CHLOROPHYTA GENOME IN ALL 4 SAMPLES OF CHEMOCLINE***
- 
+ ***Important: At this stage you can detect if there are eukaryotic MAGs in your samples***
  
  
  #### 4. Extracting raw reads of Chlorophyta MAGs and re-assembling
