@@ -3,9 +3,10 @@ Publication under review (Saini et al. ISMEJ 2022)
 ##   Microbial Eukaryotes Metagenomics Pipeline 
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
 
-### Following are the steps used for Eukaryotic Metagenomics pipeline:
+#### 1-3 Pre-processing, and assembly of raw reads
+For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
 
-#### Pre-processing, and assembly of raw reads
+#### Step 3-4 Pre-processing, and assembly of raw reads
 > Required tools with intallation links
 
  - 1.1 Trimming of reads prior to assembly to remove low quality calls
