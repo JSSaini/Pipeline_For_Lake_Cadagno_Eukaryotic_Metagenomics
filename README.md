@@ -3,7 +3,7 @@ Publication under review (Saini et al. ISMEJ 2022)
 ##   Microbial Eukaryotes Metagenomics Pipeline 
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
 
-### Following are the tools and steps with example used for Eukaryotic Metagenomics pipeline:
+### Following are the steps used for Eukaryotic Metagenomics pipeline:
 
 #### 1. Pre-processing, and assembly of raw reads
 
