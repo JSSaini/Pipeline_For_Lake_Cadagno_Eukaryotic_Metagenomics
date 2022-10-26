@@ -5,21 +5,22 @@ Publication under review (Saini et al. ISMEJ 2022)
 
 ### Following are the steps used for Eukaryotic Metagenomics pipeline:
 
-#### 1. Pre-processing, and assembly of raw reads
+#### Pre-processing, and assembly of raw reads
+> Required tools with intallation links
 
- - Step 1.1 Trimming of reads prior to assembly to remove low quality calls
+ - 1.1 Trimming of reads prior to assembly to remove low quality calls
    
             bbduk.sh in1=read1.fq in2=read2.fq out1=clean1.fq out2=clean2.fq
 
- - Step 1.2 Error-correction and normalization of reads
+ - 1.2 Error-correction and normalization of reads
             
             bbnorm.sh in=<input> out=<reads to keep> outt=<reads to toss> hist=<histogram output>
  
- - Step 1.3 Assembly of raw reads using SPAdes 
+ - 1.3 Assembly of raw reads using SPAdes 
 
             spades.py -1 R1.fastq -2 R2.fastq -o name_of_output_folder -t 32 --meta
   
- - Step 1.4 Contig names were simplified using Anvio with minimum length of 1KB 
+ - 1.4 Contig names were simplified using Anvio with minimum length of 1KB 
 
             anvi-script-reformat-fasta ./spades.contigs.fasta -o ./renamed.contigs.fa --min-len 1000 --simplify-names --report ./Spades_13m/name_conversions.txt
 
