@@ -121,7 +121,7 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
       anvi-cluster-contigs -p ./All_SAMPLES-MERGED_P/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db -C Bins_concoct_15_5m --driver concoct --just-do-it -T 32
 
 
-##### 6.2 CONCOCT based non competitive binning (optional) 
+ - 6.2 CONCOCT based non competitive binning (optional) 
 > Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
        #Mapping followed by Binning
