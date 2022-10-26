@@ -1,7 +1,7 @@
 # *Near-complete genome of Chlorella-like microbial eukaryote reveals its potential for carbon, sulphur and nitrogen metabolism in high alpine Meromictic Lake Cadagno*
 Publication under review (Saini et al. ISMEJ 2022)
 ## Introduction
-Meromictic Lake Cadagno is situated at 1921 m within Swiss Alps. Lake Cadagno is permanently stratisfied into three zones called 1) mixolimnion (upper oxic), 2) monimolimnion (lower anoxic), and 3) in between oxic-anoxic interface called chemocline which harbours a persistent microbial bloom. This study focussed on eukaryotic microbes, and investigated the microbial bloom using Shotgun DNA metagenomics (Illumina HighSeq 4000). Following pipeline was used to obtain near complete genome of Chlorella-like microbial eukaryote from metagenommics dataset.
+Meromictic Lake Cadagno is situated at 1921 m within Swiss Alps. Lake Cadagno is permanently stratisfied into three zones called 1) mixolimnion (upper oxic), 2) monimolimnion (lower anoxic), and 3) in between oxic-anoxic interface called chemocline which harbours a persistent microbial bloom. This study focussed on eukaryotic microbes, and investigated the microbial bloom using Shotgun DNA sequencing (Illumina HighSeq 4000). Following pipeline was used to obtain near complete genome of Chlorella-like microbial eukaryote from metagenomics dataset.
 
 ###  Microbial Eukaryotes Metagenomics Pipeline 
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
