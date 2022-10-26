@@ -37,7 +37,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
 
 > Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct https://anaconda.org/bioconda/concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
-        - Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapped to different samples (5m, 9m, 11m, 13m, 15mw, 15mm, 15.5m, 17m). There are total of eight metagenomics samples collected from the Lake. Four samples are from the chemocline (13m, 15mw, 15mm, 17m).
+Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapped to different samples (5m, 9m, 11m, 13m, 15mw, 15mm, 15.5m, 17m). There are total of eight metagenomics samples collected from the Lake. Four samples are from the chemocline (13m, 15mw, 15mm, 17m).
       
       bowtie2-build ../Anvio.15_5m.S.contigs.fa   ./Anvio.15_5m.S.contigs
       
