@@ -6,8 +6,8 @@ Publication under review (Saini et al. ISMEJ 2022)
 #### 1-3 Pre-processing, and assembly of raw reads
 For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
 
-#### Step 3-4 Pre-processing, and assembly of raw reads
-> Required tools with intallation links
+#### 4-5 Pre-processing, and assembly of raw reads
+> Required tools with intallation links: Anvio: https://anvio.org/install/ | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
 
  - 1.1 Trimming of reads prior to assembly to remove low quality calls
    
