@@ -7,7 +7,7 @@ Publication under review (Saini et al. ISMEJ 2022)
 For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
 
 #### 4-5 Pre-processing, and assembly of raw reads
-> Required tools with intallation links: Anvio: https://anvio.org/install/  | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
+> Required tools with installation links: Anvio: https://anvio.org/install/  | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
 
  - 4.1 Trimming of reads prior to assembly to remove low quality calls
    
@@ -29,7 +29,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
 
 ##### 6.1 CONCOCT based competitive binning using Anvio
 
-> Required tools with intallation links: Anvio: https://anvio.org/install/ | Concoct https://anaconda.org/bioconda/concoct | Bowtie2 and Samtools (Already installed with Anvio). 
+> Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct https://anaconda.org/bioconda/concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
 - Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapped to different samples (5m, 9m, 11m, 13m, 15mw, 15mm, 15.5m, 17m). There are total of eight metagenomics samples collected from the Lake. Four samples are from the chemocline (13m, 15mw, 15mm, 17m).
       
@@ -116,7 +116,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
 
 
 ##### 6.2 CONCOCT based non competitive binning (optional) 
-> Required tools with intallation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
+> Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
        #Mapping followed by Binning
 
@@ -144,8 +144,8 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            extract_fasta_bins.py ./renamed.contigs.fa ./output_folder_name/clustering_merged.csv --output_path ./output_folder_name/
                    
 
-#### 7. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
-> Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
+#### 7-8 Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
+> Required tools with installation links: CAT: https://github.com/dutilh/CAT | BUSCO: https://busco.ezlab.org/busco_userguide.html
 
 - 7.1 CAT BAT Taxonomic Classification
            
@@ -155,7 +155,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            #Getting taxonomy for each MAG
            CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
 
-- 7.2 Quality Assessment of MAGs using BUSCO
+- 8.1 Quality Assessment of MAGs using BUSCO
       
            busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
  
@@ -163,13 +163,20 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
  ***Important: At this stage you can detect if there are eukaryotic MAGs in your samples***
  
  
- #### 4. Extracting raw reads of Chlorophyta MAGs and re-assembling
-        
- - Step 4.1 Adding prefix to contigs of each eukaryotic MAG
+ 
+ 
+ 
+ 
+ 
+ 
+ #### 9-10 Eukaryotic MAGs refining and visualization
+ > Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
+    
+ - Step 4.1 Adding prefix to contigs of each detected eukaryotic MAG
       
             sed ’s/^>/>PREFIX_/g’ Euk_Bin1.fna > Euk_Bin1_modified.fna
      
-            #Compile all MAGs
+            #Concatenate all Eukaryotic MAGs together
             cat Euk_Bin1_modified.fna Euk_Bin2_modified.fna Euk_Bin3_modified.fna Euk_Bin4_modified.fna > compiled_eukaryotic_MAGs_of_interest.fa
 
 - Step 4.2 Mapping to raw reads
