@@ -109,9 +109,10 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
  
       anvi-merge ./lib_15_5m_mapped_5m_r/PROFILE.db ./lib_15_5m_mapped_9m_r/PROFILE.db ./lib_15_5m_mapped_11m_r/PROFILE.db ./lib_15_5m_mapped_13m_r/PROFILE.db \
           ./lib_15_5m_mapped_15mm_r/PROFILE.db  ./lib_15_5m_mapped_15mw_r/PROFILE.db ./lib_15_5m_mapped_15_5m_r/PROFILE.db \
-          ./lib_15_5m_mapped_17m_r/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db  -o ../All_SAMPLES-MERGED_P --enforce-hierarchical-clustering -W
+          ./lib_15_5m_mapped_17m_r/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db  -o ../All_SAMPLES-MERGED_P 
 
-     anvi-cluster-contigs -p ./All_SAMPLES-MERGED_P/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db -C Bins_concoct_15_5m --driver concoct --just-do-it -T 32
+     #Concoct binning inside Anvio using coverage information stored from all the samples. 
+      anvi-cluster-contigs -p ./All_SAMPLES-MERGED_P/PROFILE.db  -c ../Anvio.15_5m.S.contigs.db -C Bins_concoct_15_5m --driver concoct --just-do-it -T 32
 
 
 ##### 6.2 CONCOCT based non competitive binning (optional)
