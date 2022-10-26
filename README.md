@@ -1,11 +1,9 @@
 
-#  *Near-complete genome of Chlorella-like microbial eukaryote reveals its potential for carbon, sulphur and nitrogen metabolism in high alpine Meromictic Lake Cadagno*
-###Under Review (Saini et al. ISMEJ 2022)
+#   Microbial Eukaryotes Metagenomics Pipeline of Lake Cadagno.
+![Screenshot](Microbial_Eukaryote_M_Github.png)
 
-##   Microbial Eukaryotes Metagenomics Pipeline of Lake Cadagno.
-![Screenshot](Biorender_Metagenomics_Oct.png)
-
-
+##  *Near-complete genome of Chlorella-like microbial eukaryote reveals its potential for carbon, sulphur and nitrogen metabolism in high alpine Meromictic Lake Cadagno*
+Under Review (Saini et al. ISMEJ 2022)
 
 ### Following are the tools and steps with example used for Eukaryotic Metagenomics pipeline:
 
