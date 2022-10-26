@@ -148,7 +148,8 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
                    
 
 #### 7-8 Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
-> Required tools with installation links: CAT: https://github.com/dutilh/CAT | BUSCO: https://busco.ezlab.org/busco_userguide.html
+> Required tools with installation links: CAT: https://github.com/dutilh/CAT | BUSCO: https://busco.ezlab.org/busco_userguide.html | Phyloflash        http://hrgv.github.io/phyloFlash/usage.html 
+
 
 - 7.1 CAT BAT Taxonomic Classification
            
@@ -158,10 +159,13 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            #Getting taxonomy for each MAG
            CAT add_names -i  out.BAT.bin2classification.txt -o GT_tax.txt -t ../CAT_taxonomy.2021-07-24/ --only_official
 
-- 8.1 Quality Assessment of MAGs using BUSCO
+- 8.1 Classification and Quality Assessment of MAGs using BUSCO
       
            busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
- 
+           
+- 8.2  Overall Eukaryotic Community Composition using 18S 
+
+       phyloFlash.pl -lib run01 -read1 reads_F.fq.gz -read2 reads_R.fq.gz -readlength 150 
  
  ***Important: After running busco, we detected the Chlorophyta genome in all four samples of the chemocline (>90% complete). This is the stage you can detect if there are eukaryotic MAGs in your samples***
  
@@ -358,11 +362,6 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            #Phylogenomic inference
            
            [selected_markers_with_links_and_description.txt]    (https://github.com/JSSaini/Eukaryotic_Metagenomic_Lake_Cadagno/files/8986487/selected_markers_with_links_and_description.txt)
-
-#### 10. SSU rRNA Eukaryotic Community Composition
-
-         phyloFlash.pl -lib run01 -read1 reads_F.fq.gz -read2 reads_R.fq.gz -readlength 150
-         http://hrgv.github.io/phyloFlash/usage.html
 
 
 
