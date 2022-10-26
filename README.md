@@ -145,6 +145,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
                    
 
 #### 7. Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
+> Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
 
 - 7.1 CAT BAT Taxonomic Classification
            
