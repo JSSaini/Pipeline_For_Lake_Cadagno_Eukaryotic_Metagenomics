@@ -160,47 +160,49 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
            busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
  
  
- ***Important: At this stage you can detect if there are eukaryotic MAGs in your samples***
+ ***Important: After running busco, we detected the Chlorophyta genome in all four samples of the chemocline (>90% complete). This is the stage you can detect if there are eukaryotic MAGs in your samples***
  
  
+ #### 9 Extracting raw reads of Chlorophyta Eukaryote MAG of interest
  
- 
- 
- 
- 
- 
- #### 9-10 Eukaryotic MAGs refining and visualization
- > Required tools with installation links: Anvio: https://anvio.org/install/ | Concoct | Bowtie2 and Samtools (Already installed with Anvio). 
+ > Required tools with installation links: dRep: https://drep.readthedocs.io/en/latest/installation.html | Bedtools https://anaconda.org/bioconda/bedtools | Bowtie2, Samtools, Spades (Already installed previously). 
     
- - Step 4.1 Adding prefix to contigs of each detected eukaryotic MAG
-      
-            sed ’s/^>/>PREFIX_/g’ Euk_Bin1.fna > Euk_Bin1_modified.fna
-     
+ - 9.1 dRep MESH clustering of Eukaryotic MAGs detected by BUSCO. 
+            
+            dRep compare output_directory -g path/to/genomes/*.fasta
+    
+ - 9.2 Concatenation of similar eukaryotic genomes 
+ 
+            #Added the sample name to contigs of MAGs before concatenation
+            sed ’s/^>/>15m_/g’ finename.fna > Chlorophyta_file_modified.fna 
+            
             #Concatenate all Eukaryotic MAGs together
-            cat Euk_Bin1_modified.fna Euk_Bin2_modified.fna Euk_Bin3_modified.fna Euk_Bin4_modified.fna > compiled_eukaryotic_MAGs_of_interest.fa
-
-- Step 4.2 Mapping to raw reads
+            cat  Chlorophyta_13m_164_meta_mod.fa  Chlorophyta_15mw_87_mod.fa  Chlorophyta_15mm_94_meta_mod.fa  Chlorophyta_15_5m_12_meta_mod.fa > Compiled_Chlorophyta.fa
+            
+- 9.3 Mapping Chlorophyta specific raw reads from 13m, 15mw, 15mm, and 15.5m sample
       
-           bowtie2-build ./compiled_eukaryotic_MAGs_of_interest.fa ./compiled_eukaryotic_MAGs_of_interest
+           bowtie2-build ./Compiled_Chlorophyta.fa ./Compiled_Chlorophyta
       
-           bowtie2 --threads 16 -x ./compiled_eukaryotic_MAGs_of_interest -1 R1.fastq -2 R2.fastq -S output_file.sam
-
-           samtools view -F 4 -bS ./output_file.sam > ./output_file-RAW.bam
-      
- - Step 4.3 Extracting raw reads (R1 and R2) from BAM files
+           bowtie2 --threads 16 -x ./Compiled_Chlorophyta -1 13m_R1.fastq -2  13m_R2.fastq -S  13m_output_file.sam
+           samtools view -F 4 -bS 13m_output_file.sam > 13m_output_file-RAW.sam
+           #Perform the same step with other three samples (15mw, 15mm, and 15.5m)
+           
+ - 9.4 Extracting Chlorophyta specific raw reads (R1 and R2) from BAM files
       
             bamToFastq -i output_file-RAW.bam -fq lib_13m_mapped.1.fastq -fq2 lib_13m_mapped.2.fastq
  
- 
- - Step 4.4 Assembling Eukaryotic Genome of Interest raw reads 
+ - 9.5 Assembling Eukaryotic Genome of Interest raw reads (We only used 13m, and 15.5m because of high N50 value).
    
             #raw reads from two samples was taken
             spades.py -1 lib_13m_mapped.1.fastq -2 lib_13m_mapped.2.fastq -1 lib_15_5m_mapped.1.fastq -2 lib_15_5m_mapped.2.fastq  -o ./Anvio2/Spades_13_15p5_Map_GBII
 
          
- #### 5. Manual Refinement Chlorophyta Genome Assembly through Anvio & Command line
+ #### 10 Rebinning and visualization of Chlorophyta Genome Assembly 
+ 
+ > Required tools with installation links: Anvio | Concoct | Bowtie2, Samtools | BBMap (Already installed with Anvio). 
+
   
- - Step 5.1 Using Anvio 
+ - 10.1   Anvio based rebinning of Chlorophyta Genome
   
             #Generate contig database of Chlorophyta Assembly
             anvi-gen-contigs-database -f ./Spades_13_15p5_Map_GBII/Anvio_13_15p5_GBII.contigs.fa -o ./mapping2/contigs_Anvio13m_run2.db -n 'An example contigs database'
@@ -224,7 +226,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
             anvi-summarize -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db -o ./mapping2/SAMPLES-SUMMARY_run23 -C CONCOCT2
 
  
- - Step 5.2 Removal of contigs using command line
+ - 10.2 Removal of contigs using command line if required
             
             #filter minimum length 2500
             reformat.sh in=Chlophyta_2ks_nohit_filtered_bin.fa out=Chlophyta_2ks_nohit_filtered_bin2.fa minlength=2500
@@ -241,28 +243,22 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
             c_000000000678,c_000000000820,c_000000000568,c_000000000818 include=f
 
         
- #### 6. Microbial Eukaryote Genome visualization through BlobTools
-  
-  - Step 6.1 Generating BAM files with reads from 13 m and 15.5 m samples
-          
-             #Creating BAM files
-             bowtie2-build /home/users/s/saini7/scratch/MS2/Spades_13_15p5_Map/Anvio_13_15p5.fasta ./Spades.contigs_13_15p5m
-             bowtie2 --threads 16 -x ./Spades.contigs_13_15p5m -1 ../lib_13m_mapped.1.fastq -2 ../lib_13m_mapped.2.fastq -1 ../lib_15_5m_mapped.1.fastq -2 ../lib_15_5m_mapped.2.fastq -S lib_13_15_5m_mapped_F_13_15p5.sam
-             samtools view -F 4 -bS ./lib_13_15_5m_mapped_F_13_15p5.sam > ./lib_13_15_5m_mapped_F_13_15p5-RAW.bam
-             anvi-init-bam ./lib_13_15_5m_mapped_F_13_15p5-RAW.bam -o ./lib_13_15_5m_mapped_F_13_15p5.bam
+ - 10.3 Visualization of eukaryotic MAG using Blobtools
+   > Required tools with installation links: Blobtools2 https://blobtoolkit.genomehubs.org/blobtools2/ | Diamond (Install with Anvio installation)
 
-  - Step 6.2 Performing Blastx required for blobtools. 
+  - 10.3.1 Performing Blastx required for blobtools. 
           
              diamond blastx -query /Refined_Eukaryotic_genome.fa --db ./nr_Final2.dmnd --outfmt 6 qseqid staxids bitscore qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue --sensitive --max-target-seqs 1 --evalue 1e-25 --threads 16 > /home/users/s/saini7/scratch/MS2/Anvio_P/Refined_Eukaryotic_genome_dmnd.blastx.out
 
-  - Step 6.3 Blobtools command line
+  - 10.3.2 Blobtools command line for generating plots
           
              ~/blobtoolkit/blobtools2/blobtools create --fasta ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_bin2.fa  --cov ../lib_13_15_5m_mapped_F_13_15p5_filter_nohit.bam --hits ../Chlophyta_2ks_nohit_filtered_bin/Chlophyta_2ks_nohit_filtered_blast.out --taxdump ~/blobtoolkit/taxdump --threads 4 --replace /home/users/s/saini7/scratch/MS2/Anvio2/refined_bin/bin_by_bin/Chlorophyta_1/busco_chlo2k/busco/blob2
            
 
-#### 7. Organelle (Chloroplast) hunting and Visualization
-
-  - Step 7.1 Performing BLAST using available NCBI chloroplast genomes
+#### 11. Organelle (Chloroplast) hunting and Visualization
+> Required tools with installation links: Blast (Already installed with Anvio) | Seqtk https://github.com/lh3/seqtk | Novoplasty https://github.com/ndierckx/NOVOPlasty | Geseq https://chlorobox.mpimp-golm.mpg.de/geseq.html
+     
+  - 11.1 Performing BLAST using available NCBI chloroplast genomes
       
              #Blast using NCBI Parachlorella kessleri chloroplast genome (NC_012978.1) 
              blastn -db ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa -query NC_012978.1_para_chlorella.fa -outfmt 6 -max_target_seqs 1 > 15mw_PC_chloroplast.out
@@ -270,7 +266,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
              #Blast using NCBI Cryptomonas curvata chloroplast genome (KY856939.1) 
              blastn -db ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa -query KY856939.1.fasta -outfmt 6 -max_target_seqs 1 > 15m_GT_chloroplast.out
 
-  - Step 7.2 Extraction of contigs/prospective chloroplast genomes from main assemblies
+  - 11.2 Extraction of contigs/prospective chloroplast genomes from main assemblies
  
              #Contig with promising hit against Parachlorella kessleri chloroplast genome (NC_012978.1) 
              printf "c_000000000152" | seqtk subseq ~/scratch/Spades_15mw2/Anvio.15mw.S.contigs.fa  - > c_000000000152_PC_O_15mw.fa
@@ -278,7 +274,7 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
              #Contig with promising hit against Cryptomonas curvata chloroplast genome (KY856939.1) 
              printf "c_000000000134" | seqtk subseq ~/scratch/15mm/Spades_15mm/Anvio.15mm.S.contigs.fa  - > c_000000000134_GT_15mm.fa
      
-  - Step 7.3 Circularization of Chloroplast genomes by NOVOPlasty 
+  - 11.3 Circularization of Chloroplast genomes by NOVOPlasty (Template)
        
              #Example script
              Project:
@@ -307,24 +303,26 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
              Reverse reads         = /R2.fastq
              Store Hash            =
 
- - Step 7.4 Visualization of Circularized Chloroplast Genomes using online GeSeq Platform
+ - 11.4 Visualization of Circularized Chloroplast Genomes using online GeSeq Platform
  
             https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
 
-#### 8. Metabolic Prediction of Microbial Eukaryotic Genomes 
+#### 12. Metabolic Prediction of Microbial Eukaryotic Genomes 
+> Required tools with installation links: EukMetaSanity https://github.com/cjneely10/EukMetaSanity | KEGG https://www.kegg.jp/ghostkoala/ | Anvio
 
-- Step 8.1  EukMetaSanity was used for gene prediction
+
+- 12.1  EukMetaSanity was used for gene prediction
       
-            yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory
+            yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory #(needs to make the output directory manually prior to running code)
 
-- Step 8.2  Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
+- 12.2  Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
 
             https://www.kegg.jp/ghostkoala/
       
 **OR**
 
-- Step 8.3  Anvio Metabolism Prediction
+- 12.3  Anvio Metabolism Prediction
       
             anvi-setup-kegg-kofams --reset
 
@@ -338,9 +336,11 @@ For metagenomics sequencing, 20L lake water was collected from the chemocline (o
       
             anvi-interactive -c ./contigs_197.db -p ./All_SAMPLES-MERGED_P/PROFILE.db --server-only -P 8008
 
-#### 9. Phylogenomic analyses of Microbial Eukaryote and Chloroplast Genomes 
+#### 13. Phylogenomic analyses of Chloroplasts and Microbial Eukaryote Genomes
+> Required tools with installation links: 
 
- - Step 9.1 Chloroplasts 
+
+ - Step 13.1 Chloroplasts 
 
             #Concatenation of 18 marker genes were aligned using MAFFT and ambigious sequences were removed from Gblocks.List of Marker genes ATP synthase (atpA, atpB, atpC), large ribosomal subunits (rpl2, rpl5, rpl12, rpl14, rpl19, rpl23) and small ribosomal subunits (rps3, rps8, rps9, rps19), photosystem I (psaC) and photosystem II (psbA, psbB, psbE, psbH).
       
