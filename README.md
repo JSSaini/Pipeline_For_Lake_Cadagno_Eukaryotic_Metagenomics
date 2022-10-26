@@ -3,8 +3,11 @@ Publication under review (Saini et al. ISMEJ 2022)
 ##   Microbial Eukaryotes Metagenomics Pipeline 
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
 
-#### 1-3 Pre-processing, and assembly of raw reads
-For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Illumina Shotgun sequencing (HighSeq 4000). After obtaining the sequencing data, following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
+###Introduction
+Meromictic Lake Cadagno is situated at 1921 m within Swiss Alps. Lake Cadagno is permanently stratisfied into three zones called 1) mixolimnion (upper oxic), 2) monimolimnion (lower anoxic), and 3) in between oxic-anoxic interface called chemocline which harbours a persistent microbial bloom. This study focussed on eukaryotic microbes, and investigated the microbial bloom using Shotgun DNA metagenomics (Illumina HighSeq 4000). 
+
+#### 1-3 Sample collection, Pre-processing, and assembly of raw reads
+For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Shotgun sequencing. The following steps were performed to obtain the near-complete genome of Chlorella-like microbial eukaryote. 
 
 #### 4-5 Pre-processing, and assembly of raw reads
 > Required tools with installation links: Anvio: https://anvio.org/install/  | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
