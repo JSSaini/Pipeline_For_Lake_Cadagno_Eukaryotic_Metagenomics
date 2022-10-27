@@ -150,8 +150,8 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
            extract_fasta_bins.py ./renamed.contigs.fa ./output_folder_name/clustering_merged.csv --output_path ./output_folder_name/
                    
 
-#### 7-8 Classification and Quality Assessment Eukaryotic and Prokaryotic MAGs
-> Required tools with installation links: CAT: https://github.com/dutilh/CAT | BUSCO: https://busco.ezlab.org/busco_userguide.html | Phyloflash        http://hrgv.github.io/phyloFlash/usage.html 
+#### 7-8 Classification, Quality and Abundance Assessment of Eukaryotic and Prokaryotic MAGs
+> Required tools with installation links: CAT: https://github.com/dutilh/CAT | BUSCO: https://busco.ezlab.org/busco_userguide.html | Phyloflash        http://hrgv.github.io/phyloFlash/usage.html | CoverM https://github.com/wwood/CoverM 
 
 
 - 7.1 CAT BAT Taxonomic Classification
@@ -166,7 +166,10 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
       
            busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
            
-- 8.2  Overall Eukaryotic Community Composition using 18S 
+- 8.2 CoverM based Relative Abundance assessment of MAGs
+-      
+           
+- 8.2 Overall Eukaryotic Community Composition using 18S 
 
        phyloFlash.pl -lib run01 -read1 reads_F.fq.gz -read2 reads_R.fq.gz -readlength 150 
  
