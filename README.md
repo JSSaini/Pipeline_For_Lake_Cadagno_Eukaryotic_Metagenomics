@@ -167,9 +167,12 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
            busco --in /folder_containing_bins/ --mode genome --cpu 16 --out busco_output_folder
            
 - 8.2 CoverM based Relative Abundance assessment of MAGs
--      
+          
+          coverm genome --coupled  /Sample_R1.fastq \
+                                  /Sample_R2.fastq \
+                                 --genome-fasta-extension .fa --genome-fasta-directory /Coverm_bins/ -m relative_abundance --threads 16 -o Main_MAGs_abundance.tsv
            
-- 8.2 Overall Eukaryotic Community Composition using 18S 
+- 8.3 Overall Eukaryotic Community Composition using 18S 
 
        phyloFlash.pl -lib run01 -read1 reads_F.fq.gz -read2 reads_R.fq.gz -readlength 150 
  
@@ -239,7 +242,7 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
             anvi-summarize -p ./mapping2/SAMPLES-MERGED_run2/PROFILE.db -c ./mapping2/contigs_Anvio13m_run2.db -o ./mapping2/SAMPLES-SUMMARY_run23 -C CONCOCT2
 
  
- - 10.2 Removal of contigs using command line if required
+ - 10.2 Removal of contigs using command line (optional)
             
             #filter minimum length 2500
             reformat.sh in=Chlophyta_2ks_nohit_filtered_bin.fa out=Chlophyta_2ks_nohit_filtered_bin2.fa minlength=2500
@@ -335,17 +338,17 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
       
 **OR**
 
-- 12.3  Anvio Metabolism Prediction
-      
+- 12.3  Anvio Metabolism Prediction 
+            
             anvi-setup-kegg-kofams --reset
 
-            anvi-gen-contigs-database -f 197.fa -o contigs_197.db -n 'An example contigs database'
+            anvi-gen-contigs-database -f input.fa -o input.db -n 'An example contigs database'
 
-            anvi-run-hmms -c contigs_197.db -T 4
+            anvi-run-hmms -c input.db -T 4
       
-            anvi-run-kegg-kofams -c contigs_197.db -T 16 --just-do-it
+            anvi-run-kegg-kofams -c input.db -T 16 --just-do-it
                  
-            anvi-estimate-metabolism -c contigs_197.db  -p ./All_SAMPLES-MERGED_P/PROFILE.db  --add-coverage -O kegg_out_f_jan22
+            anvi-estimate-metabolism -c input.db  -p ./All_SAMPLES-MERGED_P/PROFILE.db  --add-coverage -O kegg_out
       
             anvi-interactive -c ./contigs_197.db -p ./All_SAMPLES-MERGED_P/PROFILE.db --server-only -P 8008
 
