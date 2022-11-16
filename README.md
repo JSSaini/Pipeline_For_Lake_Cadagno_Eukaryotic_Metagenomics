@@ -332,6 +332,7 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
       
             yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory #(needs to make the output directory manually prior to running code)
 - 12.2  EggNOG annotations of Chlorella genomes:
+           
            python ../emapper.py -m diamond --sensmode more-sensitive -i GCA_002245835.2_unplaced.scaf.1.Tier.faa --decorate_gff GCA_002245835.2_unplaced.scaf.1.Tier.gff3 -o GCA_002245835.2_unplaced.scaf.1.Tier --cpu 32 --target_taxa 3041
 
 #Optionally
