@@ -1,0 +1,1726 @@
+Archaea;(Archaea);(Archaea);(Archaea)	Lib_15mm	1
+Archaea;(Archaea);(Archaea);(Archaea)	Lib_15p5m	1
+Archaea;Halobacterota;(Halobacterota);(Halobacterota)	Lib_15p5m	5
+Archaea;Halobacterota;(Halobacterota);(Halobacterota)	Lib_17m	3
+Archaea;Halobacterota;Methanomicrobia;Methanomicrobiales	Lib_15mm	1
+Archaea;Halobacterota;Methanomicrobia;Methanomicrobiales	Lib_15mw	3
+Archaea;Halobacterota;Methanomicrobia;Methanomicrobiales	Lib_15p5m	48
+Archaea;Halobacterota;Methanomicrobia;Methanomicrobiales	Lib_17m	42
+Archaea;Halobacterota;Methanosarcinia;Methanosarciniales	Lib_15p5m	8
+Archaea;Halobacterota;Methanosarcinia;Methanosarciniales	Lib_17m	2
+Archaea;Iainarchaeota;Iainarchaeia;Iainarchaeales	Lib_15p5m	6
+Archaea;Micrarchaeota;Micrarchaeia;Micrarchaeales	Lib_15mm	10
+Archaea;Micrarchaeota;Micrarchaeia;Micrarchaeales	Lib_15mw	6
+Archaea;Micrarchaeota;Micrarchaeia;Micrarchaeales	Lib_15p5m	30
+Archaea;Micrarchaeota;Micrarchaeia;Micrarchaeales	Lib_17m	2
+Archaea;Nanoarchaeota;Nanoarchaeia;Woesearchaeales	Lib_11m	2
+Archaea;Nanoarchaeota;Nanoarchaeia;Woesearchaeales	Lib_13m	10
+Archaea;Nanoarchaeota;Nanoarchaeia;Woesearchaeales	Lib_15mm	38
+Archaea;Nanoarchaeota;Nanoarchaeia;Woesearchaeales	Lib_15mw	30
+Archaea;Nanoarchaeota;Nanoarchaeia;Woesearchaeales	Lib_15p5m	169
+Archaea;Nanoarchaeota;Nanoarchaeia;Woesearchaeales	Lib_17m	41
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_11m	960
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_13m	877
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_15mm	587
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_15mw	445
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_15p5m	1151
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_17m	639
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_5m	1447
+Bacteria;(Bacteria);(Bacteria);(Bacteria)	Lib_9m	1186
+Bacteria;Acidobacteriota;(Acidobacteriota);(Acidobacteriota)	Lib_11m	2
+Bacteria;Acidobacteriota;(Acidobacteriota);(Acidobacteriota)	Lib_15mm	7
+Bacteria;Acidobacteriota;(Acidobacteriota);(Acidobacteriota)	Lib_15mw	4
+Bacteria;Acidobacteriota;(Acidobacteriota);(Acidobacteriota)	Lib_15p5m	16
+Bacteria;Acidobacteriota;(Acidobacteriota);(Acidobacteriota)	Lib_17m	11
+Bacteria;Acidobacteriota;Acidobacteriae;(Acidobacteriae)	Lib_15p5m	6
+Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales	Lib_15p5m	3
+Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales	Lib_5m	2
+Bacteria;Acidobacteriota;Acidobacteriae;Subgroup 13	Lib_17m	1
+Bacteria;Acidobacteriota;Aminicenantia;Aminicenantales	Lib_11m	1
+Bacteria;Acidobacteriota;Aminicenantia;Aminicenantales	Lib_15p5m	4
+Bacteria;Acidobacteriota;Aminicenantia;Aminicenantales	Lib_17m	1
+Bacteria;Acidobacteriota;Blastocatellia;Blastocatellales	Lib_17m	1
+Bacteria;Acidobacteriota;Blastocatellia;Pyrinomonadales	Lib_11m	1
+Bacteria;Acidobacteriota;Blastocatellia;Pyrinomonadales	Lib_9m	1
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_11m	2
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_13m	136
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_15mm	441
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_15mw	318
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_15p5m	751
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_17m	455
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_5m	1
+Bacteria;Acidobacteriota;Holophagae;Holophagales	Lib_9m	1
+Bacteria;Acidobacteriota;Holophagae;Subgroup 7	Lib_17m	1
+Bacteria;Acidobacteriota;Thermoanaerobaculia;Thermoanaerobaculales	Lib_15mw	2
+Bacteria;Acidobacteriota;Thermoanaerobaculia;Thermoanaerobaculales	Lib_15p5m	5
+Bacteria;Acidobacteriota;Thermoanaerobaculia;Thermoanaerobaculales	Lib_17m	2
+Bacteria;Acidobacteriota;Thermoanaerobaculia;Thermoanaerobaculales	Lib_9m	3
+Bacteria;Acidobacteriota;Vicinamibacteria;Vicinamibacterales	Lib_11m	3
+Bacteria;Acidobacteriota;Vicinamibacteria;Vicinamibacterales	Lib_17m	2
+Bacteria;Acidobacteriota;Vicinamibacteria;Vicinamibacterales	Lib_9m	1
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_11m	38
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_13m	34
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_15mm	17
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_15mw	18
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_15p5m	27
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_17m	13
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_5m	36
+Bacteria;Actinobacteriota;(Actinobacteriota);(Actinobacteriota)	Lib_9m	42
+Bacteria;Actinobacteriota;Acidimicrobiia;(Acidimicrobiia)	Lib_11m	2
+Bacteria;Actinobacteriota;Acidimicrobiia;(Acidimicrobiia)	Lib_13m	1
+Bacteria;Actinobacteriota;Acidimicrobiia;(Acidimicrobiia)	Lib_15p5m	1
+Bacteria;Actinobacteriota;Acidimicrobiia;(Acidimicrobiia)	Lib_5m	7
+Bacteria;Actinobacteriota;Acidimicrobiia;(Acidimicrobiia)	Lib_9m	4
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_11m	769
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_13m	548
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_15mm	122
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_15mw	142
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_15p5m	253
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_17m	105
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_5m	1112
+Bacteria;Actinobacteriota;Acidimicrobiia;Microtrichales	Lib_9m	743
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_11m	187
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_13m	125
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_15mm	23
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_15mw	16
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_15p5m	27
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_17m	21
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_5m	163
+Bacteria;Actinobacteriota;Actinobacteria;(Actinobacteria)	Lib_9m	215
+Bacteria;Actinobacteriota;Actinobacteria;Actinomycetales	Lib_9m	1
+Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales	Lib_11m	1
+Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales	Lib_13m	1
+Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales	Lib_5m	2
+Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales	Lib_9m	4
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_11m	2599
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_13m	2477
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_15mm	1230
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_15mw	1173
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_15p5m	1865
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_17m	1246
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_5m	2985
+Bacteria;Actinobacteriota;Actinobacteria;Frankiales	Lib_9m	2570
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_11m	445
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_13m	335
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_15mm	27
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_15mw	39
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_15p5m	114
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_17m	34
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_5m	609
+Bacteria;Actinobacteriota;Actinobacteria;Micrococcales	Lib_9m	654
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_11m	12
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_13m	6
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_15mm	17
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_15mw	20
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_15p5m	9
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_17m	2
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_5m	1
+Bacteria;Actinobacteriota;Actinobacteria;PeM15	Lib_9m	2
+Bacteria;Actinobacteriota;Actinobacteria;Propionibacteriales	Lib_11m	4
+Bacteria;Actinobacteriota;Actinobacteria;Propionibacteriales	Lib_9m	1
+Bacteria;Actinobacteriota;Actinobacteria;Pseudonocardiales	Lib_9m	1
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_11m	25
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_13m	8
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_15mm	5
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_15mw	5
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_15p5m	5
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_17m	6
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_5m	18
+Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales	Lib_9m	11
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_11m	4
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_13m	4
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_15mm	1
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_15p5m	1
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_17m	1
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_5m	9
+Bacteria;Actinobacteriota;Actinobacteria;Streptosporangiales	Lib_9m	7
+Bacteria;Actinobacteriota;Actinobacteria;uncultured	Lib_11m	1
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales	Lib_13m	1
+Bacteria;Actinobacteriota;MB-A2-108;uncultured bacterium	Lib_11m	1
+Bacteria;Actinobacteriota;MB-A2-108;uncultured bacterium	Lib_9m	2
+Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales	Lib_13m	1
+Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales	Lib_15mm	2
+Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales	Lib_15mw	2
+Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales	Lib_15p5m	3
+Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales	Lib_17m	4
+Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales	Lib_13m	11
+Bacteria;Actinobacteriota;WCHB1-81;(WCHB1-81)	Lib_13m	4
+Bacteria;Actinobacteriota;WCHB1-81;uncultured bacterium	Lib_15p5m	1
+Bacteria;Armatimonadota;(Armatimonadota);(Armatimonadota)	Lib_15p5m	4
+Bacteria;Armatimonadota;(Armatimonadota);(Armatimonadota)	Lib_5m	2
+Bacteria;Armatimonadota;(Armatimonadota);(Armatimonadota)	Lib_9m	2
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_11m	16
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_13m	68
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_15mm	60
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_15mw	25
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_15p5m	72
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_17m	6
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_5m	391
+Bacteria;Armatimonadota;Armatimonadia;Armatimonadales	Lib_9m	333
+Bacteria;Armatimonadota;uncultured;uncultured bacterium	Lib_15p5m	1
+Bacteria;Armatimonadota;uncultured;uncultured bacterium	Lib_5m	1
+Bacteria;Armatimonadota;uncultured;uncultured bacterium	Lib_9m	1
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_11m	1
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_13m	10
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_15mm	12
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_15mw	9
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_15p5m	14
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_17m	19
+Bacteria;Bacteroidota;(Bacteroidota);(Bacteroidota)	Lib_5m	1
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_11m	170
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_13m	311
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_15mm	365
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_15mw	257
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_15p5m	652
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_17m	278
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_5m	407
+Bacteria;Bacteroidota;Bacteroidia;(Bacteroidia)	Lib_9m	261
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_11m	10
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_13m	1023
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_15mm	2152
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_15mw	1449
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_15p5m	3286
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_17m	2020
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_5m	15
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	Lib_9m	8
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidetes VC2.1 Bac22	Lib_5m	1
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_11m	806
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_13m	708
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_15mm	400
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_15mw	217
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_15p5m	733
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_17m	306
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_5m	1873
+Bacteria;Bacteroidota;Bacteroidia;Chitinophagales	Lib_9m	1516
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_11m	505
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_13m	309
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_15mm	156
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_15mw	42
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_15p5m	225
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_17m	95
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_5m	1109
+Bacteria;Bacteroidota;Bacteroidia;Cytophagales	Lib_9m	595
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_11m	1697
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_13m	1495
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_15mm	1086
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_15mw	907
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_15p5m	1410
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_17m	764
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_5m	2340
+Bacteria;Bacteroidota;Bacteroidia;Flavobacteriales	Lib_9m	2218
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_11m	1174
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_13m	1854
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_15mm	1646
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_15mw	1143
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_15p5m	2359
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_17m	1151
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_5m	1785
+Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales	Lib_9m	1121
+Bacteria;Bacteroidota;Chlorobia;Chlorobiales	Lib_11m	38
+Bacteria;Bacteroidota;Chlorobia;Chlorobiales	Lib_13m	568
+Bacteria;Bacteroidota;Chlorobia;Chlorobiales	Lib_15mm	648
+Bacteria;Bacteroidota;Chlorobia;Chlorobiales	Lib_15mw	664
+Bacteria;Bacteroidota;Chlorobia;Chlorobiales	Lib_15p5m	880
+Bacteria;Bacteroidota;Chlorobia;Chlorobiales	Lib_17m	735
+Bacteria;Bacteroidota;Ignavibacteria;(Ignavibacteria)	Lib_17m	1
+Bacteria;Bacteroidota;Ignavibacteria;Ignavibacteriales	Lib_13m	1
+Bacteria;Bacteroidota;Ignavibacteria;Ignavibacteriales	Lib_15mm	2
+Bacteria;Bacteroidota;Ignavibacteria;Ignavibacteriales	Lib_15mw	1
+Bacteria;Bacteroidota;Ignavibacteria;Ignavibacteriales	Lib_15p5m	6
+Bacteria;Bacteroidota;Ignavibacteria;Ignavibacteriales	Lib_17m	2
+Bacteria;Bacteroidota;Ignavibacteria;SJA-28	Lib_13m	3
+Bacteria;Bacteroidota;Ignavibacteria;SJA-28	Lib_15mm	43
+Bacteria;Bacteroidota;Ignavibacteria;SJA-28	Lib_15mw	17
+Bacteria;Bacteroidota;Ignavibacteria;SJA-28	Lib_15p5m	60
+Bacteria;Bacteroidota;Ignavibacteria;SJA-28	Lib_17m	41
+Bacteria;Bacteroidota;Ignavibacteria;SJA-28	Lib_5m	2
+Bacteria;Bacteroidota;Kapabacteria;Kapabacteriales	Lib_13m	51
+Bacteria;Bacteroidota;Kapabacteria;Kapabacteriales	Lib_15mm	133
+Bacteria;Bacteroidota;Kapabacteria;Kapabacteriales	Lib_15mw	32
+Bacteria;Bacteroidota;Kapabacteria;Kapabacteriales	Lib_15p5m	193
+Bacteria;Bacteroidota;Kapabacteria;Kapabacteriales	Lib_17m	103
+Bacteria;Bacteroidota;Kapabacteria;Kapabacteriales	Lib_5m	1
+Bacteria;Bacteroidota;Kryptonia;Kryptoniales	Lib_11m	1
+Bacteria;Bacteroidota;Rhodothermia;Balneolales	Lib_11m	1
+Bacteria;Bacteroidota;Rhodothermia;Balneolales	Lib_13m	1
+Bacteria;Bacteroidota;Rhodothermia;Balneolales	Lib_5m	1
+Bacteria;Bacteroidota;Rhodothermia;Balneolales	Lib_9m	1
+Bacteria;Bacteroidota;Rhodothermia;Rhodothermales	Lib_15mw	1
+Bacteria;Bacteroidota;Rhodothermia;Rhodothermales	Lib_17m	1
+Bacteria;Bacteroidota;Rhodothermia;Rhodothermales	Lib_5m	3
+Bacteria;Bacteroidota;Rhodothermia;Rhodothermales	Lib_9m	2
+Bacteria;Bdellovibrionota;(Bdellovibrionota);(Bdellovibrionota)	Lib_13m	1
+Bacteria;Bdellovibrionota;(Bdellovibrionota);(Bdellovibrionota)	Lib_15mm	5
+Bacteria;Bdellovibrionota;(Bdellovibrionota);(Bdellovibrionota)	Lib_15mw	1
+Bacteria;Bdellovibrionota;(Bdellovibrionota);(Bdellovibrionota)	Lib_15p5m	1
+Bacteria;Bdellovibrionota;Bdellovibrionia;(Bdellovibrionia)	Lib_11m	1
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bacteriovoracales	Lib_13m	237
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bacteriovoracales	Lib_15mm	140
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bacteriovoracales	Lib_15mw	103
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bacteriovoracales	Lib_15p5m	228
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bacteriovoracales	Lib_17m	85
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_11m	3
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_13m	322
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_15mm	206
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_15mw	119
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_15p5m	354
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_17m	109
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_5m	54
+Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales	Lib_9m	55
+Bacteria;Bdellovibrionota;Oligoflexia;(Oligoflexia)	Lib_15p5m	1
+Bacteria;Bdellovibrionota;Oligoflexia;(Oligoflexia)	Lib_17m	3
+Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20	Lib_13m	1
+Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20	Lib_15p5m	8
+Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20	Lib_5m	81
+Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20	Lib_9m	9
+Bacteria;Bdellovibrionota;Oligoflexia;053A03-B-DI-P58	Lib_15mw	2
+Bacteria;Bdellovibrionota;Oligoflexia;053A03-B-DI-P58	Lib_15p5m	1
+Bacteria;Bdellovibrionota;Oligoflexia;Oligoflexales	Lib_13m	23
+Bacteria;Bdellovibrionota;Oligoflexia;Oligoflexales	Lib_15mm	39
+Bacteria;Bdellovibrionota;Oligoflexia;Oligoflexales	Lib_15mw	20
+Bacteria;Bdellovibrionota;Oligoflexia;Oligoflexales	Lib_15p5m	210
+Bacteria;Bdellovibrionota;Oligoflexia;Oligoflexales	Lib_17m	68
+Bacteria;Caldatribacteriota;JS1;(JS1)	Lib_15p5m	2
+Bacteria;Calditrichota;Calditrichia;Calditrichales	Lib_5m	1
+Bacteria;Campylobacterota;(Campylobacterota);(Campylobacterota)	Lib_15p5m	1
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_11m	57
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_13m	147
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_15mm	239
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_15mw	121
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_15p5m	630
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_17m	307
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_5m	1
+Bacteria;Campylobacterota;Campylobacteria;Campylobacterales	Lib_9m	18
+Bacteria;Campylobacterota;Desulfurellia;Desulfurellales	Lib_13m	2
+Bacteria;Campylobacterota;Desulfurellia;Desulfurellales	Lib_15mw	1
+Bacteria;Chloroflexi;(Chloroflexi);(Chloroflexi)	Lib_15p5m	1
+Bacteria;Chloroflexi;Anaerolineae;(Anaerolineae)	Lib_15p5m	2
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_11m	4
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_13m	337
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_15mm	469
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_15mw	416
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_15p5m	720
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_17m	540
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_5m	2
+Bacteria;Chloroflexi;Anaerolineae;Anaerolineales	Lib_9m	1
+Bacteria;Chloroflexi;Anaerolineae;Caldilineales	Lib_5m	1
+Bacteria;Chloroflexi;Anaerolineae;SBR1031	Lib_15mm	2
+Bacteria;Chloroflexi;Anaerolineae;uncultured	Lib_15p5m	1
+Bacteria;Chloroflexi;Chloroflexia;Chloroflexales	Lib_13m	31
+Bacteria;Chloroflexi;Chloroflexia;Chloroflexales	Lib_15mm	35
+Bacteria;Chloroflexi;Chloroflexia;Chloroflexales	Lib_15mw	16
+Bacteria;Chloroflexi;Chloroflexia;Chloroflexales	Lib_15p5m	72
+Bacteria;Chloroflexi;Chloroflexia;Chloroflexales	Lib_17m	27
+Bacteria;Chloroflexi;Dehalococcoidia;FW22	Lib_9m	1
+Bacteria;Chloroflexi;Dehalococcoidia;GIF9	Lib_13m	3
+Bacteria;Chloroflexi;Dehalococcoidia;GIF9	Lib_15mm	37
+Bacteria;Chloroflexi;Dehalococcoidia;GIF9	Lib_15mw	9
+Bacteria;Chloroflexi;Dehalococcoidia;GIF9	Lib_15p5m	204
+Bacteria;Chloroflexi;Dehalococcoidia;GIF9	Lib_17m	89
+Bacteria;Chloroflexi;Dehalococcoidia;SAR202 clade	Lib_5m	1
+Bacteria;Chloroflexi;JG30-KF-CM66;(JG30-KF-CM66)	Lib_15mm	1
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_11m	187
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_13m	61
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_15mm	14
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_15mw	8
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_15p5m	53
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_17m	28
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_5m	218
+Bacteria;Chloroflexi;SL56 marine group;(SL56 marine group)	Lib_9m	222
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_11m	133
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_13m	70
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_15mm	24
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_15mw	13
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_15p5m	45
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_17m	19
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_5m	165
+Bacteria;Chloroflexi;SL56 marine group;marine metagenome	Lib_9m	152
+Bacteria;Chloroflexi;SL56 marine group;metagenome	Lib_11m	2
+Bacteria;Chloroflexi;SL56 marine group;metagenome	Lib_13m	1
+Bacteria;Chloroflexi;SL56 marine group;metagenome	Lib_15mm	3
+Bacteria;Chloroflexi;SL56 marine group;metagenome	Lib_15p5m	1
+Bacteria;Chloroflexi;SL56 marine group;metagenome	Lib_5m	1
+Bacteria;Chloroflexi;SL56 marine group;metagenome	Lib_9m	3
+Bacteria;Chloroflexi;SL56 marine group;uncultured Chloroflexi bacterium	Lib_11m	5
+Bacteria;Chloroflexi;SL56 marine group;uncultured Chloroflexi bacterium	Lib_13m	2
+Bacteria;Chloroflexi;SL56 marine group;uncultured Chloroflexi bacterium	Lib_17m	1
+Bacteria;Chloroflexi;SL56 marine group;uncultured Chloroflexi bacterium	Lib_5m	8
+Bacteria;Chloroflexi;SL56 marine group;uncultured Chloroflexi bacterium	Lib_9m	7
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_11m	34
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_13m	18
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_15mm	8
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_15mw	1
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_15p5m	18
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_17m	2
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_5m	26
+Bacteria;Chloroflexi;SL56 marine group;uncultured bacterium	Lib_9m	34
+Bacteria;Cloacimonadota;Cloacimonadia;Cloacimonadales	Lib_15mm	5
+Bacteria;Cloacimonadota;Cloacimonadia;Cloacimonadales	Lib_15mw	3
+Bacteria;Cloacimonadota;Cloacimonadia;Cloacimonadales	Lib_15p5m	38
+Bacteria;Cloacimonadota;Cloacimonadia;Cloacimonadales	Lib_5m	2
+Bacteria;Cloacimonadota;Cloacimonadia;Cloacimonadales	Lib_9m	2
+Bacteria;Cyanobacteria;(Cyanobacteria);(Cyanobacteria)	Lib_15mw	2
+Bacteria;Cyanobacteria;(Cyanobacteria);(Cyanobacteria)	Lib_17m	1
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_11m	2
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_13m	2
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_15mm	2
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_15mw	4
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_15p5m	2
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_17m	5
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_5m	3
+Bacteria;Cyanobacteria;Cyanobacteriia;(Cyanobacteriia)	Lib_9m	10
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_11m	2409
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_13m	2057
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_15mm	1611
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_15mw	1434
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_15p5m	1706
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_17m	1049
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_5m	1706
+Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast	Lib_9m	1495
+Bacteria;Cyanobacteria;Cyanobacteriia;Cyanobacteriales	Lib_11m	2
+Bacteria;Cyanobacteria;Cyanobacteriia;Cyanobacteriales	Lib_13m	1
+Bacteria;Cyanobacteria;Cyanobacteriia;Cyanobacteriales	Lib_15p5m	1
+Bacteria;Cyanobacteria;Cyanobacteriia;Pseudanabaenales	Lib_15mm	1
+Bacteria;Cyanobacteria;Cyanobacteriia;Pseudanabaenales	Lib_15mw	1
+Bacteria;Cyanobacteria;Cyanobacteriia;Pseudanabaenales	Lib_15p5m	4
+Bacteria;Cyanobacteria;Cyanobacteriia;Synechococcales	Lib_5m	361
+Bacteria;Cyanobacteria;Cyanobacteriia;Synechococcales	Lib_9m	216
+Bacteria;Cyanobacteria;Sericytochromatia;(Sericytochromatia)	Lib_15p5m	2
+Bacteria;Cyanobacteria;Vampirivibrionia;Gastranaerophilales	Lib_15p5m	7
+Bacteria;Cyanobacteria;Vampirivibrionia;Gastranaerophilales	Lib_17m	4
+Bacteria;Dadabacteria;Dadabacteriia;Dadabacteriales	Lib_15p5m	1
+Bacteria;Dadabacteria;Dadabacteriia;Dadabacteriales	Lib_9m	4
+Bacteria;Deinococcota;Deinococci;Deinococcales	Lib_15p5m	1
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_13m	6
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_15mm	8
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_15mw	7
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_15p5m	41
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_17m	12
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_5m	15
+Bacteria;Dependentiae;Babeliae;Babeliales	Lib_9m	2
+Bacteria;Desulfobacterota;(Desulfobacterota);(Desulfobacterota)	Lib_13m	7
+Bacteria;Desulfobacterota;(Desulfobacterota);(Desulfobacterota)	Lib_15mm	51
+Bacteria;Desulfobacterota;(Desulfobacterota);(Desulfobacterota)	Lib_15mw	46
+Bacteria;Desulfobacterota;(Desulfobacterota);(Desulfobacterota)	Lib_15p5m	75
+Bacteria;Desulfobacterota;(Desulfobacterota);(Desulfobacterota)	Lib_17m	56
+Bacteria;Desulfobacterota;(Desulfobacterota);(Desulfobacterota)	Lib_9m	1
+Bacteria;Desulfobacterota;Desulfobaccia;Desulfobaccales	Lib_15p5m	1
+Bacteria;Desulfobacterota;Desulfobacteria;(Desulfobacteria)	Lib_15mm	6
+Bacteria;Desulfobacterota;Desulfobacteria;(Desulfobacteria)	Lib_15mw	6
+Bacteria;Desulfobacterota;Desulfobacteria;(Desulfobacteria)	Lib_15p5m	6
+Bacteria;Desulfobacterota;Desulfobacteria;(Desulfobacteria)	Lib_17m	5
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfatiglandales	Lib_15mm	6
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfatiglandales	Lib_15mw	1
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfatiglandales	Lib_15p5m	1
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfatiglandales	Lib_17m	1
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_13m	63
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_15mm	412
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_15mw	339
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_15p5m	496
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_17m	410
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_5m	2
+Bacteria;Desulfobacterota;Desulfobacteria;Desulfobacterales	Lib_9m	2
+Bacteria;Desulfobacterota;Desulfobulbia;Desulfobulbales	Lib_13m	235
+Bacteria;Desulfobacterota;Desulfobulbia;Desulfobulbales	Lib_15mm	592
+Bacteria;Desulfobacterota;Desulfobulbia;Desulfobulbales	Lib_15mw	384
+Bacteria;Desulfobacterota;Desulfobulbia;Desulfobulbales	Lib_15p5m	965
+Bacteria;Desulfobacterota;Desulfobulbia;Desulfobulbales	Lib_17m	601
+Bacteria;Desulfobacterota;Desulfobulbia;Desulfobulbales	Lib_5m	2
+Bacteria;Desulfobacterota;Desulfomonilia;Desulfomonilales	Lib_13m	15
+Bacteria;Desulfobacterota;Desulfomonilia;Desulfomonilales	Lib_15mm	47
+Bacteria;Desulfobacterota;Desulfomonilia;Desulfomonilales	Lib_15mw	19
+Bacteria;Desulfobacterota;Desulfomonilia;Desulfomonilales	Lib_15p5m	129
+Bacteria;Desulfobacterota;Desulfomonilia;Desulfomonilales	Lib_17m	94
+Bacteria;Desulfobacterota;Desulfovibrionia;Desulfovibrionales	Lib_11m	1
+Bacteria;Desulfobacterota;Desulfovibrionia;Desulfovibrionales	Lib_13m	4
+Bacteria;Desulfobacterota;Desulfovibrionia;Desulfovibrionales	Lib_15mm	2
+Bacteria;Desulfobacterota;Desulfovibrionia;Desulfovibrionales	Lib_15p5m	6
+Bacteria;Desulfobacterota;Desulfovibrionia;Desulfovibrionales	Lib_17m	8
+Bacteria;Desulfobacterota;Desulfuromonadia;Bradymonadales	Lib_15p5m	1
+Bacteria;Desulfobacterota;Desulfuromonadia;Bradymonadales	Lib_9m	1
+Bacteria;Desulfobacterota;Desulfuromonadia;Desulfuromonadales	Lib_13m	1
+Bacteria;Desulfobacterota;Desulfuromonadia;Desulfuromonadales	Lib_15p5m	6
+Bacteria;Desulfobacterota;Desulfuromonadia;Geobacterales	Lib_13m	8
+Bacteria;Desulfobacterota;Desulfuromonadia;Geobacterales	Lib_15mm	107
+Bacteria;Desulfobacterota;Desulfuromonadia;Geobacterales	Lib_15mw	57
+Bacteria;Desulfobacterota;Desulfuromonadia;Geobacterales	Lib_15p5m	243
+Bacteria;Desulfobacterota;Desulfuromonadia;Geobacterales	Lib_17m	97
+Bacteria;Desulfobacterota;Desulfuromonadia;PB19	Lib_15p5m	1
+Bacteria;Desulfobacterota;Syntrophia;Syntrophales	Lib_13m	18
+Bacteria;Desulfobacterota;Syntrophia;Syntrophales	Lib_15mm	41
+Bacteria;Desulfobacterota;Syntrophia;Syntrophales	Lib_15mw	52
+Bacteria;Desulfobacterota;Syntrophia;Syntrophales	Lib_15p5m	149
+Bacteria;Desulfobacterota;Syntrophia;Syntrophales	Lib_17m	105
+Bacteria;Desulfobacterota;Syntrophobacteria;Syntrophobacterales	Lib_17m	1
+Bacteria;Desulfobacterota;uncultured;uncultured bacterium	Lib_5m	1
+Bacteria;Desulfobacterota;uncultured;uncultured soil bacterium	Lib_15mw	1
+Bacteria;Elusimicrobiota;(Elusimicrobiota);(Elusimicrobiota)	Lib_15mw	1
+Bacteria;Elusimicrobiota;(Elusimicrobiota);(Elusimicrobiota)	Lib_15p5m	11
+Bacteria;Elusimicrobiota;(Elusimicrobiota);(Elusimicrobiota)	Lib_17m	3
+Bacteria;Elusimicrobiota;(Elusimicrobiota);(Elusimicrobiota)	Lib_9m	1
+Bacteria;Elusimicrobiota;4-29;uncultured bacterium	Lib_5m	1
+Bacteria;Elusimicrobiota;Elusimicrobia;Lineage IV	Lib_15p5m	1
+Bacteria;Elusimicrobiota;Endomicrobia;Endomicrobiales	Lib_15mm	5
+Bacteria;Elusimicrobiota;Endomicrobia;Endomicrobiales	Lib_15p5m	26
+Bacteria;Elusimicrobiota;Endomicrobia;Endomicrobiales	Lib_17m	9
+Bacteria;Elusimicrobiota;Lineage IIa;(Lineage IIa)	Lib_15mw	2
+Bacteria;Elusimicrobiota;Lineage IIa;Elusimicrobia bacterium RIFCSPLOWO2_01_FULL_59_12	Lib_15p5m	1
+Bacteria;Elusimicrobiota;Lineage IIa;uncultured bacterium	Lib_15mw	3
+Bacteria;Elusimicrobiota;Lineage IIa;uncultured bacterium	Lib_15p5m	1
+Bacteria;Elusimicrobiota;Rs-M47;(Rs-M47)	Lib_15mm	1
+Bacteria;Elusimicrobiota;Rs-M47;(Rs-M47)	Lib_15mw	2
+Bacteria;Elusimicrobiota;Rs-M47;(Rs-M47)	Lib_15p5m	16
+Bacteria;Elusimicrobiota;Rs-M47;(Rs-M47)	Lib_17m	10
+Bacteria;Elusimicrobiota;Rs-M47;uncultured bacterium	Lib_13m	1
+Bacteria;Elusimicrobiota;Rs-M47;uncultured bacterium	Lib_15mm	3
+Bacteria;Elusimicrobiota;Rs-M47;uncultured bacterium	Lib_15mw	2
+Bacteria;Elusimicrobiota;Rs-M47;uncultured bacterium	Lib_15p5m	18
+Bacteria;Elusimicrobiota;Rs-M47;uncultured bacterium	Lib_17m	6
+Bacteria;Elusimicrobiota;Rs-M47;uncultured organism	Lib_15mm	2
+Bacteria;Elusimicrobiota;Rs-M47;uncultured organism	Lib_15p5m	17
+Bacteria;Elusimicrobiota;Rs-M47;uncultured organism	Lib_17m	3
+Bacteria;FCPU426;(FCPU426);(FCPU426)	Lib_15mw	1
+Bacteria;Fibrobacterota;(Fibrobacterota);(Fibrobacterota)	Lib_15p5m	1
+Bacteria;Fibrobacterota;Chitinivibrionia;Chitinivibrionales	Lib_13m	1
+Bacteria;Fibrobacterota;Chitinivibrionia;Chitinivibrionales	Lib_15p5m	3
+Bacteria;Fibrobacterota;Chitinivibrionia;Chitinivibrionales	Lib_17m	5
+Bacteria;Fibrobacterota;Fibrobacteria;Fibrobacterales	Lib_15mm	3
+Bacteria;Fibrobacterota;Fibrobacteria;Fibrobacterales	Lib_15mw	3
+Bacteria;Fibrobacterota;Fibrobacteria;Fibrobacterales	Lib_15p5m	6
+Bacteria;Fibrobacterota;Fibrobacteria;Fibrobacterales	Lib_17m	5
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_11m	5
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_13m	37
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_15mm	52
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_15mw	32
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_15p5m	86
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_17m	55
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_5m	21
+Bacteria;Firmicutes;(Firmicutes);(Firmicutes)	Lib_9m	4
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_11m	2
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_13m	16
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_15mm	10
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_15mw	19
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_15p5m	27
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_17m	22
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_5m	2
+Bacteria;Firmicutes;Bacilli;(Bacilli)	Lib_9m	2
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales	Lib_13m	6
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales	Lib_15mm	4
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales	Lib_15p5m	5
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales	Lib_17m	5
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_11m	13
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_13m	21
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_15mm	19
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_15mw	13
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_15p5m	37
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_17m	25
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_5m	38
+Bacteria;Firmicutes;Bacilli;Bacillales	Lib_9m	18
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	Lib_11m	6
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	Lib_13m	298
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	Lib_15mm	282
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	Lib_15mw	281
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	Lib_15p5m	355
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	Lib_17m	314
+Bacteria;Firmicutes;Bacilli;Haloplasmatales	Lib_9m	1
+Bacteria;Firmicutes;Bacilli;Izemoplasmatales	Lib_17m	3
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_11m	5
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_13m	16
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_15mm	5
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_15mw	2
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_15p5m	11
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_17m	7
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_5m	5
+Bacteria;Firmicutes;Bacilli;Lactobacillales	Lib_9m	8
+Bacteria;Firmicutes;Bacilli;Mycoplasmatales	Lib_13m	1
+Bacteria;Firmicutes;Bacilli;Mycoplasmatales	Lib_15mm	5
+Bacteria;Firmicutes;Bacilli;Mycoplasmatales	Lib_15p5m	1
+Bacteria;Firmicutes;Bacilli;Paenibacillales	Lib_11m	2
+Bacteria;Firmicutes;Bacilli;Paenibacillales	Lib_15p5m	2
+Bacteria;Firmicutes;Bacilli;Paenibacillales	Lib_5m	1
+Bacteria;Firmicutes;Bacilli;RF39	Lib_9m	2
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_13m	5
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_15mm	4
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_15mw	6
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_15p5m	10
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_17m	8
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_5m	1
+Bacteria;Firmicutes;Bacilli;Staphylococcales	Lib_9m	1
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_13m	5
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_15mm	32
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_15mw	32
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_15p5m	69
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_17m	32
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_5m	5
+Bacteria;Firmicutes;Clostridia;(Clostridia)	Lib_9m	4
+Bacteria;Firmicutes;Clostridia;Christensenellales	Lib_15mm	22
+Bacteria;Firmicutes;Clostridia;Christensenellales	Lib_15mw	17
+Bacteria;Firmicutes;Clostridia;Christensenellales	Lib_15p5m	57
+Bacteria;Firmicutes;Clostridia;Christensenellales	Lib_17m	22
+Bacteria;Firmicutes;Clostridia;Christensenellales	Lib_5m	1
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014	Lib_17m	1
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group	Lib_15p5m	1
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group	Lib_17m	2
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_11m	3
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_13m	3
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_15mm	4
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_15mw	6
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_15p5m	26
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_17m	24
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_5m	1
+Bacteria;Firmicutes;Clostridia;Clostridiales	Lib_9m	1
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_11m	1
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_13m	15
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_15mm	2
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_15p5m	6
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_17m	3
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_5m	10
+Bacteria;Firmicutes;Clostridia;Lachnospirales	Lib_9m	5
+Bacteria;Firmicutes;Clostridia;Monoglobales	Lib_13m	7
+Bacteria;Firmicutes;Clostridia;Monoglobales	Lib_15mm	16
+Bacteria;Firmicutes;Clostridia;Monoglobales	Lib_15mw	7
+Bacteria;Firmicutes;Clostridia;Monoglobales	Lib_15p5m	21
+Bacteria;Firmicutes;Clostridia;Monoglobales	Lib_17m	16
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_11m	2
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_13m	6
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_15mm	95
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_15mw	42
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_15p5m	172
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_17m	85
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_5m	3
+Bacteria;Firmicutes;Clostridia;Oscillospirales	Lib_9m	1
+Bacteria;Firmicutes;Clostridia;Peptococcales	Lib_15mw	3
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_13m	147
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_15mm	348
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_15mw	208
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_15p5m	551
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_17m	301
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_5m	5
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	Lib_9m	1
+Bacteria;Firmicutes;D8A-2;uncultured bacterium	Lib_17m	1
+Bacteria;Firmicutes;Desulfitobacteriia;Desulfitobacteriales	Lib_13m	3
+Bacteria;Firmicutes;Desulfitobacteriia;Desulfitobacteriales	Lib_15mm	10
+Bacteria;Firmicutes;Desulfitobacteriia;Desulfitobacteriales	Lib_15mw	2
+Bacteria;Firmicutes;Desulfitobacteriia;Desulfitobacteriales	Lib_15p5m	4
+Bacteria;Firmicutes;Desulfitobacteriia;Desulfitobacteriales	Lib_17m	2
+Bacteria;Firmicutes;Desulfotomaculia;Ammonifexales	Lib_15p5m	1
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_11m	2
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_13m	1
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_15mm	2
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_15mw	1
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_15p5m	5
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_17m	1
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_5m	3
+Bacteria;Firmicutes;Desulfotomaculia;Desulfotomaculales	Lib_9m	6
+Bacteria;Firmicutes;Dethiobacteria;Dethiobacterales	Lib_13m	1
+Bacteria;Firmicutes;Incertae Sedis;DTU014	Lib_15p5m	1
+Bacteria;Firmicutes;Negativicutes;Veillonellales-Selenomonadales	Lib_15mm	15
+Bacteria;Firmicutes;Negativicutes;Veillonellales-Selenomonadales	Lib_15mw	3
+Bacteria;Firmicutes;Negativicutes;Veillonellales-Selenomonadales	Lib_15p5m	77
+Bacteria;Firmicutes;Negativicutes;Veillonellales-Selenomonadales	Lib_17m	13
+Bacteria;Firmicutes;Negativicutes;Veillonellales-Selenomonadales	Lib_5m	1
+Bacteria;Firmicutes;Syntrophomonadia;Syntrophomonadales	Lib_17m	3
+Bacteria;Fusobacteriota;Fusobacteriia;Fusobacteriales	Lib_13m	1
+Bacteria;Fusobacteriota;Fusobacteriia;Fusobacteriales	Lib_15mm	9
+Bacteria;Fusobacteriota;Fusobacteriia;Fusobacteriales	Lib_15p5m	9
+Bacteria;GN01;uncultured organism;(uncultured organism)	Lib_13m	1
+Bacteria;Gemmatimonadota;BD2-11 terrestrial group;uncultured bacterium	Lib_15p5m	2
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_11m	1
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_13m	1
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_15mm	1
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_15mw	1
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_15p5m	11
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_17m	3
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_5m	146
+Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales	Lib_9m	11
+Bacteria;Halanaerobiaeota;Halanaerobiia;Halanaerobiales	Lib_15mw	1
+Bacteria;Halanaerobiaeota;Halanaerobiia;Halanaerobiales	Lib_5m	1
+Bacteria;Hydrogenedentes;Hydrogenedentia;Hydrogenedentiales	Lib_15p5m	3
+Bacteria;LCP-89;uncultured bacterium;(uncultured bacterium)	Lib_15mm	1
+Bacteria;LCP-89;uncultured bacterium;(uncultured bacterium)	Lib_15p5m	2
+Bacteria;Latescibacterota;Latescibacteria;Latescibacterales	Lib_15p5m	1
+Bacteria;Latescibacterota;uncultured bacterium;(uncultured bacterium)	Lib_13m	1
+Bacteria;Latescibacterota;uncultured bacterium;(uncultured bacterium)	Lib_15mw	1
+Bacteria;Latescibacterota;uncultured bacterium;(uncultured bacterium)	Lib_15p5m	6
+Bacteria;Latescibacterota;uncultured bacterium;(uncultured bacterium)	Lib_17m	2
+Bacteria;MBNT15;(MBNT15);(MBNT15)	Lib_15mw	2
+Bacteria;MBNT15;(MBNT15);(MBNT15)	Lib_15p5m	1
+Bacteria;Margulisbacteria;(Margulisbacteria);(Margulisbacteria)	Lib_15p5m	5
+Bacteria;Margulisbacteria;(Margulisbacteria);(Margulisbacteria)	Lib_17m	1
+Bacteria;Margulisbacteria;uncultured bacterium;(uncultured bacterium)	Lib_15mm	2
+Bacteria;Marinimicrobia (SAR406 clade);(Marinimicrobia (SAR406 clade));(Marinimicrobia (SAR406 clade))	Lib_13m	1
+Bacteria;Marinimicrobia (SAR406 clade);(Marinimicrobia (SAR406 clade));(Marinimicrobia (SAR406 clade))	Lib_15p5m	1
+Bacteria;Methylomirabilota;Methylomirabilia;Rokubacteriales	Lib_11m	1
+Bacteria;Myxococcota;(Myxococcota);(Myxococcota)	Lib_17m	1
+Bacteria;Myxococcota;(Myxococcota);(Myxococcota)	Lib_9m	1
+Bacteria;Myxococcota;Myxococcia;Myxococcales	Lib_5m	20
+Bacteria;Myxococcota;Myxococcia;Myxococcales	Lib_9m	76
+Bacteria;Myxococcota;Polyangia;(Polyangia)	Lib_13m	2
+Bacteria;Myxococcota;Polyangia;(Polyangia)	Lib_15mm	1
+Bacteria;Myxococcota;Polyangia;(Polyangia)	Lib_17m	2
+Bacteria;Myxococcota;Polyangia;Blfdi19	Lib_13m	15
+Bacteria;Myxococcota;Polyangia;Blfdi19	Lib_15mm	5
+Bacteria;Myxococcota;Polyangia;Blfdi19	Lib_15mw	1
+Bacteria;Myxococcota;Polyangia;Blfdi19	Lib_15p5m	6
+Bacteria;Myxococcota;Polyangia;Blfdi19	Lib_17m	6
+Bacteria;Myxococcota;Polyangia;Haliangiales	Lib_15mm	1
+Bacteria;Myxococcota;Polyangia;Haliangiales	Lib_15p5m	1
+Bacteria;Myxococcota;Polyangia;Haliangiales	Lib_17m	2
+Bacteria;Myxococcota;Polyangia;MidBa8	Lib_17m	1
+Bacteria;Myxococcota;Polyangia;Nannocystales	Lib_17m	1
+Bacteria;Myxococcota;Polyangia;Polyangiales	Lib_15p5m	6
+Bacteria;Myxococcota;Polyangia;Polyangiales	Lib_17m	6
+Bacteria;Myxococcota;Polyangia;mle1-27	Lib_13m	44
+Bacteria;Myxococcota;Polyangia;mle1-27	Lib_15mm	12
+Bacteria;Myxococcota;Polyangia;mle1-27	Lib_15mw	1
+Bacteria;Myxococcota;Polyangia;mle1-27	Lib_15p5m	31
+Bacteria;Myxococcota;Polyangia;mle1-27	Lib_17m	2
+Bacteria;Myxococcota;bacteriap25;(bacteriap25)	Lib_15p5m	1
+Bacteria;Myxococcota;bacteriap25;metagenome	Lib_15p5m	1
+Bacteria;Myxococcota;bacteriap25;uncultured bacterium	Lib_15mm	7
+Bacteria;Myxococcota;bacteriap25;uncultured bacterium	Lib_17m	1
+Bacteria;Nitrospirota;Nitrospiria;Nitrospirales	Lib_13m	6
+Bacteria;Nitrospirota;Nitrospiria;Nitrospirales	Lib_15mm	2
+Bacteria;Nitrospirota;Nitrospiria;Nitrospirales	Lib_15p5m	5
+Bacteria;Nitrospirota;Nitrospiria;Nitrospirales	Lib_17m	2
+Bacteria;Nitrospirota;Thermodesulfovibrionia;uncultured	Lib_15mm	1
+Bacteria;Patescibacteria;(Patescibacteria);(Patescibacteria)	Lib_11m	5
+Bacteria;Patescibacteria;(Patescibacteria);(Patescibacteria)	Lib_13m	14
+Bacteria;Patescibacteria;(Patescibacteria);(Patescibacteria)	Lib_15mm	8
+Bacteria;Patescibacteria;(Patescibacteria);(Patescibacteria)	Lib_15mw	3
+Bacteria;Patescibacteria;(Patescibacteria);(Patescibacteria)	Lib_15p5m	14
+Bacteria;Patescibacteria;(Patescibacteria);(Patescibacteria)	Lib_17m	6
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_11m	3
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_13m	35
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_15mm	43
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_15mw	36
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_15p5m	51
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_17m	32
+Bacteria;Patescibacteria;ABY1;(ABY1)	Lib_9m	2
+Bacteria;Patescibacteria;ABY1;Candidatus Buchananbacteria	Lib_15p5m	1
+Bacteria;Patescibacteria;ABY1;Candidatus Falkowbacteria	Lib_13m	127
+Bacteria;Patescibacteria;ABY1;Candidatus Falkowbacteria	Lib_15mm	196
+Bacteria;Patescibacteria;ABY1;Candidatus Falkowbacteria	Lib_15mw	163
+Bacteria;Patescibacteria;ABY1;Candidatus Falkowbacteria	Lib_15p5m	442
+Bacteria;Patescibacteria;ABY1;Candidatus Falkowbacteria	Lib_17m	135
+Bacteria;Patescibacteria;ABY1;Candidatus Falkowbacteria	Lib_9m	5
+Bacteria;Patescibacteria;ABY1;Candidatus Kerfeldbacteria	Lib_13m	26
+Bacteria;Patescibacteria;ABY1;Candidatus Kerfeldbacteria	Lib_15mm	5
+Bacteria;Patescibacteria;ABY1;Candidatus Kerfeldbacteria	Lib_15mw	13
+Bacteria;Patescibacteria;ABY1;Candidatus Kerfeldbacteria	Lib_15p5m	53
+Bacteria;Patescibacteria;ABY1;Candidatus Kerfeldbacteria	Lib_17m	18
+Bacteria;Patescibacteria;ABY1;Candidatus Komeilibacteria	Lib_13m	5
+Bacteria;Patescibacteria;ABY1;Candidatus Komeilibacteria	Lib_15mm	6
+Bacteria;Patescibacteria;ABY1;Candidatus Komeilibacteria	Lib_15p5m	13
+Bacteria;Patescibacteria;ABY1;Candidatus Komeilibacteria	Lib_17m	11
+Bacteria;Patescibacteria;ABY1;Candidatus Kuenenbacteria	Lib_15p5m	1
+Bacteria;Patescibacteria;ABY1;Candidatus Kuenenbacteria	Lib_9m	2
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_11m	2
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_13m	9
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_15mm	9
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_15mw	8
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_15p5m	21
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_17m	4
+Bacteria;Patescibacteria;ABY1;Candidatus Magasanikbacteria	Lib_9m	1
+Bacteria;Patescibacteria;ABY1;Candidatus Uhrbacteria	Lib_11m	3
+Bacteria;Patescibacteria;ABY1;Candidatus Uhrbacteria	Lib_13m	14
+Bacteria;Patescibacteria;ABY1;Candidatus Uhrbacteria	Lib_15mw	13
+Bacteria;Patescibacteria;ABY1;Candidatus Uhrbacteria	Lib_15p5m	18
+Bacteria;Patescibacteria;ABY1;Candidatus Uhrbacteria	Lib_17m	4
+Bacteria;Patescibacteria;Berkelbacteria;(Berkelbacteria)	Lib_15p5m	5
+Bacteria;Patescibacteria;Berkelbacteria;candidate division WS2 bacterium ADurb.Bin280	Lib_15p5m	1
+Bacteria;Patescibacteria;Berkelbacteria;uncultured bacterium	Lib_13m	6
+Bacteria;Patescibacteria;Berkelbacteria;uncultured bacterium	Lib_15mw	1
+Bacteria;Patescibacteria;Berkelbacteria;uncultured bacterium	Lib_15p5m	1
+Bacteria;Patescibacteria;Dojkabacteria;(Dojkabacteria)	Lib_15mm	10
+Bacteria;Patescibacteria;Dojkabacteria;(Dojkabacteria)	Lib_15p5m	17
+Bacteria;Patescibacteria;Dojkabacteria;(Dojkabacteria)	Lib_17m	3
+Bacteria;Patescibacteria;Dojkabacteria;uncultured bacterium	Lib_15mw	4
+Bacteria;Patescibacteria;Dojkabacteria;uncultured bacterium	Lib_15p5m	26
+Bacteria;Patescibacteria;Dojkabacteria;uncultured bacterium	Lib_17m	2
+Bacteria;Patescibacteria;Gracilibacteria;(Gracilibacteria)	Lib_15mm	6
+Bacteria;Patescibacteria;Gracilibacteria;(Gracilibacteria)	Lib_15mw	2
+Bacteria;Patescibacteria;Gracilibacteria;(Gracilibacteria)	Lib_15p5m	1
+Bacteria;Patescibacteria;Gracilibacteria;(Gracilibacteria)	Lib_17m	7
+Bacteria;Patescibacteria;Gracilibacteria;Absconditabacteriales (SR1)	Lib_13m	237
+Bacteria;Patescibacteria;Gracilibacteria;Absconditabacteriales (SR1)	Lib_15mm	447
+Bacteria;Patescibacteria;Gracilibacteria;Absconditabacteriales (SR1)	Lib_15mw	337
+Bacteria;Patescibacteria;Gracilibacteria;Absconditabacteriales (SR1)	Lib_15p5m	661
+Bacteria;Patescibacteria;Gracilibacteria;Absconditabacteriales (SR1)	Lib_17m	318
+Bacteria;Patescibacteria;Gracilibacteria;Candidatus Peregrinibacteria	Lib_15mw	1
+Bacteria;Patescibacteria;Gracilibacteria;Candidatus Peregrinibacteria	Lib_15p5m	2
+Bacteria;Patescibacteria;Gracilibacteria;Candidatus Peribacteria	Lib_5m	2
+Bacteria;Patescibacteria;Gracilibacteria;Candidatus Peribacteria	Lib_9m	6
+Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22	Lib_13m	135
+Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22	Lib_15mm	346
+Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22	Lib_15mw	258
+Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22	Lib_15p5m	364
+Bacteria;Patescibacteria;Gracilibacteria;JGI 0000069-P22	Lib_17m	296
+Bacteria;Patescibacteria;Gracilibacteria;uncultured bacterium	Lib_13m	1
+Bacteria;Patescibacteria;Gracilibacteria;uncultured bacterium	Lib_15mm	1
+Bacteria;Patescibacteria;Gracilibacteria;uncultured bacterium	Lib_17m	6
+Bacteria;Patescibacteria;Gracilibacteria;uncultured bacterium	Lib_9m	1
+Bacteria;Patescibacteria;Gracilibacteria;uncultured organism	Lib_11m	2
+Bacteria;Patescibacteria;Kazania;uncultured bacterium	Lib_15p5m	4
+Bacteria;Patescibacteria;Microgenomatia;(Microgenomatia)	Lib_15mm	5
+Bacteria;Patescibacteria;Microgenomatia;(Microgenomatia)	Lib_9m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Collierbacteria	Lib_13m	18
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Collierbacteria	Lib_15mm	12
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Collierbacteria	Lib_15mw	25
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Collierbacteria	Lib_15p5m	100
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Collierbacteria	Lib_17m	39
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Collierbacteria	Lib_9m	9
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Gottesmanbacteria	Lib_15p5m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Levybacteria	Lib_15p5m	2
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Levybacteria	Lib_17m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Pacebacteria	Lib_11m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Pacebacteria	Lib_15p5m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Pacebacteria	Lib_17m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Roizmanbacteria	Lib_13m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Roizmanbacteria	Lib_15mw	7
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Roizmanbacteria	Lib_15p5m	27
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Roizmanbacteria	Lib_17m	3
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Shapirobacteria	Lib_13m	5
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Shapirobacteria	Lib_15mm	4
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Shapirobacteria	Lib_15mw	6
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Shapirobacteria	Lib_15p5m	92
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Shapirobacteria	Lib_17m	41
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Woesebacteria	Lib_15p5m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Woesebacteria	Lib_17m	1
+Bacteria;Patescibacteria;Microgenomatia;Candidatus Woesebacteria	Lib_9m	4
+Bacteria;Patescibacteria;Microgenomatia;uncultured sediment bacterium	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_11m	50
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_13m	302
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_15mm	192
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_15mw	185
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_15p5m	612
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_17m	303
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_5m	33
+Bacteria;Patescibacteria;Parcubacteria;(Parcubacteria)	Lib_9m	60
+Bacteria;Patescibacteria;Parcubacteria;32-520	Lib_15p5m	4
+Bacteria;Patescibacteria;Parcubacteria;CG1-02-42-13	Lib_15mw	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Adlerbacteria	Lib_13m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Adlerbacteria	Lib_15p5m	3
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Adlerbacteria	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Azambacteria	Lib_13m	2
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Azambacteria	Lib_15mm	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Azambacteria	Lib_15mw	5
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Azambacteria	Lib_15p5m	10
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Azambacteria	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Azambacteria	Lib_9m	4
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_11m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_13m	11
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_15mm	7
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_15mw	5
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_15p5m	11
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_17m	5
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_5m	14
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Campbellbacteria	Lib_9m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_11m	3
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_13m	30
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_15mm	16
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_15mw	16
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_15p5m	42
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_17m	23
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Kaiserbacteria	Lib_5m	19
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Lloydbacteria	Lib_15p5m	5
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Lloydbacteria	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Lloydbacteria	Lib_9m	2
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Moranbacteria	Lib_13m	7
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Moranbacteria	Lib_15mm	10
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Moranbacteria	Lib_15mw	26
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Moranbacteria	Lib_15p5m	171
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Moranbacteria	Lib_17m	50
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_11m	53
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_13m	378
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_15mm	459
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_15mw	382
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_15p5m	1133
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_17m	511
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_5m	11
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Nomurabacteria	Lib_9m	125
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Ryanbacteria	Lib_15mw	4
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Ryanbacteria	Lib_15p5m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Ryanbacteria	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Staskawiczbacteria	Lib_15mm	10
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Staskawiczbacteria	Lib_15p5m	46
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Staskawiczbacteria	Lib_17m	6
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Vogelbacteria	Lib_11m	15
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Vogelbacteria	Lib_13m	63
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Vogelbacteria	Lib_15mm	35
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Vogelbacteria	Lib_15mw	31
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Vogelbacteria	Lib_15p5m	80
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Vogelbacteria	Lib_17m	65
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Yanofskybacteria	Lib_17m	2
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Yanofskybacteria	Lib_5m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Yonathbacteria	Lib_15mm	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Yonathbacteria	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_11m	1
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_13m	25
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_15mm	13
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_15mw	10
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_15p5m	44
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_17m	24
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_5m	2
+Bacteria;Patescibacteria;Parcubacteria;Candidatus Zambryskibacteria	Lib_9m	4
+Bacteria;Patescibacteria;Parcubacteria;GWA2-38-13b	Lib_15mm	2
+Bacteria;Patescibacteria;Parcubacteria;GWA2-38-13b	Lib_5m	5
+Bacteria;Patescibacteria;Parcubacteria;Paceibacterales	Lib_15p5m	1
+Bacteria;Patescibacteria;Parcubacteria;Parcubacteria group bacterium GW2011_GWA1_40_21	Lib_13m	6
+Bacteria;Patescibacteria;Parcubacteria;Parcubacteria group bacterium GW2011_GWA1_40_21	Lib_15mm	2
+Bacteria;Patescibacteria;Parcubacteria;Parcubacteria group bacterium GW2011_GWA1_40_21	Lib_15mw	2
+Bacteria;Patescibacteria;Parcubacteria;Parcubacteria group bacterium GW2011_GWA1_40_21	Lib_15p5m	13
+Bacteria;Patescibacteria;Parcubacteria;Parcubacteria group bacterium GW2011_GWA1_40_21	Lib_17m	3
+Bacteria;Patescibacteria;Parcubacteria;Parcubacteria group bacterium GW2011_GWF2_42_7	Lib_15mw	1
+Bacteria;Patescibacteria;Parcubacteria;UBA9983	Lib_15mm	2
+Bacteria;Patescibacteria;Parcubacteria;UBA9983	Lib_15p5m	3
+Bacteria;Patescibacteria;Parcubacteria;metagenome	Lib_13m	6
+Bacteria;Patescibacteria;Parcubacteria;metagenome	Lib_15mm	2
+Bacteria;Patescibacteria;Parcubacteria;metagenome	Lib_15mw	2
+Bacteria;Patescibacteria;Parcubacteria;metagenome	Lib_15p5m	6
+Bacteria;Patescibacteria;Parcubacteria;metagenome	Lib_17m	7
+Bacteria;Patescibacteria;Parcubacteria;metagenome	Lib_5m	2
+Bacteria;Patescibacteria;Parcubacteria;uncultured Parcubacteria group bacterium	Lib_11m	5
+Bacteria;Patescibacteria;Parcubacteria;uncultured Parcubacteria group bacterium	Lib_13m	13
+Bacteria;Patescibacteria;Parcubacteria;uncultured Parcubacteria group bacterium	Lib_15mm	20
+Bacteria;Patescibacteria;Parcubacteria;uncultured Parcubacteria group bacterium	Lib_15mw	8
+Bacteria;Patescibacteria;Parcubacteria;uncultured Parcubacteria group bacterium	Lib_15p5m	73
+Bacteria;Patescibacteria;Parcubacteria;uncultured Parcubacteria group bacterium	Lib_17m	35
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_11m	3
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_13m	24
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_15mm	38
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_15mw	13
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_15p5m	129
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_17m	53
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_5m	1
+Bacteria;Patescibacteria;Parcubacteria;uncultured bacterium	Lib_9m	15
+Bacteria;Patescibacteria;Parcubacteria;uncultured soil bacterium	Lib_13m	1
+Bacteria;Patescibacteria;Parcubacteria;uncultured soil bacterium	Lib_15p5m	3
+Bacteria;Patescibacteria;Parcubacteria;uncultured soil bacterium	Lib_17m	1
+Bacteria;Patescibacteria;Parcubacteria;wastewater metagenome	Lib_9m	1
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_11m	9
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_13m	85
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_15mm	132
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_15mw	110
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_15p5m	317
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_17m	94
+Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales	Lib_9m	1
+Bacteria;Patescibacteria;WWE3;(WWE3)	Lib_11m	51
+Bacteria;Patescibacteria;WWE3;(WWE3)	Lib_13m	63
+Bacteria;Patescibacteria;WWE3;(WWE3)	Lib_15mm	33
+Bacteria;Patescibacteria;WWE3;(WWE3)	Lib_15mw	10
+Bacteria;Patescibacteria;WWE3;(WWE3)	Lib_15p5m	51
+Bacteria;Patescibacteria;WWE3;(WWE3)	Lib_17m	20
+Bacteria;Patescibacteria;WWE3;bacterium enrichment culture clone EBa3	Lib_17m	2
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RAAC2_WWE3_1	Lib_11m	1
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RAAC2_WWE3_1	Lib_13m	1
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPHIGHO2_02_FULL_38_14	Lib_11m	4
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPHIGHO2_02_FULL_38_14	Lib_13m	6
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPHIGHO2_02_FULL_38_14	Lib_15p5m	3
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPHIGHO2_02_FULL_38_14	Lib_17m	1
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPLOWO2_12_FULL_36_10	Lib_11m	3
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPLOWO2_12_FULL_36_10	Lib_15mm	1
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFCSPLOWO2_12_FULL_36_10	Lib_15mw	2
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFOXYA1_FULL_40_11	Lib_11m	1
+Bacteria;Patescibacteria;WWE3;candidate division WWE3 bacterium RIFOXYA1_FULL_40_11	Lib_13m	1
+Bacteria;Patescibacteria;WWE3;metagenome	Lib_15p5m	2
+Bacteria;Patescibacteria;WWE3;uncultured Parcubacteria group bacterium	Lib_15p5m	1
+Bacteria;Patescibacteria;WWE3;uncultured anaerobic bacterium	Lib_15p5m	2
+Bacteria;Patescibacteria;WWE3;uncultured bacterium	Lib_11m	9
+Bacteria;Patescibacteria;WWE3;uncultured bacterium	Lib_13m	22
+Bacteria;Patescibacteria;WWE3;uncultured bacterium	Lib_15mm	7
+Bacteria;Patescibacteria;WWE3;uncultured bacterium	Lib_15mw	10
+Bacteria;Patescibacteria;WWE3;uncultured bacterium	Lib_15p5m	7
+Bacteria;Patescibacteria;WWE3;uncultured bacterium	Lib_17m	3
+Bacteria;Patescibacteria;WWE3;uncultured candidate division WWE3 bacterium	Lib_11m	9
+Bacteria;Patescibacteria;WWE3;uncultured candidate division WWE3 bacterium	Lib_13m	11
+Bacteria;Patescibacteria;WWE3;uncultured candidate division WWE3 bacterium	Lib_15mm	1
+Bacteria;Patescibacteria;WWE3;uncultured candidate division WWE3 bacterium	Lib_15mw	1
+Bacteria;Patescibacteria;WWE3;uncultured candidate division WWE3 bacterium	Lib_15p5m	17
+Bacteria;Planctomycetota;(Planctomycetota);(Planctomycetota)	Lib_11m	1
+Bacteria;Planctomycetota;(Planctomycetota);(Planctomycetota)	Lib_15mm	2
+Bacteria;Planctomycetota;(Planctomycetota);(Planctomycetota)	Lib_17m	1
+Bacteria;Planctomycetota;(Planctomycetota);(Planctomycetota)	Lib_9m	1
+Bacteria;Planctomycetota;BD7-11;uncultured bacterium	Lib_15mw	1
+Bacteria;Planctomycetota;BD7-11;uncultured planctomycete	Lib_15mw	1
+Bacteria;Planctomycetota;Phycisphaerae;(Phycisphaerae)	Lib_13m	1
+Bacteria;Planctomycetota;Phycisphaerae;(Phycisphaerae)	Lib_15mm	2
+Bacteria;Planctomycetota;Phycisphaerae;(Phycisphaerae)	Lib_15p5m	1
+Bacteria;Planctomycetota;Phycisphaerae;(Phycisphaerae)	Lib_9m	1
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_11m	1
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_13m	34
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_15mm	72
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_15mw	10
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_15p5m	123
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_17m	29
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_5m	1
+Bacteria;Planctomycetota;Phycisphaerae;Phycisphaerales	Lib_9m	2
+Bacteria;Planctomycetota;Phycisphaerae;mle1-8	Lib_11m	1
+Bacteria;Planctomycetota;Phycisphaerae;mle1-8	Lib_17m	1
+Bacteria;Planctomycetota;Phycisphaerae;mle1-8	Lib_5m	1
+Bacteria;Planctomycetota;Pla3 lineage;(Pla3 lineage)	Lib_15p5m	2
+Bacteria;Planctomycetota;Pla3 lineage;uncultured bacterium	Lib_15mw	1
+Bacteria;Planctomycetota;Planctomycetes;(Planctomycetes)	Lib_13m	1
+Bacteria;Planctomycetota;Planctomycetes;(Planctomycetes)	Lib_15mw	1
+Bacteria;Planctomycetota;Planctomycetes;(Planctomycetes)	Lib_17m	1
+Bacteria;Planctomycetota;Planctomycetes;Gemmatales	Lib_11m	1
+Bacteria;Planctomycetota;Planctomycetes;Gemmatales	Lib_13m	1
+Bacteria;Planctomycetota;Planctomycetes;Gemmatales	Lib_15p5m	9
+Bacteria;Planctomycetota;Planctomycetes;Isosphaerales	Lib_13m	45
+Bacteria;Planctomycetota;Planctomycetes;Isosphaerales	Lib_15mm	56
+Bacteria;Planctomycetota;Planctomycetes;Isosphaerales	Lib_15mw	33
+Bacteria;Planctomycetota;Planctomycetes;Isosphaerales	Lib_15p5m	134
+Bacteria;Planctomycetota;Planctomycetes;Isosphaerales	Lib_17m	86
+Bacteria;Planctomycetota;Planctomycetes;Pirellulales	Lib_13m	1
+Bacteria;Planctomycetota;Planctomycetes;Pirellulales	Lib_15mw	7
+Bacteria;Planctomycetota;Planctomycetes;Pirellulales	Lib_15p5m	12
+Bacteria;Planctomycetota;Planctomycetes;Pirellulales	Lib_17m	8
+Bacteria;Planctomycetota;Planctomycetes;Planctomycetales	Lib_13m	24
+Bacteria;Planctomycetota;Planctomycetes;Planctomycetales	Lib_15mm	76
+Bacteria;Planctomycetota;Planctomycetes;Planctomycetales	Lib_15mw	73
+Bacteria;Planctomycetota;Planctomycetes;Planctomycetales	Lib_15p5m	180
+Bacteria;Planctomycetota;Planctomycetes;Planctomycetales	Lib_17m	56
+Bacteria;Planctomycetota;SPG12-343-353-B69;uncultured bacterium	Lib_9m	1
+Bacteria;Planctomycetota;vadinHA49;(vadinHA49)	Lib_11m	10
+Bacteria;Planctomycetota;vadinHA49;(vadinHA49)	Lib_13m	4
+Bacteria;Planctomycetota;vadinHA49;(vadinHA49)	Lib_15p5m	2
+Bacteria;Planctomycetota;vadinHA49;(vadinHA49)	Lib_5m	3
+Bacteria;Planctomycetota;vadinHA49;(vadinHA49)	Lib_9m	12
+Bacteria;Planctomycetota;vadinHA49;uncultured bacterium	Lib_11m	35
+Bacteria;Planctomycetota;vadinHA49;uncultured bacterium	Lib_13m	15
+Bacteria;Planctomycetota;vadinHA49;uncultured bacterium	Lib_15p5m	10
+Bacteria;Planctomycetota;vadinHA49;uncultured bacterium	Lib_5m	14
+Bacteria;Planctomycetota;vadinHA49;uncultured bacterium	Lib_9m	47
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_11m	66
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_13m	30
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_15mm	19
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_15mw	13
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_15p5m	31
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_17m	31
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_5m	138
+Bacteria;Proteobacteria;(Proteobacteria);(Proteobacteria)	Lib_9m	98
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_11m	97
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_13m	40
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_15mm	23
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_15mw	21
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_15p5m	54
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_17m	22
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_5m	118
+Bacteria;Proteobacteria;Alphaproteobacteria;(Alphaproteobacteria)	Lib_9m	123
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_11m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_13m	45
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_15mm	3
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_15mw	2
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_15p5m	41
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_17m	3
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_5m	470
+Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales	Lib_9m	25
+Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales	Lib_15mm	11
+Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales	Lib_15mw	9
+Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales	Lib_15p5m	25
+Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales	Lib_17m	3
+Bacteria;Proteobacteria;Alphaproteobacteria;Caedibacterales	Lib_11m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Caedibacterales	Lib_15p5m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Caedibacterales	Lib_9m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_11m	33
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_13m	68
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_15mm	65
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_15mw	39
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_15p5m	116
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_17m	40
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_5m	157
+Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales	Lib_9m	73
+Bacteria;Proteobacteria;Alphaproteobacteria;Defluviicoccales	Lib_11m	3
+Bacteria;Proteobacteria;Alphaproteobacteria;Defluviicoccales	Lib_9m	5
+Bacteria;Proteobacteria;Alphaproteobacteria;Holosporales	Lib_11m	5
+Bacteria;Proteobacteria;Alphaproteobacteria;Holosporales	Lib_13m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Holosporales	Lib_15mm	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Holosporales	Lib_5m	14
+Bacteria;Proteobacteria;Alphaproteobacteria;Holosporales	Lib_9m	4
+Bacteria;Proteobacteria;Alphaproteobacteria;Kiloniellales	Lib_5m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Kordiimonadales	Lib_11m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Kordiimonadales	Lib_9m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Micavibrionales	Lib_11m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Micavibrionales	Lib_9m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_11m	7
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_13m	18
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_15mm	12
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_15mw	5
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_15p5m	6
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_17m	2
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_5m	5
+Bacteria;Proteobacteria;Alphaproteobacteria;Paracaedibacterales	Lib_9m	9
+Bacteria;Proteobacteria;Alphaproteobacteria;Puniceispirillales	Lib_11m	5
+Bacteria;Proteobacteria;Alphaproteobacteria;Puniceispirillales	Lib_9m	10
+Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales	Lib_13m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales	Lib_15p5m	2
+Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales	Lib_17m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_11m	35
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_13m	11
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_15mm	12
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_15mw	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_15p5m	26
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_17m	11
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_5m	89
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales	Lib_9m	26
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_11m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_13m	65
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_15mm	28
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_15mw	29
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_15p5m	98
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_17m	7
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_5m	84
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodobacterales	Lib_9m	65
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_11m	9
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_13m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_15mm	23
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_15mw	5
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_15p5m	27
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_17m	11
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_5m	3
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales	Lib_9m	7
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_11m	406
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_13m	848
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_15mm	412
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_15mw	354
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_15p5m	570
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_17m	503
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_5m	544
+Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales	Lib_9m	419
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_11m	252
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_13m	198
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_15mm	141
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_15mw	66
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_15p5m	234
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_17m	150
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_5m	276
+Bacteria;Proteobacteria;Alphaproteobacteria;SAR11 clade	Lib_9m	298
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_11m	44
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_13m	74
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_15mm	68
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_15mw	30
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_15p5m	157
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_17m	36
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_5m	887
+Bacteria;Proteobacteria;Alphaproteobacteria;Sphingomonadales	Lib_9m	364
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_11m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_13m	2
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_15mm	2
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_15p5m	1
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_17m	2
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_5m	3
+Bacteria;Proteobacteria;Alphaproteobacteria;uncultured	Lib_9m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_11m	72
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_13m	216
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_15mm	341
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_15mw	268
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_15p5m	429
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_17m	287
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_5m	77
+Bacteria;Proteobacteria;Gammaproteobacteria;(Gammaproteobacteria)	Lib_9m	123
+Bacteria;Proteobacteria;Gammaproteobacteria;Arenicellales	Lib_13m	5
+Bacteria;Proteobacteria;Gammaproteobacteria;Arenicellales	Lib_15mm	7
+Bacteria;Proteobacteria;Gammaproteobacteria;Arenicellales	Lib_15mw	10
+Bacteria;Proteobacteria;Gammaproteobacteria;Arenicellales	Lib_15p5m	22
+Bacteria;Proteobacteria;Gammaproteobacteria;Arenicellales	Lib_17m	22
+Bacteria;Proteobacteria;Gammaproteobacteria;Arenicellales	Lib_9m	3
+Bacteria;Proteobacteria;Gammaproteobacteria;B2M28	Lib_13m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_11m	1641
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_13m	2102
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_15mm	2073
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_15mw	1619
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_15p5m	2896
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_17m	1989
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_5m	3267
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	Lib_9m	2317
+Bacteria;Proteobacteria;Gammaproteobacteria;CHAB-XI-27	Lib_15p5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Cardiobacteriales	Lib_17m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_11m	39
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_13m	457
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_15mm	1206
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_15mw	1005
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_15p5m	1515
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_17m	1039
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_5m	79
+Bacteria;Proteobacteria;Gammaproteobacteria;Chromatiales	Lib_9m	38
+Bacteria;Proteobacteria;Gammaproteobacteria;Competibacterales	Lib_11m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Competibacterales	Lib_13m	5
+Bacteria;Proteobacteria;Gammaproteobacteria;Competibacterales	Lib_15mm	14
+Bacteria;Proteobacteria;Gammaproteobacteria;Competibacterales	Lib_15mw	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Competibacterales	Lib_15p5m	49
+Bacteria;Proteobacteria;Gammaproteobacteria;Competibacterales	Lib_17m	8
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_11m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_13m	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_15mm	8
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_15mw	4
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_15p5m	16
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_5m	4
+Bacteria;Proteobacteria;Gammaproteobacteria;Coxiellales	Lib_9m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales	Lib_15mm	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales	Lib_15mw	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales	Lib_15p5m	4
+Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales	Lib_17m	3
+Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales	Lib_5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales	Lib_11m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales	Lib_15mm	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Ectothiorhodospirales	Lib_15p5m	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_11m	10
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_13m	37
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_15mm	44
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_15mw	47
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_15p5m	57
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_17m	45
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_5m	75
+Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacterales	Lib_9m	37
+Bacteria;Proteobacteria;Gammaproteobacteria;Francisellales	Lib_15p5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Francisellales	Lib_17m	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Ga0077536	Lib_15p5m	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis	Lib_11m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis	Lib_13m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis	Lib_15mm	13
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis	Lib_15mw	17
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis	Lib_15p5m	11
+Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis	Lib_17m	6
+Bacteria;Proteobacteria;Gammaproteobacteria;HOC36	Lib_15mw	1
+Bacteria;Proteobacteria;Gammaproteobacteria;HOC36	Lib_15p5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_11m	15
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_13m	66
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_15mm	121
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_15mw	86
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_15p5m	334
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_17m	197
+Bacteria;Proteobacteria;Gammaproteobacteria;Halothiobacillales	Lib_9m	352
+Bacteria;Proteobacteria;Gammaproteobacteria;JTB23	Lib_11m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;JTB23	Lib_15p5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;JTB23	Lib_9m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_11m	122
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_13m	154
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_15mm	165
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_15mw	136
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_15p5m	253
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_17m	124
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_5m	243
+Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales	Lib_9m	141
+Bacteria;Proteobacteria;Gammaproteobacteria;MBMPE27	Lib_5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_11m	256
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_13m	756
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_15mm	699
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_15mw	636
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_15p5m	811
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_17m	722
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_5m	13
+Bacteria;Proteobacteria;Gammaproteobacteria;Methylococcales	Lib_9m	386
+Bacteria;Proteobacteria;Gammaproteobacteria;Nitrococcales	Lib_15mw	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales	Lib_15p5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales	Lib_17m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Nitrosococcales	Lib_9m	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Piscirickettsiales	Lib_15mm	3
+Bacteria;Proteobacteria;Gammaproteobacteria;Piscirickettsiales	Lib_15mw	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Piscirickettsiales	Lib_15p5m	4
+Bacteria;Proteobacteria;Gammaproteobacteria;Piscirickettsiales	Lib_17m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_11m	20
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_13m	26
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_15mm	16
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_15mw	7
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_15p5m	17
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_17m	12
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_5m	361
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales	Lib_9m	123
+Bacteria;Proteobacteria;Gammaproteobacteria;Run-SP154	Lib_15mm	11
+Bacteria;Proteobacteria;Gammaproteobacteria;Run-SP154	Lib_15mw	9
+Bacteria;Proteobacteria;Gammaproteobacteria;Run-SP154	Lib_15p5m	9
+Bacteria;Proteobacteria;Gammaproteobacteria;Run-SP154	Lib_17m	9
+Bacteria;Proteobacteria;Gammaproteobacteria;SZB30	Lib_15mw	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Salinisphaerales	Lib_5m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Steroidobacterales	Lib_9m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Thiotrichales	Lib_9m	2
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_11m	3
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_13m	7
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_15mm	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_15mw	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_17m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_5m	185
+Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales	Lib_9m	48
+Bacteria;Proteobacteria;Gammaproteobacteria;uncultured	Lib_15mw	1
+Bacteria;Proteobacteria;Gammaproteobacteria;uncultured	Lib_17m	1
+Bacteria;Proteobacteria;Gammaproteobacteria;uncultured	Lib_9m	3
+Bacteria;Proteobacteria;Magnetococcia;Magnetococcales	Lib_11m	1
+Bacteria;RCP2-54;uncultured bacterium;(uncultured bacterium)	Lib_17m	1
+Bacteria;SAR324 clade(Marine group B);(SAR324 clade(Marine group B));(SAR324 clade(Marine group B))	Lib_15mm	2
+Bacteria;SAR324 clade(Marine group B);(SAR324 clade(Marine group B));(SAR324 clade(Marine group B))	Lib_15p5m	1
+Bacteria;SAR324 clade(Marine group B);uncultured bacterium;(uncultured bacterium)	Lib_13m	1
+Bacteria;SAR324 clade(Marine group B);uncultured bacterium;(uncultured bacterium)	Lib_15mm	1
+Bacteria;SAR324 clade(Marine group B);uncultured bacterium;(uncultured bacterium)	Lib_9m	1
+Bacteria;Schekmanbacteria;uncultured bacterium;(uncultured bacterium)	Lib_15p5m	1
+Bacteria;Spirochaetota;(Spirochaetota);(Spirochaetota)	Lib_15p5m	2
+Bacteria;Spirochaetota;Brevinematia;Brevinematales	Lib_15p5m	1
+Bacteria;Spirochaetota;Leptospirae;Leptospirales	Lib_15mw	2
+Bacteria;Spirochaetota;Leptospirae;Leptospirales	Lib_15p5m	14
+Bacteria;Spirochaetota;Spirochaetia;Spirochaetales	Lib_13m	39
+Bacteria;Spirochaetota;Spirochaetia;Spirochaetales	Lib_15mm	242
+Bacteria;Spirochaetota;Spirochaetia;Spirochaetales	Lib_15mw	159
+Bacteria;Spirochaetota;Spirochaetia;Spirochaetales	Lib_15p5m	490
+Bacteria;Spirochaetota;Spirochaetia;Spirochaetales	Lib_17m	289
+Bacteria;Spirochaetota;Spirochaetia;Spirochaetales	Lib_5m	1
+Bacteria;Spirochaetota;V2072-189E03;uncultured organism	Lib_15p5m	1
+Bacteria;Sva0485;(Sva0485);(Sva0485)	Lib_13m	1
+Bacteria;Sva0485;(Sva0485);(Sva0485)	Lib_15mw	5
+Bacteria;Sva0485;(Sva0485);(Sva0485)	Lib_15p5m	7
+Bacteria;Sva0485;(Sva0485);(Sva0485)	Lib_17m	3
+Bacteria;Sva0485;(Sva0485);(Sva0485)	Lib_9m	1
+Bacteria;Sva0485;uncultured bacterium;(uncultured bacterium)	Lib_15mm	2
+Bacteria;Sva0485;uncultured bacterium;(uncultured bacterium)	Lib_15p5m	1
+Bacteria;Sva0485;uncultured bacterium;(uncultured bacterium)	Lib_17m	3
+Bacteria;Verrucomicrobiota;(Verrucomicrobiota);(Verrucomicrobiota)	Lib_13m	4
+Bacteria;Verrucomicrobiota;(Verrucomicrobiota);(Verrucomicrobiota)	Lib_15mm	9
+Bacteria;Verrucomicrobiota;(Verrucomicrobiota);(Verrucomicrobiota)	Lib_15mw	4
+Bacteria;Verrucomicrobiota;(Verrucomicrobiota);(Verrucomicrobiota)	Lib_15p5m	25
+Bacteria;Verrucomicrobiota;(Verrucomicrobiota);(Verrucomicrobiota)	Lib_17m	8
+Bacteria;Verrucomicrobiota;(Verrucomicrobiota);(Verrucomicrobiota)	Lib_5m	1
+Bacteria;Verrucomicrobiota;Chlamydiae;Chlamydiales	Lib_15p5m	9
+Bacteria;Verrucomicrobiota;Chlamydiae;Chlamydiales	Lib_17m	2
+Bacteria;Verrucomicrobiota;Chlamydiae;Chlamydiales	Lib_5m	5
+Bacteria;Verrucomicrobiota;Chlamydiae;Chlamydiales	Lib_9m	1
+Bacteria;Verrucomicrobiota;Chlamydiae;LD1-PA32	Lib_17m	10
+Bacteria;Verrucomicrobiota;Kiritimatiellae;(Kiritimatiellae)	Lib_13m	1
+Bacteria;Verrucomicrobiota;Kiritimatiellae;(Kiritimatiellae)	Lib_15mm	1
+Bacteria;Verrucomicrobiota;Kiritimatiellae;(Kiritimatiellae)	Lib_15p5m	2
+Bacteria;Verrucomicrobiota;Kiritimatiellae;(Kiritimatiellae)	Lib_17m	1
+Bacteria;Verrucomicrobiota;Kiritimatiellae;113B434	Lib_15p5m	2
+Bacteria;Verrucomicrobiota;Kiritimatiellae;Kiritimatiellales	Lib_13m	11
+Bacteria;Verrucomicrobiota;Kiritimatiellae;Kiritimatiellales	Lib_15mm	140
+Bacteria;Verrucomicrobiota;Kiritimatiellae;Kiritimatiellales	Lib_15mw	77
+Bacteria;Verrucomicrobiota;Kiritimatiellae;Kiritimatiellales	Lib_15p5m	299
+Bacteria;Verrucomicrobiota;Kiritimatiellae;Kiritimatiellales	Lib_17m	134
+Bacteria;Verrucomicrobiota;Kiritimatiellae;WCHB1-41	Lib_11m	2
+Bacteria;Verrucomicrobiota;Kiritimatiellae;WCHB1-41	Lib_13m	61
+Bacteria;Verrucomicrobiota;Kiritimatiellae;WCHB1-41	Lib_15mm	553
+Bacteria;Verrucomicrobiota;Kiritimatiellae;WCHB1-41	Lib_15mw	303
+Bacteria;Verrucomicrobiota;Kiritimatiellae;WCHB1-41	Lib_15p5m	950
+Bacteria;Verrucomicrobiota;Kiritimatiellae;WCHB1-41	Lib_17m	661
+Bacteria;Verrucomicrobiota;Lentisphaeria;(Lentisphaeria)	Lib_15mm	6
+Bacteria;Verrucomicrobiota;Lentisphaeria;(Lentisphaeria)	Lib_15mw	4
+Bacteria;Verrucomicrobiota;Lentisphaeria;(Lentisphaeria)	Lib_15p5m	7
+Bacteria;Verrucomicrobiota;Lentisphaeria;(Lentisphaeria)	Lib_17m	5
+Bacteria;Verrucomicrobiota;Lentisphaeria;Oligosphaerales	Lib_13m	4
+Bacteria;Verrucomicrobiota;Lentisphaeria;Oligosphaerales	Lib_15mm	1
+Bacteria;Verrucomicrobiota;Lentisphaeria;Oligosphaerales	Lib_15mw	1
+Bacteria;Verrucomicrobiota;Lentisphaeria;Oligosphaerales	Lib_15p5m	59
+Bacteria;Verrucomicrobiota;Lentisphaeria;Oligosphaerales	Lib_17m	20
+Bacteria;Verrucomicrobiota;Lentisphaeria;Victivallales	Lib_13m	15
+Bacteria;Verrucomicrobiota;Lentisphaeria;Victivallales	Lib_15mm	29
+Bacteria;Verrucomicrobiota;Lentisphaeria;Victivallales	Lib_15mw	16
+Bacteria;Verrucomicrobiota;Lentisphaeria;Victivallales	Lib_15p5m	133
+Bacteria;Verrucomicrobiota;Lentisphaeria;Victivallales	Lib_17m	35
+Bacteria;Verrucomicrobiota;Lentisphaeria;Victivallales	Lib_9m	1
+Bacteria;Verrucomicrobiota;Omnitrophia;Omnitrophales	Lib_13m	6
+Bacteria;Verrucomicrobiota;Omnitrophia;Omnitrophales	Lib_15mm	185
+Bacteria;Verrucomicrobiota;Omnitrophia;Omnitrophales	Lib_15mw	61
+Bacteria;Verrucomicrobiota;Omnitrophia;Omnitrophales	Lib_15p5m	314
+Bacteria;Verrucomicrobiota;Omnitrophia;Omnitrophales	Lib_17m	139
+Bacteria;Verrucomicrobiota;Omnitrophia;Omnitrophales	Lib_5m	5
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_11m	86
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_13m	3
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_15mm	4
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_15mw	2
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_15p5m	11
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_17m	5
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_5m	127
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;(Verrucomicrobiae)	Lib_9m	127
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Arctic97B-4 marine group	Lib_5m	1
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales	Lib_13m	106
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales	Lib_15mm	186
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales	Lib_15mw	110
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales	Lib_15p5m	389
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales	Lib_17m	139
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales	Lib_5m	8
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;LD1-PB3	Lib_15p5m	8
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;LD1-PB3	Lib_17m	1
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Methylacidiphilales	Lib_15p5m	1
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Methylacidiphilales	Lib_17m	3
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Methylacidiphilales	Lib_5m	1
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_11m	75
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_13m	211
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_15mm	330
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_15mw	204
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_15p5m	529
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_17m	229
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_5m	358
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales	Lib_9m	224
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_11m	14
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_13m	187
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_15mm	194
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_15mw	113
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_15p5m	408
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_17m	121
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_5m	464
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales	Lib_9m	429
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_11m	67
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_13m	162
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_15mm	182
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_15mw	119
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_15p5m	389
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_17m	186
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_5m	1006
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	Lib_9m	274
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_11m	528
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_13m	392
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_15mm	179
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_15mw	155
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_15p5m	286
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_17m	75
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_5m	523
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;uncultured	Lib_9m	515
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_11m	355
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_13m	757
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_15mm	506
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_15mw	427
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_15p5m	517
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_17m	290
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_5m	916
+Eukaryota;(Eukaryota);(Eukaryota);(Eukaryota)	Lib_9m	560
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_11m	16
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_13m	11
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_15mm	7
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_15mw	4
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_15p5m	6
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_17m	7
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_5m	25
+Eukaryota;Amorphea;(Amorphea);(Amorphea)	Lib_9m	49
+Eukaryota;Amorphea;Amoebozoa;(Amoebozoa)	Lib_15mm	1
+Eukaryota;Amorphea;Amoebozoa;Cavosteliida	Lib_17m	1
+Eukaryota;Amorphea;Amoebozoa;Dictyostelia	Lib_15mm	1
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_11m	3
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_13m	7
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_15mm	12
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_15mw	8
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_15p5m	7
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_17m	5
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_5m	21
+Eukaryota;Amorphea;Amoebozoa;Discosea	Lib_9m	5
+Eukaryota;Amorphea;Amoebozoa;Gracilipodida	Lib_15p5m	3
+Eukaryota;Amorphea;Amoebozoa;Incertae Sedis	Lib_11m	6
+Eukaryota;Amorphea;Amoebozoa;Incertae Sedis	Lib_15mm	1
+Eukaryota;Amorphea;Amoebozoa;Incertae Sedis	Lib_17m	2
+Eukaryota;Amorphea;Amoebozoa;Incertae Sedis	Lib_5m	6
+Eukaryota;Amorphea;Amoebozoa;Incertae Sedis	Lib_9m	1
+Eukaryota;Amorphea;Amoebozoa;Myxogastria	Lib_15mm	1
+Eukaryota;Amorphea;Amoebozoa;Myxogastria	Lib_15p5m	1
+Eukaryota;Amorphea;Amoebozoa;Protosporangiida	Lib_15mm	3
+Eukaryota;Amorphea;Amoebozoa;Protosporangiida	Lib_15mw	1
+Eukaryota;Amorphea;Amoebozoa;Protosteliida	Lib_15p5m	2
+Eukaryota;Amorphea;Amoebozoa;Protosteliida	Lib_17m	1
+Eukaryota;Amorphea;Amoebozoa;SAR	Lib_15mm	1
+Eukaryota;Amorphea;Amoebozoa;Schizoplasmodiida	Lib_15mm	3
+Eukaryota;Amorphea;Amoebozoa;Schizoplasmodiida	Lib_17m	1
+Eukaryota;Amorphea;Amoebozoa;Schizoplasmodiida	Lib_5m	4
+Eukaryota;Amorphea;Amoebozoa;Tubulinea	Lib_15mm	2
+Eukaryota;Amorphea;Amoebozoa;Tubulinea	Lib_15p5m	4
+Eukaryota;Amorphea;Amoebozoa;Tubulinea	Lib_17m	3
+Eukaryota;Amorphea;Amoebozoa;uncultured	Lib_15p5m	1
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_11m	964
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_13m	1297
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_15mm	1571
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_15mw	514
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_15p5m	1747
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_17m	1551
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_5m	1310
+Eukaryota;Amorphea;Obazoa;Opisthokonta	Lib_9m	1190
+Eukaryota;Archaeplastida;(Archaeplastida);(Archaeplastida)	Lib_13m	1
+Eukaryota;Archaeplastida;(Archaeplastida);(Archaeplastida)	Lib_15mm	1
+Eukaryota;Archaeplastida;(Archaeplastida);(Archaeplastida)	Lib_15mw	2
+Eukaryota;Archaeplastida;(Archaeplastida);(Archaeplastida)	Lib_15p5m	1
+Eukaryota;Archaeplastida;(Archaeplastida);(Archaeplastida)	Lib_5m	1
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_11m	55
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_13m	12
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_15mm	9
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_15mw	10
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_15p5m	8
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_17m	7
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_5m	26
+Eukaryota;Archaeplastida;Chloroplastida;(Chloroplastida)	Lib_9m	53
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_11m	113
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_13m	82
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_15mm	82
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_15mw	49
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_15p5m	67
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_17m	59
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_5m	87
+Eukaryota;Archaeplastida;Chloroplastida;Charophyta	Lib_9m	102
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_11m	1016
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_13m	946
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_15mm	738
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_15mw	788
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_15p5m	876
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_17m	561
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_5m	427
+Eukaryota;Archaeplastida;Chloroplastida;Chlorophyta	Lib_9m	926
+Eukaryota;Archaeplastida;Rhodophyceae;Bangiales	Lib_15mm	4
+Eukaryota;Archaeplastida;Rhodophyceae;Bangiales	Lib_15mw	4
+Eukaryota;Archaeplastida;Rhodophyceae;Bangiales	Lib_15p5m	3
+Eukaryota;Archaeplastida;Rhodophyceae;Bangiales	Lib_9m	1
+Eukaryota;Archaeplastida;Rhodophyceae;Cyanidiales	Lib_13m	1
+Eukaryota;Archaeplastida;Rhodophyceae;Florideophycidae	Lib_15mm	3
+Eukaryota;Archaeplastida;Rhodophyceae;Florideophycidae	Lib_15mw	1
+Eukaryota;Archaeplastida;Rhodophyceae;Florideophycidae	Lib_17m	2
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_11m	40
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_13m	24
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_15mm	3
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_15mw	1
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_15p5m	3
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_17m	1
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_5m	154
+Eukaryota;Cryptophyceae;(Cryptophyceae);(Cryptophyceae)	Lib_9m	91
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_11m	98
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_13m	63
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_15mm	40
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_15mw	20
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_15p5m	13
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_17m	3
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_5m	285
+Eukaryota;Cryptophyceae;Cryptomonadales;(Cryptomonadales)	Lib_9m	108
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_11m	608
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_13m	713
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_15mm	641
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_15mw	654
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_15p5m	436
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_17m	139
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_5m	500
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptomonas	Lib_9m	447
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptophyta sp. CR-MAL04	Lib_5m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptophyta sp. SL64/78sp	Lib_11m	4
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptophyta sp. SL64/78sp	Lib_13m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptophyta sp. SL64/78sp	Lib_5m	5
+Eukaryota;Cryptophyceae;Cryptomonadales;Cryptophyta sp. SL64/78sp	Lib_9m	9
+Eukaryota;Cryptophyceae;Cryptomonadales;Geminigera	Lib_13m	2
+Eukaryota;Cryptophyceae;Cryptomonadales;Geminigera	Lib_9m	8
+Eukaryota;Cryptophyceae;Cryptomonadales;Geminigera cryophila	Lib_11m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;Geminigera cryophila	Lib_5m	5
+Eukaryota;Cryptophyceae;Cryptomonadales;Geminigera cryophila	Lib_9m	7
+Eukaryota;Cryptophyceae;Cryptomonadales;Plagioselmis	Lib_11m	77
+Eukaryota;Cryptophyceae;Cryptomonadales;Plagioselmis	Lib_13m	30
+Eukaryota;Cryptophyceae;Cryptomonadales;Plagioselmis	Lib_5m	106
+Eukaryota;Cryptophyceae;Cryptomonadales;Plagioselmis	Lib_9m	85
+Eukaryota;Cryptophyceae;Cryptomonadales;Proteomonas	Lib_5m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;Rhodomonas	Lib_15mm	2
+Eukaryota;Cryptophyceae;Cryptomonadales;Rhodomonas	Lib_5m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;Teleaulax	Lib_11m	45
+Eukaryota;Cryptophyceae;Cryptomonadales;Teleaulax	Lib_13m	2
+Eukaryota;Cryptophyceae;Cryptomonadales;Teleaulax	Lib_17m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;Teleaulax	Lib_5m	352
+Eukaryota;Cryptophyceae;Cryptomonadales;Teleaulax	Lib_9m	162
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured	Lib_11m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured	Lib_5m	3
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured	Lib_9m	4
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured eukaryote	Lib_11m	1
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured eukaryote	Lib_13m	2
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured eukaryote	Lib_15mm	1
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured eukaryote	Lib_5m	14
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured eukaryote	Lib_9m	5
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured freshwater cryptophyte	Lib_11m	5
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured freshwater cryptophyte	Lib_5m	6
+Eukaryota;Cryptophyceae;Cryptomonadales;uncultured freshwater cryptophyte	Lib_9m	2
+Eukaryota;Cryptophyceae;Goniomonas;(Goniomonas)	Lib_13m	2
+Eukaryota;Cryptophyceae;Goniomonas;(Goniomonas)	Lib_15mw	1
+Eukaryota;Cryptophyceae;Goniomonas;(Goniomonas)	Lib_5m	1
+Eukaryota;Cryptophyceae;Goniomonas;Goniomonas aff. amphinema	Lib_11m	1
+Eukaryota;Cryptophyceae;Goniomonas;Goniomonas sp. ATCC 50108	Lib_9m	1
+Eukaryota;Cryptophyceae;Goniomonas;Goniomonas truncata	Lib_13m	6
+Eukaryota;Cryptophyceae;Kathablepharidae;(Kathablepharidae)	Lib_13m	10
+Eukaryota;Cryptophyceae;Kathablepharidae;(Kathablepharidae)	Lib_15mm	13
+Eukaryota;Cryptophyceae;Kathablepharidae;(Kathablepharidae)	Lib_15mw	4
+Eukaryota;Cryptophyceae;Kathablepharidae;(Kathablepharidae)	Lib_15p5m	13
+Eukaryota;Cryptophyceae;Kathablepharidae;(Kathablepharidae)	Lib_5m	37
+Eukaryota;Cryptophyceae;Kathablepharidae;(Kathablepharidae)	Lib_9m	10
+Eukaryota;Cryptophyceae;Kathablepharidae;Katablepharis	Lib_13m	128
+Eukaryota;Cryptophyceae;Kathablepharidae;Katablepharis	Lib_15mm	112
+Eukaryota;Cryptophyceae;Kathablepharidae;Katablepharis	Lib_15mw	67
+Eukaryota;Cryptophyceae;Kathablepharidae;Katablepharis	Lib_15p5m	107
+Eukaryota;Cryptophyceae;Kathablepharidae;Katablepharis	Lib_17m	28
+Eukaryota;Cryptophyceae;Kathablepharidae;Leucocryptos	Lib_5m	16
+Eukaryota;Cryptophyceae;Kathablepharidae;Leucocryptos	Lib_9m	2
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_11m	1
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_13m	6
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_15mm	4
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_15mw	1
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_15p5m	4
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_5m	195
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured	Lib_9m	62
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured eukaryote	Lib_5m	7
+Eukaryota;Cryptophyceae;Kathablepharidae;uncultured eukaryote	Lib_9m	5
+Eukaryota;Cryptophyceae;uncultured;(uncultured)	Lib_13m	1
+Eukaryota;Cryptophyceae;uncultured;(uncultured)	Lib_5m	191
+Eukaryota;Cryptophyceae;uncultured;(uncultured)	Lib_9m	98
+Eukaryota;Cryptophyceae;uncultured;eukaryotic picoplankton environmental sample	Lib_5m	75
+Eukaryota;Cryptophyceae;uncultured;eukaryotic picoplankton environmental sample	Lib_9m	38
+Eukaryota;Cryptophyceae;uncultured;uncultured Cryptophyta	Lib_5m	6
+Eukaryota;Cryptophyceae;uncultured;uncultured Cryptophyta	Lib_9m	10
+Eukaryota;Cryptophyceae;uncultured;uncultured Proteomonas	Lib_11m	1
+Eukaryota;Cryptophyceae;uncultured;uncultured Proteomonas	Lib_13m	1
+Eukaryota;Cryptophyceae;uncultured;uncultured Proteomonas	Lib_5m	4
+Eukaryota;Cryptophyceae;uncultured;uncultured eukaryote	Lib_5m	24
+Eukaryota;Cryptophyceae;uncultured;uncultured eukaryote	Lib_9m	7
+Eukaryota;Cryptophyceae;uncultured;uncultured freshwater eukaryote	Lib_13m	1
+Eukaryota;Cryptophyceae;uncultured;uncultured freshwater eukaryote	Lib_5m	51
+Eukaryota;Cryptophyceae;uncultured;uncultured freshwater eukaryote	Lib_9m	15
+Eukaryota;Discoba;Discicristata;Euglenozoa	Lib_13m	110
+Eukaryota;Discoba;Discicristata;Euglenozoa	Lib_15mm	295
+Eukaryota;Discoba;Discicristata;Euglenozoa	Lib_15mw	206
+Eukaryota;Discoba;Discicristata;Euglenozoa	Lib_15p5m	754
+Eukaryota;Discoba;Discicristata;Euglenozoa	Lib_17m	393
+Eukaryota;Discoba;Discicristata;Heterolobosea	Lib_15mm	1
+Eukaryota;Discoba;Discicristata;Heterolobosea	Lib_15p5m	7
+Eukaryota;Discoba;Discicristata;Heterolobosea	Lib_17m	16
+Eukaryota;Discoba;Jakobida;Andalucia	Lib_5m	2
+Eukaryota;Excavata;Metamonada;Fornicata	Lib_15mm	13
+Eukaryota;Excavata;Metamonada;Fornicata	Lib_15mw	11
+Eukaryota;Excavata;Metamonada;Fornicata	Lib_15p5m	46
+Eukaryota;Excavata;Metamonada;Fornicata	Lib_17m	32
+Eukaryota;Excavata;Metamonada;Parabasalia	Lib_15mm	1
+Eukaryota;Haptophyta;(Haptophyta);(Haptophyta)	Lib_15mw	3
+Eukaryota;Haptophyta;(Haptophyta);(Haptophyta)	Lib_15p5m	2
+Eukaryota;Haptophyta;(Haptophyta);(Haptophyta)	Lib_17m	7
+Eukaryota;Haptophyta;Pav3;Haptophyta environmental samples	Lib_17m	2
+Eukaryota;Haptophyta;Pavlovophyceae;Exanthemachrysis	Lib_15mm	1
+Eukaryota;Haptophyta;Pavlovophyceae;Exanthemachrysis	Lib_15p5m	1
+Eukaryota;Haptophyta;Prymnesiophyceae;(Prymnesiophyceae)	Lib_5m	41
+Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales	Lib_5m	393
+Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales	Lib_9m	8
+Eukaryota;Incertae Sedis;(Incertae Sedis);(Incertae Sedis)	Lib_5m	1
+Eukaryota;Incertae Sedis;Ancyromonadida;Ancyromonas	Lib_15mm	1
+Eukaryota;Incertae Sedis;Ancyromonadida;Ancyromonas	Lib_17m	1
+Eukaryota;Incertae Sedis;Ancyromonadida;Nutomonas	Lib_15mm	1
+Eukaryota;Incertae Sedis;Mantamonas;Mantamonas sp. Dar es Salaam	Lib_15mm	1
+Eukaryota;SA1-3C06;uncultured eukaryote;(uncultured eukaryote)	Lib_9m	1
+Eukaryota;SAR;(SAR);(SAR)	Lib_11m	25
+Eukaryota;SAR;(SAR);(SAR)	Lib_13m	92
+Eukaryota;SAR;(SAR);(SAR)	Lib_15mm	53
+Eukaryota;SAR;(SAR);(SAR)	Lib_15mw	44
+Eukaryota;SAR;(SAR);(SAR)	Lib_15p5m	84
+Eukaryota;SAR;(SAR);(SAR)	Lib_17m	54
+Eukaryota;SAR;(SAR);(SAR)	Lib_5m	150
+Eukaryota;SAR;(SAR);(SAR)	Lib_9m	65
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_11m	1
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_13m	258
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_15mm	67
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_15mw	53
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_15p5m	63
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_17m	27
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_5m	138
+Eukaryota;SAR;Alveolata;(Alveolata)	Lib_9m	23
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_11m	10
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_13m	30
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_15mm	17
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_15mw	19
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_15p5m	16
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_17m	11
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_5m	15
+Eukaryota;SAR;Alveolata;Apicomplexa	Lib_9m	8
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_11m	50
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_13m	136
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_15mm	93
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_15mw	53
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_15p5m	507
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_17m	519
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_5m	558
+Eukaryota;SAR;Alveolata;Ciliophora	Lib_9m	201
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_11m	13
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_13m	248
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_15mm	22
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_15mw	16
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_15p5m	43
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_5m	278
+Eukaryota;SAR;Alveolata;Dinoflagellata	Lib_9m	25
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_13m	423
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_15mm	244
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_15mw	239
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_15p5m	387
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_17m	167
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_5m	10
+Eukaryota;SAR;Alveolata;Protalveolata	Lib_9m	1
+Eukaryota;SAR;Alveolata;uncultured	Lib_13m	151
+Eukaryota;SAR;Alveolata;uncultured	Lib_15mm	22
+Eukaryota;SAR;Alveolata;uncultured	Lib_15mw	25
+Eukaryota;SAR;Alveolata;uncultured	Lib_15p5m	12
+Eukaryota;SAR;Alveolata;uncultured	Lib_5m	196
+Eukaryota;SAR;Alveolata;uncultured	Lib_9m	34
+Eukaryota;SAR;Alveolata;uncultured eukaryote	Lib_13m	2
+Eukaryota;SAR;Rhizaria;(Rhizaria)	Lib_15mw	2
+Eukaryota;SAR;Rhizaria;(Rhizaria)	Lib_17m	1
+Eukaryota;SAR;Rhizaria;(Rhizaria)	Lib_5m	1
+Eukaryota;SAR;Rhizaria;(Rhizaria)	Lib_9m	1
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_11m	35
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_13m	841
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_15mm	528
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_15mw	491
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_15p5m	596
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_17m	288
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_5m	514
+Eukaryota;SAR;Rhizaria;Cercozoa	Lib_9m	435
+Eukaryota;SAR;Rhizaria;Retaria	Lib_15mm	1
+Eukaryota;SAR;Rhizaria;Retaria	Lib_5m	1
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_11m	15
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_13m	74
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_15mm	9
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_15mw	4
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_15p5m	14
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_17m	9
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_5m	146
+Eukaryota;SAR;Stramenopiles;(Stramenopiles)	Lib_9m	76
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_11m	53
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_13m	151
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_15mm	84
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_15mw	71
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_15p5m	161
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_17m	52
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_5m	921
+Eukaryota;SAR;Stramenopiles;Bicosoecida	Lib_9m	318
+Eukaryota;SAR;Stramenopiles;Hyphochytriomycetes	Lib_13m	3
+Eukaryota;SAR;Stramenopiles;Hyphochytriomycetes	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;Hyphochytriomycetes	Lib_17m	1
+Eukaryota;SAR;Stramenopiles;Incertae Sedis	Lib_13m	120
+Eukaryota;SAR;Stramenopiles;Incertae Sedis	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;Incertae Sedis	Lib_17m	1
+Eukaryota;SAR;Stramenopiles;Incertae Sedis	Lib_5m	5
+Eukaryota;SAR;Stramenopiles;Incertae Sedis	Lib_9m	1
+Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes	Lib_15mm	5
+Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes	Lib_15mw	4
+Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes	Lib_15p5m	13
+Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes	Lib_17m	8
+Eukaryota;SAR;Stramenopiles;Labyrinthulomycetes	Lib_5m	2
+Eukaryota;SAR;Stramenopiles;MAST-1	Lib_11m	2
+Eukaryota;SAR;Stramenopiles;MAST-1	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;MAST-1	Lib_5m	1
+Eukaryota;SAR;Stramenopiles;MAST-12	Lib_11m	8
+Eukaryota;SAR;Stramenopiles;MAST-12	Lib_13m	6
+Eukaryota;SAR;Stramenopiles;MAST-12	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;MAST-12	Lib_5m	98
+Eukaryota;SAR;Stramenopiles;MAST-12	Lib_9m	77
+Eukaryota;SAR;Stramenopiles;MAST-2	Lib_13m	1
+Eukaryota;SAR;Stramenopiles;MAST-2	Lib_5m	31
+Eukaryota;SAR;Stramenopiles;MAST-2	Lib_9m	29
+Eukaryota;SAR;Stramenopiles;MAST-3	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;MAST-3	Lib_5m	1
+Eukaryota;SAR;Stramenopiles;MAST-3	Lib_9m	1
+Eukaryota;SAR;Stramenopiles;MAST-4	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;MAST-8	Lib_15mm	1
+Eukaryota;SAR;Stramenopiles;MAST-8	Lib_15p5m	1
+Eukaryota;SAR;Stramenopiles;MAST-8	Lib_17m	6
+Eukaryota;SAR;Stramenopiles;MAST-8	Lib_5m	1
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_11m	719
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_13m	2045
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_15mm	391
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_15mw	215
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_15p5m	637
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_17m	604
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_5m	704
+Eukaryota;SAR;Stramenopiles;Ochrophyta	Lib_9m	381
+Eukaryota;SAR;Stramenopiles;Opalinata	Lib_15mw	1
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_11m	67
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_13m	27
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_15mm	28
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_15mw	32
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_15p5m	36
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_17m	34
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_5m	5
+Eukaryota;SAR;Stramenopiles;Peronosporomycetes	Lib_9m	41

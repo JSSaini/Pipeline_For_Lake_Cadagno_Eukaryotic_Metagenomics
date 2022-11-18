@@ -1,0 +1,213 @@
+# bin	classification	reason	lineage	lineage scores	superkingdom	phylum	class	order	family	genus	species
+Bin_0-contigs.fa	taxid assigned	based on 2964/3093 ORFs	1;131567;2;1224	1.00;0.99;0.99;0.63	Bacteria: 0.99	Proteobacteria: 0.63	no support	no support	no support	no support	no support
+Bin_1-contigs.fa	taxid assigned (1/2)	based on 614/726 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.41;0.41;0.41;0.41;0.41;0.41;0.32;0.32	Viruses: 0.41	Uroviricota: 0.41	Caudoviricetes: 0.41	Caudovirales: 0.41	NA	NA	uncultured Caudovirales phage: 0.32
+Bin_1-contigs.fa	taxid assigned (2/2)	based on 614/726 ORFs	1;131567;2	1.00;0.48;0.46	Bacteria: 0.46	no support	no support	no support	no support	no support	no support
+Bin_10-contigs.fa	taxid assigned	based on 1245/1967 ORFs	1;131567;2	1.00;0.82;0.77	Bacteria: 0.77	no support	no support	no support	no support	no support	no support
+Bin_100-contigs.fa	taxid assigned	based on 2146/2684 ORFs	1;131567;2	1.00;0.54;0.51	Bacteria: 0.51	no support	no support	no support	no support	no support	no support
+Bin_101-contigs.fa	no taxid assigned	no hits to database
+Bin_102-contigs.fa	taxid assigned	based on 1342/1389 ORFs	1;131567;2;1783272;201174	1.00;1.00;1.00;0.49;0.48	Bacteria: 1.00	Actinobacteria: 0.48	no support	no support	no support	no support	no support
+Bin_103-contigs.fa	taxid assigned (1/2)	based on 866/3123 ORFs	1;131567;2759;33090;3041;2692248;3166;2812636;3042	1.00;0.94;0.60;0.50;0.49;0.49;0.48;0.48;0.47	Eukaryota: 0.60	Chlorophyta: 0.49	Chlorophyceae: 0.48	Chlamydomonadales: 0.47	no support	no support	no support
+Bin_103-contigs.fa	taxid assigned (2/2)	based on 866/3123 ORFs	1;131567;2	1.00;0.94;0.30	Bacteria: 0.30	no support	no support	no support	no support	no support	no support
+Bin_104-contigs.fa	taxid assigned	based on 1638/8985 ORFs	1;131567;2759;3027;589342;589343;55528;55529*;905079*	1.00;0.98;0.67;0.45;0.45;0.44;0.44;0.44;0.44	Eukaryota: 0.67	NA	Cryptophyceae: 0.45	Pyrenomonadales: 0.45	Geminigeraceae: 0.44	Guillardia: 0.44	Guillardia theta*: 0.44
+Bin_105-contigs.fa	taxid assigned	based on 3957/4183 ORFs	1;131567;2;1224;1236;135613;1046;13724	1.00;1.00;1.00;0.95;0.89;0.85;0.85;0.46	Bacteria: 1.00	Proteobacteria: 0.95	Gammaproteobacteria: 0.89	Chromatiales: 0.85	Chromatiaceae: 0.85	Thiocystis: 0.46	no support
+Bin_106-contigs.fa	taxid assigned	based on 201/331 ORFs	1;131567;2	1.00;0.75;0.66	Bacteria: 0.66	no support	no support	no support	no support	no support	no support
+Bin_107-contigs.fa	taxid assigned	based on 118/678 ORFs	1;131567;2;1783270;68336;976;1853228;2448777;2448778*	1.00;1.00;0.85;0.45;0.45;0.45;0.42;0.42;0.42	Bacteria: 0.85	Bacteroidetes: 0.45	Chitinophagia: 0.42	NA	NA	NA	Chitinophagia bacterium*: 0.42
+Bin_108-contigs.fa	taxid assigned	based on 138/235 ORFs	1;131567;2;1224;1236;33811;1913989	1.00;0.90;0.90;0.82;0.79;0.74;0.74	Bacteria: 0.90	Proteobacteria: 0.82	Gammaproteobacteria: 0.79	NA	NA	NA	Gammaproteobacteria bacterium: 0.74
+Bin_109-contigs.fa	taxid assigned	based on 260/527 ORFs	1;131567;2	1.00;0.72;0.54	Bacteria: 0.54	no support	no support	no support	no support	no support	no support
+Bin_11-contigs.fa	no taxid assigned	no hits to database
+Bin_110-contigs.fa	taxid assigned	based on 575/885 ORFs	1;131567;2;1224	1.00;0.97;0.85;0.42	Bacteria: 0.85	Proteobacteria: 0.42	no support	no support	no support	no support	no support
+Bin_111-contigs.fa	taxid assigned	based on 1/2 ORFs	1;131567;2;1783270;68336;976;1853228;2448777;2448778*	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Bacteroidetes: 1.00	Chitinophagia: 1.00	NA	NA	NA	Chitinophagia bacterium*: 1.00
+Bin_112-contigs.fa	taxid assigned	based on 13/20 ORFs	1;131567;2	1.00;0.33;0.33	Bacteria: 0.33	no support	no support	no support	no support	no support	no support
+Bin_113-contigs.fa	taxid assigned	based on 200/249 ORFs	1;131567;2;1783270;68336;976	1.00;0.88;0.86;0.44;0.43;0.41	Bacteria: 0.86	Bacteroidetes: 0.41	no support	no support	no support	no support	no support
+Bin_114-contigs.fa	taxid assigned	based on 645/664 ORFs	1;131567;2;1783272;201174;1760;52018;1883427	1.00;1.00;1.00;0.99;0.98;0.98;0.43;0.43	Bacteria: 1.00	Actinobacteria: 0.98	Actinomycetia: 0.98	NA	NA	NA	Actinobacteria bacterium: 0.43
+Bin_115-contigs.fa	taxid assigned	based on 25/28 ORFs	1;131567;2;1224	1.00;0.99;0.99;0.56	Bacteria: 0.99	Proteobacteria: 0.56	no support	no support	no support	no support	no support
+Bin_116-contigs.fa	no taxid assigned	no hits to database
+Bin_117-contigs.fa	taxid assigned (1/2)	based on 500/859 ORFs	1;10239;12429;2763270	1.00;0.48;0.37;0.37	Viruses: 0.48	NA	NA	NA	NA	NA	Virus NIOZ-UU159: 0.37
+Bin_117-contigs.fa	taxid assigned (2/2)	based on 500/859 ORFs	1;131567;2	1.00;0.41;0.34	Bacteria: 0.34	no support	no support	no support	no support	no support	no support
+Bin_118-contigs.fa	taxid assigned	based on 1431/3382 ORFs	1;131567;2	1.00;0.90;0.83	Bacteria: 0.83	no support	no support	no support	no support	no support	no support
+Bin_119-contigs.fa	taxid assigned	based on 388/562 ORFs	1;131567;2	1.00;0.83;0.76	Bacteria: 0.76	no support	no support	no support	no support	no support	no support
+Bin_12-contigs.fa	taxid assigned (1/2)	based on 11102/12598 ORFs	1;131567;2;1783257	1.00;1.00;0.99;0.40	Bacteria: 0.99	no support	no support	no support	no support	no support	no support
+Bin_12-contigs.fa	taxid assigned (2/2)	based on 11102/12598 ORFs	1;131567;2;1224	1.00;1.00;0.99;0.37	Bacteria: 0.99	Proteobacteria: 0.37	no support	no support	no support	no support	no support
+Bin_120-contigs.fa	no taxid assigned	no hits to database
+Bin_121-contigs.fa	taxid assigned	based on 5832/6386 ORFs	1;131567;2;1783257;134625	1.00;1.00;0.99;0.78;0.30	Bacteria: 0.99	Kiritimatiellaeota: 0.30	no support	no support	no support	no support	no support
+Bin_122-contigs.fa	taxid assigned (1/2)	based on 3896/4067 ORFs	1;131567;2;1224;81684;1977087	1.00;1.00;1.00;0.85;0.37;0.37	Bacteria: 1.00	Proteobacteria: 0.85	NA	NA	NA	NA	Proteobacteria bacterium: 0.37
+Bin_122-contigs.fa	taxid assigned (2/2)	based on 3896/4067 ORFs	1;131567;2;1224;68525;28221	1.00;1.00;1.00;0.85;0.31;0.31	Bacteria: 1.00	Proteobacteria: 0.85	Deltaproteobacteria: 0.31	no support	no support	no support	no support
+Bin_123-contigs.fa	no taxid assigned	no hits to database
+Bin_124-contigs.fa	no taxid assigned	no hits to database
+Bin_125-contigs.fa	taxid assigned	based on 5151/5258 ORFs	1;131567;2;1224;1236;135613;1046;1047;61644	1.00;1.00;1.00;0.99;0.98;0.97;0.97;0.93;0.74	Bacteria: 1.00	Proteobacteria: 0.99	Gammaproteobacteria: 0.98	Chromatiales: 0.97	Chromatiaceae: 0.97	Chromatium: 0.93	Chromatium okenii: 0.74
+Bin_126-contigs.fa	taxid assigned (1/2)	based on 201/513 ORFs	1;131567;2	1.00;0.52;0.43	Bacteria: 0.43	no support	no support	no support	no support	no support	no support
+Bin_126-contigs.fa	taxid assigned (2/2)	based on 201/513 ORFs	1;10239	1.00;0.32	Viruses: 0.32	no support	no support	no support	no support	no support	no support
+Bin_127-contigs.fa	taxid assigned	based on 577/1331 ORFs	1;131567;2759;2698737;33634;2696291;2836;33849;33850;33851;33852*	1.00;0.97;0.67;0.62;0.62;0.62;0.62;0.57;0.57;0.33;0.33	Eukaryota: 0.67	Bacillariophyta: 0.62	Bacillariophyceae: 0.57	Bacillariales: 0.33	Bacillariaceae*: 0.33	no support	no support
+Bin_128-contigs.fa	taxid assigned	based on 1212/1894 ORFs	1;131567;2	1.00;0.76;0.69	Bacteria: 0.69	no support	no support	no support	no support	no support	no support
+Bin_129-contigs.fa	no taxid assigned	no hits to database
+Bin_13-contigs.fa	taxid assigned	based on 43/48 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.72;0.72;0.72;0.72;0.72;0.72;0.72;0.72	Viruses: 0.72	Uroviricota: 0.72	Caudoviricetes: 0.72	Caudovirales: 0.72	NA	NA	uncultured Caudovirales phage: 0.72
+Bin_130-contigs.fa	no taxid assigned	no hits to database
+Bin_131-contigs.fa	taxid assigned	based on 250/307 ORFs	1;131567;2;1783257;74201	1.00;0.99;0.99;0.74;0.71	Bacteria: 0.99	Verrucomicrobia: 0.71	no support	no support	no support	no support	no support
+Bin_132-contigs.fa	taxid assigned	based on 8973/9235 ORFs	1;131567;2;1224;1236;135613;1046;53452;61598	1.00;1.00;1.00;0.95;0.71;0.70;0.70;0.60;0.60	Bacteria: 1.00	Proteobacteria: 0.95	Gammaproteobacteria: 0.71	Chromatiales: 0.70	Chromatiaceae: 0.70	Lamprocystis: 0.60	Lamprocystis purpurea: 0.60
+Bin_133-contigs.fa	no taxid assigned	no hits to database
+Bin_134-contigs.fa	taxid assigned	based on 2/2 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+Bin_135-contigs.fa	taxid assigned	based on 3/6 ORFs	1;131567;2;1224;81684;1977087	1.00;1.00;1.00;0.41;0.41;0.41	Bacteria: 1.00	Proteobacteria: 0.41	NA	NA	NA	NA	Proteobacteria bacterium: 0.41
+Bin_136-contigs.fa	taxid assigned (1/2)	based on 113/303 ORFs	1;131567;2	1.00;0.46;0.33	Bacteria: 0.33	no support	no support	no support	no support	no support	no support
+Bin_136-contigs.fa	taxid assigned (2/2)	based on 113/303 ORFs	1;10239	1.00;0.42	Viruses: 0.42	no support	no support	no support	no support	no support	no support
+Bin_137-contigs.fa	taxid assigned	based on 136/194 ORFs	1;131567;2	1.00;1.00;0.67	Bacteria: 0.67	no support	no support	no support	no support	no support	no support
+Bin_138-contigs.fa	no taxid assigned	no hits to database
+Bin_139-contigs.fa	taxid assigned	based on 147/167 ORFs	1;131567;2;1783257;74201;203494;48461;134621;1032526;2638824;2024890	1.00;0.93;0.91;0.66;0.59;0.36;0.36;0.36;0.36;0.36;0.36	Bacteria: 0.91	Verrucomicrobia: 0.59	Verrucomicrobiae: 0.36	Verrucomicrobiales: 0.36	Verrucomicrobia subdivision 3: 0.36	Pedosphaera: 0.36	Pedosphaera sp.: 0.36
+Bin_14-contigs.fa	taxid assigned	based on 67/635 ORFs	1;131567;2759;3027;589342;589343;55528;55529*;905079*	1.00;0.99;0.79;0.63;0.63;0.63;0.63;0.63;0.63	Eukaryota: 0.79	NA	Cryptophyceae: 0.63	Pyrenomonadales: 0.63	Geminigeraceae: 0.63	Guillardia: 0.63	Guillardia theta*: 0.63
+Bin_140-contigs.fa	taxid assigned	based on 2718/3031 ORFs	1;131567;2;1783257;74201	1.00;1.00;0.99;0.36;0.33	Bacteria: 0.99	Verrucomicrobia: 0.33	no support	no support	no support	no support	no support
+Bin_141-contigs.fa	taxid assigned (1/2)	based on 118/489 ORFs	1;131567;2759;3027;589342;589343;55528;55529*;905079*	1.00;0.99;0.42;0.35;0.35;0.35;0.35;0.35;0.35	Eukaryota: 0.42	NA	Cryptophyceae: 0.35	Pyrenomonadales: 0.35	Geminigeraceae: 0.35	Guillardia: 0.35	Guillardia theta*: 0.35
+Bin_141-contigs.fa	taxid assigned (2/2)	based on 118/489 ORFs	1;131567;2	1.00;0.99;0.54	Bacteria: 0.54	no support	no support	no support	no support	no support	no support
+Bin_142-contigs.fa	taxid assigned	based on 110/373 ORFs	1;131567;2759;3027	1.00;0.95;0.61;0.43	Eukaryota: 0.61	NA	Cryptophyceae: 0.43	no support	no support	no support	no support
+Bin_143-contigs.fa	taxid assigned	based on 285/312 ORFs	1;131567;2;1224;1236;135613;1046;1047;61644	1.00;0.99;0.99;0.95;0.88;0.83;0.83;0.74;0.62	Bacteria: 0.99	Proteobacteria: 0.95	Gammaproteobacteria: 0.88	Chromatiales: 0.83	Chromatiaceae: 0.83	Chromatium: 0.74	Chromatium okenii: 0.62
+Bin_144-contigs.fa	taxid assigned	based on 1334/1398 ORFs	1;131567;2;1783270;68336;976;37452;1898104	1.00;1.00;1.00;0.96;0.96;0.95;0.62;0.53	Bacteria: 1.00	Bacteroidetes: 0.95	NA	NA	NA	NA	Bacteroidetes bacterium: 0.53
+Bin_145-contigs.fa	taxid assigned	based on 2023/2110 ORFs	1;131567;2;1783270;68336;1090;191410;191411;191412;274493;1091	1.00;1.00;1.00;0.99;0.99;0.99;0.97;0.97;0.97;0.70;0.69	Bacteria: 1.00	Chlorobi: 0.99	Chlorobia: 0.97	Chlorobiales: 0.97	Chlorobiaceae: 0.97	Chlorobium: 0.69	no support
+Bin_146-contigs.fa	taxid assigned	based on 364/670 ORFs	1;131567;2;1224	1.00;0.65;0.60;0.40	Bacteria: 0.60	Proteobacteria: 0.40	no support	no support	no support	no support	no support
+Bin_147-contigs.fa	taxid assigned	based on 8355/9026 ORFs	1;131567;2;1783270;68336;976;200643	1.00;1.00;0.99;0.74;0.73;0.71;0.43	Bacteria: 0.99	Bacteroidetes: 0.71	Bacteroidia: 0.43	no support	no support	no support	no support
+Bin_148-contigs.fa	taxid assigned (1/2)	based on 3314/4114 ORFs	1;131567;2;2323;1783234;1783273	1.00;0.99;0.96;0.40;0.40;0.30	Bacteria: 0.96	no support	no support	no support	no support	no support	no support
+Bin_148-contigs.fa	taxid assigned (2/2)	based on 3314/4114 ORFs	1;131567;2;48479;1234023	1.00;0.99;0.96;0.41;0.41	Bacteria: 0.96	NA	NA	NA	NA	NA	uncultured bacterium (gcode 4): 0.41
+Bin_149-contigs.fa	taxid assigned	based on 1/3 ORFs	1;131567;2;1224;1236;135613;1046	1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	Chromatiales: 1.00	Chromatiaceae: 1.00	no support	no support
+Bin_15-contigs.fa	taxid assigned (1/2)	based on 1011/1456 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.42;0.42;0.42;0.42;0.42;0.42;0.39;0.39	Viruses: 0.42	Uroviricota: 0.42	Caudoviricetes: 0.42	Caudovirales: 0.42	NA	NA	uncultured Caudovirales phage: 0.39
+Bin_15-contigs.fa	taxid assigned (2/2)	based on 1011/1456 ORFs	1;131567;2	1.00;0.33;0.30	Bacteria: 0.30	no support	no support	no support	no support	no support	no support
+Bin_150-contigs.fa	taxid assigned	based on 4014/4065 ORFs	1;131567;2;1783272;201174;1760	1.00;1.00;0.99;0.97;0.96;0.96	Bacteria: 0.99	Actinobacteria: 0.96	Actinomycetia: 0.96	no support	no support	no support	no support
+Bin_151-contigs.fa	taxid assigned	based on 3129/3274 ORFs	1;131567;2;57723;533205;574975;574976;1951928;2052165*	1.00;1.00;1.00;0.97;0.87;0.87;0.87;0.82;0.82	Bacteria: 1.00	Acidobacteria: 0.97	Holophagae: 0.87	Holophagales: 0.87	Holophagaceae: 0.87	NA	Holophagaceae bacterium*: 0.82
+Bin_152-contigs.fa	taxid assigned	based on 531/998 ORFs	1;131567;2	1.00;0.75;0.66	Bacteria: 0.66	no support	no support	no support	no support	no support	no support
+Bin_153-contigs.fa	taxid assigned	based on 610/1279 ORFs	1;131567;2;1224	1.00;0.99;0.55;0.32	Bacteria: 0.55	Proteobacteria: 0.32	no support	no support	no support	no support	no support
+Bin_154-contigs.fa	taxid assigned	based on 7159/7696 ORFs	1;131567;2;1783257;74201;414999	1.00;1.00;1.00;0.84;0.81;0.57	Bacteria: 1.00	Verrucomicrobia: 0.81	Opitutae: 0.57	no support	no support	no support	no support
+Bin_155-contigs.fa	no taxid assigned	no hits to database
+Bin_156-contigs.fa	taxid assigned	based on 4128/4438 ORFs	1;131567;2;1224;1236;135618;2202198;2304002	1.00;1.00;0.99;0.92;0.86;0.81;0.52;0.52	Bacteria: 0.99	Proteobacteria: 0.92	Gammaproteobacteria: 0.86	Methylococcales: 0.81	NA	NA	Methylococcales bacterium: 0.52
+Bin_157-contigs.fa	taxid assigned	based on 8/8 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.97;0.97;0.97;0.97;0.97;0.97;0.97;0.97	Viruses: 0.97	Uroviricota: 0.97	Caudoviricetes: 0.97	Caudovirales: 0.97	NA	NA	uncultured Caudovirales phage: 0.97
+Bin_158-contigs.fa	no taxid assigned	no hits to database
+Bin_159-contigs.fa	no taxid assigned	no hits to database
+Bin_16-contigs.fa	no taxid assigned	no hits to database
+Bin_160-contigs.fa	taxid assigned	based on 1555/6948 ORFs	1;131567;2	1.00;0.98;0.68	Bacteria: 0.68	no support	no support	no support	no support	no support	no support
+Bin_161-contigs.fa	taxid assigned	based on 13739/13986 ORFs	1;131567;2;1783272;201174;1760	1.00;1.00;1.00;0.96;0.92;0.78	Bacteria: 1.00	Actinobacteria: 0.92	Actinomycetia: 0.78	no support	no support	no support	no support
+Bin_162-contigs.fa	taxid assigned	based on 422/457 ORFs	1;131567;2;1224;28216;80840	1.00;0.94;0.93;0.81;0.71;0.55	Bacteria: 0.93	Proteobacteria: 0.81	Betaproteobacteria: 0.71	Burkholderiales: 0.55	no support	no support	no support
+Bin_163-contigs.fa	taxid assigned	based on 4/68 ORFs	1;131567;2759;33090;3041;2692248;3166;2812636;3042;3051;3052;2034146;1653778	1.00;0.92;0.92;0.76;0.76;0.76;0.68;0.68;0.68;0.68;0.68;0.68;0.68	Eukaryota: 0.92	Chlorophyta: 0.76	Chlorophyceae: 0.68	Chlamydomonadales: 0.68	Chlamydomonadaceae: 0.68	Chlamydomonas: 0.68	Chlamydomonas sp. UWO 241: 0.68
+Bin_164-contigs.fa	no taxid assigned	no hits to database
+Bin_165-contigs.fa	no taxid assigned	no hits to database
+Bin_166-contigs.fa	taxid assigned (1/2)	based on 40/62 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.52;0.52;0.52;0.52;0.52;0.52;0.52;0.52	Viruses: 0.52	Uroviricota: 0.52	Caudoviricetes: 0.52	Caudovirales: 0.52	NA	NA	uncultured Caudovirales phage: 0.52
+Bin_166-contigs.fa	taxid assigned (2/2)	based on 40/62 ORFs	1;131567;2	1.00;0.36;0.35	Bacteria: 0.35	no support	no support	no support	no support	no support	no support
+Bin_167-contigs.fa	taxid assigned	based on 3486/3945 ORFs	1;131567;2;203691;203692;136	1.00;1.00;0.98;0.63;0.34;0.30	Bacteria: 0.98	Spirochaetes: 0.63	Spirochaetia: 0.34	Spirochaetales: 0.30	no support	no support	no support
+Bin_168-contigs.fa	taxid assigned	based on 24/36 ORFs	1;131567;2	1.00;0.94;0.94	Bacteria: 0.94	no support	no support	no support	no support	no support	no support
+Bin_169-contigs.fa	no taxid assigned	no hits to database
+Bin_17-contigs.fa	taxid assigned	based on 2228/3446 ORFs	1;131567;2	1.00;0.73;0.67	Bacteria: 0.67	no support	no support	no support	no support	no support	no support
+Bin_170-contigs.fa	taxid assigned	based on 1/15 ORFs	1;131567;2759;33090	1.00;1.00;1.00;1.00	Eukaryota: 1.00	no support	no support	no support	no support	no support	no support
+Bin_171-contigs.fa	taxid assigned	based on 9/15 ORFs	1;131567;2;1224;1236;135613;1046;85072	1.00;1.00;1.00;0.60;0.60;0.60;0.60;0.35	Bacteria: 1.00	Proteobacteria: 0.60	Gammaproteobacteria: 0.60	Chromatiales: 0.60	Chromatiaceae: 0.60	Allochromatium: 0.35	no support
+Bin_172-contigs.fa	taxid assigned	based on 1982/2525 ORFs	1;131567;2;1783270;68336;976	1.00;0.94;0.92;0.40;0.40;0.37	Bacteria: 0.92	Bacteroidetes: 0.37	no support	no support	no support	no support	no support
+Bin_173-contigs.fa	taxid assigned	based on 3978/4312 ORFs	1;131567;2;1224;28216	1.00;1.00;0.99;0.75;0.48	Bacteria: 0.99	Proteobacteria: 0.75	Betaproteobacteria: 0.48	no support	no support	no support	no support
+Bin_174-contigs.fa	taxid assigned (1/2)	based on 489/1282 ORFs	1;131567;2759;33090;3041;2692248;75966;35460;35461;2511126	1.00;0.99;0.53;0.50;0.49;0.49;0.44;0.43;0.43;0.40	Eukaryota: 0.53	Chlorophyta: 0.49	Trebouxiophyceae: 0.44	Chlorellales: 0.43	Chlorellaceae: 0.43	no support	no support
+Bin_174-contigs.fa	taxid assigned (2/2)	based on 489/1282 ORFs	1;131567;2	1.00;0.99;0.45	Bacteria: 0.45	no support	no support	no support	no support	no support	no support
+Bin_175-contigs.fa	taxid assigned (1/2)	based on 1598/1988 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.35;0.35;0.35;0.35;0.35;0.35;0.34;0.34	Viruses: 0.35	Uroviricota: 0.35	Caudoviricetes: 0.35	Caudovirales: 0.35	NA	NA	uncultured Caudovirales phage: 0.34
+Bin_175-contigs.fa	taxid assigned (2/2)	based on 1598/1988 ORFs	1;131567;2	1.00;0.36;0.35	Bacteria: 0.35	no support	no support	no support	no support	no support	no support
+Bin_176-contigs.fa	taxid assigned	based on 6647/7298 ORFs	1;131567;2;1224;1236;135618	1.00;0.99;0.98;0.65;0.35;0.32	Bacteria: 0.98	Proteobacteria: 0.65	Gammaproteobacteria: 0.35	Methylococcales: 0.32	no support	no support	no support
+Bin_177-contigs.fa	taxid assigned	based on 3/12 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Uroviricota: 1.00	Caudoviricetes: 1.00	Caudovirales: 1.00	NA	NA	uncultured Caudovirales phage: 1.00
+Bin_178-contigs.fa	taxid assigned	based on 99/101 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.53;0.53;0.53;0.53;0.53;0.53;0.53;0.53	Viruses: 0.53	Uroviricota: 0.53	Caudoviricetes: 0.53	Caudovirales: 0.53	NA	NA	uncultured Caudovirales phage: 0.53
+Bin_179-contigs.fa	taxid assigned (1/2)	based on 6369/7965 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.42;0.41;0.41;0.41;0.41;0.41;0.40;0.40	Viruses: 0.42	Uroviricota: 0.41	Caudoviricetes: 0.41	Caudovirales: 0.41	NA	NA	uncultured Caudovirales phage: 0.40
+Bin_179-contigs.fa	taxid assigned (2/2)	based on 6369/7965 ORFs	1;131567;2	1.00;0.43;0.39	Bacteria: 0.39	no support	no support	no support	no support	no support	no support
+Bin_18-contigs.fa	no taxid assigned	no hits to database
+Bin_180-contigs.fa	taxid assigned	based on 3768/4049 ORFs	1;131567;2;1224;1236;135618;403	1.00;0.99;0.98;0.80;0.70;0.66;0.31	Bacteria: 0.98	Proteobacteria: 0.80	Gammaproteobacteria: 0.70	Methylococcales: 0.66	Methylococcaceae: 0.31	no support	no support
+Bin_181-contigs.fa	taxid assigned	based on 8/20 ORFs	1;131567;2;1783270;68336;976	1.00;1.00;1.00;0.54;0.54;0.38	Bacteria: 1.00	Bacteroidetes: 0.38	no support	no support	no support	no support	no support
+Bin_182-contigs.fa	taxid assigned	based on 1821/3217 ORFs	1;131567;2	1.00;0.80;0.75	Bacteria: 0.75	no support	no support	no support	no support	no support	no support
+Bin_183-contigs.fa	taxid assigned	based on 684/744 ORFs	1;131567;2;1783272;201174;1760;52018;1883427	1.00;0.95;0.95;0.89;0.84;0.81;0.43;0.43	Bacteria: 0.95	Actinobacteria: 0.84	Actinomycetia: 0.81	NA	NA	NA	Actinobacteria bacterium: 0.43
+Bin_184-contigs.fa	taxid assigned	based on 2857/3068 ORFs	1;131567;2;1783270;68336;976;1853228	1.00;0.99;0.98;0.88;0.88;0.87;0.70	Bacteria: 0.98	Bacteroidetes: 0.87	Chitinophagia: 0.70	no support	no support	no support	no support
+Bin_185-contigs.fa	taxid assigned	based on 563/712 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.58;0.57;0.57;0.57;0.57;0.57;0.56;0.56	Viruses: 0.58	Uroviricota: 0.57	Caudoviricetes: 0.57	Caudovirales: 0.57	NA	NA	uncultured Caudovirales phage: 0.56
+Bin_186-contigs.fa	taxid assigned	based on 1892/2067 ORFs	1;131567;2;1783270;68336;1134404	1.00;1.00;0.98;0.74;0.73;0.40	Bacteria: 0.98	Ignavibacteriae: 0.40	no support	no support	no support	no support	no support
+Bin_187-contigs.fa	taxid assigned	based on 1981/2074 ORFs	1;131567;2;1783270;68336;976	1.00;1.00;1.00;0.89;0.89;0.89	Bacteria: 1.00	Bacteroidetes: 0.89	no support	no support	no support	no support	no support
+Bin_188-contigs.fa	taxid assigned	based on 3/29 ORFs	1;131567	1.00;0.45	no support	no support	no support	no support	no support	no support	no support
+Bin_19-contigs.fa	taxid assigned (1/2)	based on 290/936 ORFs	1;131567;2759	1.00;0.97;0.45	Eukaryota: 0.45	no support	no support	no support	no support	no support	no support
+Bin_19-contigs.fa	taxid assigned (2/2)	based on 290/936 ORFs	1;131567;2	1.00;0.97;0.46	Bacteria: 0.46	no support	no support	no support	no support	no support	no support
+Bin_2-contigs.fa	taxid assigned	based on 2/4 ORFs	1;131567;2759;3027;589342;589343;55528;55529*;905079*	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Eukaryota: 1.00	NA	Cryptophyceae: 1.00	Pyrenomonadales: 1.00	Geminigeraceae: 1.00	Guillardia: 1.00	Guillardia theta*: 1.00
+Bin_20-contigs.fa	taxid assigned	based on 147/466 ORFs	1;131567;2	1.00;0.88;0.70	Bacteria: 0.70	no support	no support	no support	no support	no support	no support
+Bin_21-contigs.fa	taxid assigned	based on 2/3 ORFs	1;131567;2;1783270;68336;976;1853228;1853229;563835;2307285;2077091	1.00;1.00;1.00;1.00;1.00;1.00;0.52;0.52;0.52;0.52;0.52	Bacteria: 1.00	Bacteroidetes: 1.00	Chitinophagia: 0.52	Chitinophagales: 0.52	Chitinophagaceae: 0.52	Flavipsychrobacter: 0.52	Flavipsychrobacter stenotrophus: 0.52
+Bin_22-contigs.fa	taxid assigned	based on 3055/3162 ORFs	1;131567;2;1783257;74201	1.00;1.00;1.00;0.91;0.91	Bacteria: 1.00	Verrucomicrobia: 0.91	no support	no support	no support	no support	no support
+Bin_23-contigs.fa	no taxid assigned	no hits to database
+Bin_24-contigs.fa	taxid assigned	based on 542/640 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.82;0.82;0.82;0.82;0.82;0.82;0.75;0.75	Viruses: 0.82	Uroviricota: 0.82	Caudoviricetes: 0.82	Caudovirales: 0.82	NA	NA	uncultured Caudovirales phage: 0.75
+Bin_25-contigs.fa	taxid assigned (1/2)	based on 252/330 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.50;0.50;0.50;0.50;0.50;0.50;0.49;0.49	Viruses: 0.50	Uroviricota: 0.50	Caudoviricetes: 0.50	Caudovirales: 0.50	NA	NA	uncultured Caudovirales phage: 0.49
+Bin_25-contigs.fa	taxid assigned (2/2)	based on 252/330 ORFs	1;131567;2	1.00;0.34;0.33	Bacteria: 0.33	no support	no support	no support	no support	no support	no support
+Bin_26-contigs.fa	taxid assigned	based on 8597/9045 ORFs	1;131567;2;1783272;200795	1.00;1.00;1.00;0.92;0.91	Bacteria: 1.00	Chloroflexi: 0.91	no support	no support	no support	no support	no support
+Bin_27-contigs.fa	taxid assigned	based on 184/678 ORFs	1;131567;2	1.00;0.93;0.62	Bacteria: 0.62	no support	no support	no support	no support	no support	no support
+Bin_28-contigs.fa	taxid assigned (1/2)	based on 123/409 ORFs	1;131567;2759	1.00;0.91;0.41	Eukaryota: 0.41	no support	no support	no support	no support	no support	no support
+Bin_28-contigs.fa	taxid assigned (2/2)	based on 123/409 ORFs	1;131567;2	1.00;0.91;0.47	Bacteria: 0.47	no support	no support	no support	no support	no support	no support
+Bin_29-contigs.fa	taxid assigned	based on 4/4 ORFs	1;131567;2;1783270;68336;976;200643;171549;185291;2030927	1.00;1.00;1.00;0.78;0.78;0.78;0.78;0.78;0.78;0.78	Bacteria: 1.00	Bacteroidetes: 0.78	Bacteroidia: 0.78	Bacteroidales: 0.78	NA	NA	Bacteroidales bacterium: 0.78
+Bin_3-contigs.fa	taxid assigned	based on 104/124 ORFs	1;131567;2;1783270;68336;976	1.00;0.79;0.79;0.36;0.36;0.36	Bacteria: 0.79	Bacteroidetes: 0.36	no support	no support	no support	no support	no support
+Bin_30-contigs.fa	taxid assigned	based on 4025/4458 ORFs	1;131567;2;1224;1553900;213481;213483;958	1.00;1.00;0.99;0.70;0.62;0.61;0.55;0.53	Bacteria: 0.99	Proteobacteria: 0.70	Oligoflexia: 0.62	Bdellovibrionales: 0.61	Bdellovibrionaceae: 0.55	Bdellovibrio: 0.53	no support
+Bin_31-contigs.fa	taxid assigned	based on 2610/2745 ORFs	1;131567;2;1783270;68336;976;200643;1970189;1471398	1.00;1.00;0.99;0.87;0.87;0.83;0.56;0.45;0.45	Bacteria: 0.99	Bacteroidetes: 0.83	Bacteroidia: 0.56	Marinilabiliales: 0.45	Prolixibacteraceae: 0.45	no support	no support
+Bin_32-contigs.fa	no taxid assigned	no hits to database
+Bin_33-contigs.fa	taxid assigned	based on 4/6 ORFs	1;131567;2;49928;1869227	1.00;0.81;0.81;0.58;0.58	Bacteria: 0.81	NA	NA	NA	NA	NA	bacterium: 0.58
+Bin_34-contigs.fa	taxid assigned (1/2)	based on 2/6 ORFs	1;131567;2;40117;1298915;2026887	1.00;1.00;1.00;0.55;0.55;0.55	Bacteria: 1.00	Nitrospirae: 0.55	NA	NA	NA	NA	Nitrospirae bacterium: 0.55
+Bin_34-contigs.fa	taxid assigned (2/2)	based on 2/6 ORFs	1;131567;2;49928;1869227	1.00;1.00;1.00;0.45;0.45	Bacteria: 1.00	NA	NA	NA	NA	NA	bacterium: 0.45
+Bin_35-contigs.fa	taxid assigned (1/2)	based on 311/519 ORFs	1;10239;12429;2763270	1.00;0.54;0.45;0.45	Viruses: 0.54	NA	NA	NA	NA	NA	Virus NIOZ-UU159: 0.45
+Bin_35-contigs.fa	taxid assigned (2/2)	based on 311/519 ORFs	1;131567	1.00;0.33	no support	no support	no support	no support	no support	no support	no support
+Bin_36-contigs.fa	taxid assigned	based on 12198/18258 ORFs	1;131567;2759;33090;3041;2692248;75966;35460;35461;2511126;3071;1962113;1650286	1.00;1.00;0.95;0.94;0.93;0.93;0.87;0.86;0.86;0.79;0.52;0.38;0.38	Eukaryota: 0.95	Chlorophyta: 0.93	Trebouxiophyceae: 0.87	Chlorellales: 0.86	Chlorellaceae: 0.86	Chlorella: 0.52	Chlorella desiccata (nom. nud.): 0.38
+Bin_37-contigs.fa	taxid assigned	based on 110/185 ORFs	1;131567;2759;3027;589350;2896;3030;2898	1.00;0.96;0.78;0.72;0.39;0.31;0.31;0.31	Eukaryota: 0.78	NA	Cryptophyceae: 0.72	Cryptomonadales: 0.39	Cryptomonadaceae: 0.31	Cryptomonas: 0.31	Cryptomonas paramecium: 0.31
+Bin_38-contigs.fa	taxid assigned	based on 1/1 ORFs	1;131567;2;1224;1236;135613;1046;1047;61644	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	Chromatiales: 1.00	Chromatiaceae: 1.00	Chromatium: 1.00	Chromatium okenii: 1.00
+Bin_39-contigs.fa	no taxid assigned	no hits to database
+Bin_4-contigs.fa	taxid assigned (1/2)	based on 425/803 ORFs	1;10239;2731341;2731360;2731618;2731619;28883*	1.00;0.40;0.34;0.34;0.34;0.34;0.34	Viruses: 0.40	Uroviricota: 0.34	Caudoviricetes: 0.34	Caudovirales*: 0.34	no support	no support	no support
+Bin_4-contigs.fa	taxid assigned (2/2)	based on 425/803 ORFs	1;131567;2	1.00;0.50;0.45	Bacteria: 0.45	no support	no support	no support	no support	no support	no support
+Bin_40-contigs.fa	taxid assigned	based on 138/309 ORFs	1;131567;2	1.00;0.94;0.75	Bacteria: 0.75	no support	no support	no support	no support	no support	no support
+Bin_41-contigs.fa	no taxid assigned	no hits to database
+Bin_42-contigs.fa	taxid assigned	based on 1170/1248 ORFs	1;131567;2;1224;28216	1.00;0.95;0.94;0.61;0.50	Bacteria: 0.94	Proteobacteria: 0.61	Betaproteobacteria: 0.50	no support	no support	no support	no support
+Bin_43-contigs.fa	no taxid assigned	no hits to database
+Bin_44-contigs.fa	no taxid assigned	no hits to database
+Bin_45-contigs.fa	taxid assigned	based on 26177/28722 ORFs	1;131567;2;1783270;68336;976	1.00;1.00;0.99;0.57;0.57;0.52	Bacteria: 0.99	Bacteroidetes: 0.52	no support	no support	no support	no support	no support
+Bin_46-contigs.fa	taxid assigned	based on 188/707 ORFs	1;131567;2759;3027;589350;2896;3030;233186	1.00;0.98;0.87;0.82;0.52;0.50;0.50;0.43	Eukaryota: 0.87	NA	Cryptophyceae: 0.82	Cryptomonadales: 0.52	Cryptomonadaceae: 0.50	Cryptomonas: 0.50	Cryptomonas curvata: 0.43
+Bin_47-contigs.fa	taxid assigned	based on 1470/1571 ORFs	1;131567;2;1224;28211	1.00;0.98;0.97;0.84;0.73	Bacteria: 0.97	Proteobacteria: 0.84	Alphaproteobacteria: 0.73	no support	no support	no support	no support
+Bin_48-contigs.fa	no taxid assigned	no hits to database
+Bin_49-contigs.fa	taxid assigned	based on 6/8 ORFs	1;131567;2;1224;28216;33809;1891241	1.00;1.00;1.00;0.74;0.74;0.74;0.74	Bacteria: 1.00	Proteobacteria: 0.74	Betaproteobacteria: 0.74	NA	NA	NA	Betaproteobacteria bacterium: 0.74
+Bin_5-contigs.fa	taxid assigned	based on 1470/2154 ORFs	1;131567;2	1.00;0.72;0.64	Bacteria: 0.64	no support	no support	no support	no support	no support	no support
+Bin_50-contigs.fa	taxid assigned	based on 701/994 ORFs	1;131567;2	1.00;0.73;0.71	Bacteria: 0.71	no support	no support	no support	no support	no support	no support
+Bin_51-contigs.fa	taxid assigned	based on 46/61 ORFs	1;131567;2;49928;1869227	1.00;0.73;0.73;0.43;0.41	Bacteria: 0.73	NA	NA	NA	NA	NA	bacterium: 0.41
+Bin_52-contigs.fa	taxid assigned	based on 184/208 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.59;0.59;0.59;0.59;0.59;0.59;0.57;0.57	Viruses: 0.59	Uroviricota: 0.59	Caudoviricetes: 0.59	Caudovirales: 0.59	NA	NA	uncultured Caudovirales phage: 0.57
+Bin_53-contigs.fa	taxid assigned	based on 1578/1608 ORFs	1;131567;2;1783272;201174;1760	1.00;1.00;1.00;0.98;0.98;0.97	Bacteria: 1.00	Actinobacteria: 0.98	Actinomycetia: 0.97	no support	no support	no support	no support
+Bin_54-contigs.fa	taxid assigned	based on 1391/1788 ORFs	1;131567;2;2323;1783234;1783273;363464;1046947;2044595	1.00;0.97;0.95;0.82;0.82;0.81;0.79;0.79;0.76	Bacteria: 0.95	Candidatus Gracilibacteria: 0.79	NA	NA	NA	NA	Candidatus Gracilibacteria bacterium: 0.76
+Bin_55-contigs.fa	taxid assigned (1/2)	based on 11/26 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;0.62;0.49;0.49;0.49;0.49;0.49;0.49;0.49	Viruses: 0.62	Uroviricota: 0.49	Caudoviricetes: 0.49	Caudovirales: 0.49	NA	NA	uncultured Caudovirales phage: 0.49
+Bin_55-contigs.fa	taxid assigned (2/2)	based on 11/26 ORFs	1;131567;2	1.00;0.38;0.38	Bacteria: 0.38	no support	no support	no support	no support	no support	no support
+Bin_56-contigs.fa	taxid assigned	based on 5814/6092 ORFs	1;131567;2;1224;1236;135613;1046;53392;1166950	1.00;1.00;1.00;0.97;0.96;0.95;0.95;0.82;0.82	Bacteria: 1.00	Proteobacteria: 0.97	Gammaproteobacteria: 0.96	Chromatiales: 0.95	Chromatiaceae: 0.95	Thiodictyon: 0.82	Candidatus Thiodictyon syntrophicum: 0.82
+Bin_57-contigs.fa	taxid assigned	based on 36/64 ORFs	1;131567;2;1783270;68336;976;117743;200644	1.00;0.92;0.88;0.67;0.67;0.67;0.47;0.46	Bacteria: 0.88	Bacteroidetes: 0.67	Flavobacteriia: 0.47	Flavobacteriales: 0.46	no support	no support	no support
+Bin_58-contigs.fa	taxid assigned	based on 486/830 ORFs	1;131567;2;49928;1869227	1.00;0.68;0.66;0.59;0.59	Bacteria: 0.66	NA	NA	NA	NA	NA	bacterium: 0.59
+Bin_59-contigs.fa	taxid assigned (1/2)	based on 314/1866 ORFs	1;131567;2759	1.00;0.95;0.32	Eukaryota: 0.32	no support	no support	no support	no support	no support	no support
+Bin_59-contigs.fa	taxid assigned (2/2)	based on 314/1866 ORFs	1;131567;2	1.00;0.95;0.59	Bacteria: 0.59	no support	no support	no support	no support	no support	no support
+Bin_6-contigs.fa	taxid assigned	based on 1/1 ORFs	1;131567;2;1783270;68336;1134404;795747;1798416;2053306	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Ignavibacteriae: 1.00	Ignavibacteria: 1.00	NA	NA	NA	Ignavibacteria bacterium: 1.00
+Bin_60-contigs.fa	taxid assigned	based on 1315/1500 ORFs	1;131567;2;1783257;203682;473814;2026780	1.00;1.00;0.99;0.89;0.89;0.61;0.61	Bacteria: 0.99	Planctomycetes: 0.89	NA	NA	NA	NA	Planctomycetes bacterium: 0.61
+Bin_61-contigs.fa	taxid assigned	based on 413/440 ORFs	1;131567;2;1783270;68336;976	1.00;1.00;1.00;0.84;0.84;0.63	Bacteria: 1.00	Bacteroidetes: 0.63	no support	no support	no support	no support	no support
+Bin_62-contigs.fa	taxid assigned	based on 1333/1508 ORFs	1;131567;2;1783270;68336;976;117743;200644;1853230;1986672;2026728	1.00;0.99;0.98;0.86;0.86;0.85;0.59;0.54;0.49;0.48;0.48	Bacteria: 0.98	Bacteroidetes: 0.85	Flavobacteriia: 0.59	Flavobacteriales: 0.54	Crocinitomicaceae: 0.49	NA	Crocinitomicaceae bacterium: 0.48
+Bin_63-contigs.fa	taxid assigned	based on 300/628 ORFs	1;131567;2759;3027;589350;2896;3030	1.00;0.97;0.64;0.57;0.35;0.35;0.35	Eukaryota: 0.64	NA	Cryptophyceae: 0.57	Cryptomonadales: 0.35	Cryptomonadaceae: 0.35	Cryptomonas: 0.35	no support
+Bin_64-contigs.fa	taxid assigned (1/2)	based on 6912/7236 ORFs	1;131567;2;1783270;68336;1090;191410;191411;191412;274493;1091;2685105;1095	1.00;1.00;1.00;0.95;0.95;0.94;0.94;0.94;0.93;0.83;0.43;0.42;0.42	Bacteria: 1.00	Chlorobi: 0.94	Chlorobia: 0.94	Chlorobiales: 0.94	Chlorobiaceae: 0.93	Chlorobium: 0.43	Chlorobium sp.: 0.42
+Bin_64-contigs.fa	taxid assigned (2/2)	based on 6912/7236 ORFs	1;131567;2;1783270;68336;1090;191410;191411;191412;274493;1099;34090	1.00;1.00;1.00;0.95;0.95;0.94;0.94;0.94;0.93;0.83;0.35;0.35	Bacteria: 1.00	Chlorobi: 0.94	Chlorobia: 0.94	Chlorobiales: 0.94	Chlorobiaceae: 0.93	Pelodictyon: 0.35	Pelodictyon phaeoclathratiforme: 0.35
+Bin_65-contigs.fa	taxid assigned	based on 6116/6519 ORFs	1;131567;2;1783270;68336;976;117743;200644	1.00;0.99;0.99;0.91;0.91;0.90;0.67;0.64	Bacteria: 0.99	Bacteroidetes: 0.90	Flavobacteriia: 0.67	Flavobacteriales: 0.64	no support	no support	no support
+Bin_66-contigs.fa	taxid assigned	based on 4/5 ORFs	1;131567;2;1783270;68336;976;37452;1898104	1.00;1.00;1.00;1.00;1.00;1.00;0.54;0.54	Bacteria: 1.00	Bacteroidetes: 1.00	NA	NA	NA	NA	Bacteroidetes bacterium: 0.54
+Bin_67-contigs.fa	no taxid assigned	no hits to database
+Bin_68-contigs.fa	taxid assigned	based on 624/739 ORFs	1;131567;2;1783272;201174;1760	1.00;0.94;0.93;0.48;0.47;0.39	Bacteria: 0.93	Actinobacteria: 0.47	Actinomycetia: 0.39	no support	no support	no support	no support
+Bin_69-contigs.fa	taxid assigned	based on 21/69 ORFs	1;131567;2	1.00;0.73;0.66	Bacteria: 0.66	no support	no support	no support	no support	no support	no support
+Bin_7-contigs.fa	taxid assigned	based on 7/64 ORFs	1;131567;2;1224;1236;135613;1046;1047;61644	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	Chromatiales: 1.00	Chromatiaceae: 1.00	Chromatium: 1.00	Chromatium okenii: 1.00
+Bin_70-contigs.fa	no taxid assigned	no hits to database
+Bin_71-contigs.fa	taxid assigned	based on 4/4 ORFs	1;10239;2731341;2731360;2731618;2731619;28883;2100420;2100421	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Uroviricota: 1.00	Caudoviricetes: 1.00	Caudovirales: 1.00	NA	NA	uncultured Caudovirales phage: 1.00
+Bin_72-contigs.fa	taxid assigned	based on 4267/4662 ORFs	1;131567;2;1783270;68336;976	1.00;0.99;0.98;0.63;0.63;0.62	Bacteria: 0.98	Bacteroidetes: 0.62	no support	no support	no support	no support	no support
+Bin_73-contigs.fa	taxid assigned	based on 70/142 ORFs	1;131567;2;1224;1553900;1915308;2599941*	1.00;1.00;0.57;0.51;0.47;0.47;0.47	Bacteria: 0.57	Proteobacteria: 0.51	Oligoflexia: 0.47	NA	NA	NA	Oligoflexia bacterium*: 0.47
+Bin_74-contigs.fa	no taxid assigned	no hits to database
+Bin_75-contigs.fa	no taxid assigned	no hits to database
+Bin_76-contigs.fa	taxid assigned	based on 1/1 ORFs	1;131567;2	1.00;1.00;1.00	Bacteria: 1.00	no support	no support	no support	no support	no support	no support
+Bin_77-contigs.fa	taxid assigned	based on 1/3 ORFs	1;131567;2;1224;2008785;119069;1798413;1970530	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Hydrogenophilalia: 1.00	Hydrogenophilales: 1.00	NA	NA	Hydrogenophilales bacterium 28-61-23: 1.00
+Bin_78-contigs.fa	taxid assigned	based on 2629/2918 ORFs	1;131567;2;1783270;68336	1.00;1.00;0.98;0.51;0.51	Bacteria: 0.98	no support	no support	no support	no support	no support	no support
+Bin_79-contigs.fa	taxid assigned	based on 1224/1484 ORFs	1;131567;2	1.00;0.99;0.95	Bacteria: 0.95	no support	no support	no support	no support	no support	no support
+Bin_8-contigs.fa	taxid assigned	based on 1/25 ORFs	1;131567;2759;33090;3041;2692248;75966;35460;35461	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Eukaryota: 1.00	Chlorophyta: 1.00	Trebouxiophyceae: 1.00	Chlorellales: 1.00	Chlorellaceae: 1.00	no support	no support
+Bin_80-contigs.fa	taxid assigned	based on 1/1 ORFs	1;10239;2732004;2732005;2732007;2732523;2732554;549779;985780;1977630;1977632;1977633*	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Nucleocytoviricota: 1.00	Megaviricetes: 1.00	Imitervirales: 1.00	Mimiviridae: 1.00	Indivirus: 1.00	Indivirus ILV1*: 1.00
+Bin_81-contigs.fa	taxid assigned	based on 3027/3154 ORFs	1;131567;2;1783270;68336;976	1.00;1.00;1.00;0.94;0.94;0.94	Bacteria: 1.00	Bacteroidetes: 0.94	no support	no support	no support	no support	no support
+Bin_82-contigs.fa	taxid assigned	based on 1/3 ORFs	1;131567;2759;2698737;33634;2696291;2836;33849;33850	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Eukaryota: 1.00	Bacillariophyta: 1.00	Bacillariophyceae: 1.00	no support	no support	no support	no support
+Bin_83-contigs.fa	taxid assigned	based on 6/8 ORFs	1;131567;2;1224;28216	1.00;1.00;1.00;0.72;0.64	Bacteria: 1.00	Proteobacteria: 0.72	Betaproteobacteria: 0.64	no support	no support	no support	no support
+Bin_84-contigs.fa	taxid assigned	based on 2160/2247 ORFs	1;131567;2;1783257;74201;414999;415000;134623;278955;2006848	1.00;1.00;1.00;0.89;0.87;0.61;0.54;0.54;0.50;0.50	Bacteria: 1.00	Verrucomicrobia: 0.87	Opitutae: 0.61	Opitutales: 0.54	Opitutaceae: 0.54	NA	Opitutaceae bacterium: 0.50
+Bin_85-contigs.fa	taxid assigned	based on 20/79 ORFs	1;131567;2;1783257;203682;203683;573133;2052181	1.00;1.00;0.85;0.43;0.32;0.32;0.32;0.32	Bacteria: 0.85	Planctomycetes: 0.32	Planctomycetia: 0.32	NA	NA	NA	Planctomycetia bacterium: 0.32
+Bin_86-contigs.fa	taxid assigned	based on 6095/6379 ORFs	1;131567;2;1224;28216;80840	1.00;1.00;0.99;0.87;0.65;0.34	Bacteria: 0.99	Proteobacteria: 0.87	Betaproteobacteria: 0.65	Burkholderiales: 0.34	no support	no support	no support
+Bin_87-contigs.fa	taxid assigned	based on 2/2 ORFs	1;131567;2	1.00;0.40;0.40	Bacteria: 0.40	no support	no support	no support	no support	no support	no support
+Bin_88-contigs.fa	taxid assigned	based on 1/3 ORFs	1;10239;12429;2763270	1.00;1.00;1.00;1.00	Viruses: 1.00	NA	NA	NA	NA	NA	Virus NIOZ-UU159: 1.00
+Bin_89-contigs.fa	taxid assigned	based on 22476/23918 ORFs	1;131567;2;1783270;68336;976;200643	1.00;1.00;0.99;0.89;0.89;0.87;0.30	Bacteria: 0.99	Bacteroidetes: 0.87	Bacteroidia: 0.30	no support	no support	no support	no support
+Bin_9-contigs.fa	taxid assigned	based on 1980/2124 ORFs	1;131567;2;1783270;68336;976;1937959;1936988*	1.00;1.00;1.00;0.67;0.67;0.66;0.37;0.37	Bacteria: 1.00	Bacteroidetes: 0.66	Saprospiria: 0.37	Saprospirales*: 0.37	no support	no support	no support
+Bin_90-contigs.fa	no taxid assigned	no hits to database
+Bin_91-contigs.fa	taxid assigned	based on 6046/6586 ORFs	1;131567;2;1224;68525;28221;122706;2026735	1.00;1.00;0.99;0.81;0.68;0.68;0.51;0.50	Bacteria: 0.99	Proteobacteria: 0.81	Deltaproteobacteria: 0.68	NA	NA	NA	Deltaproteobacteria bacterium: 0.50
+Bin_92-contigs.fa	taxid assigned	based on 10585/13741 ORFs	1;131567;2;1783270;68336;976	1.00;0.97;0.94;0.41;0.40;0.35	Bacteria: 0.94	Bacteroidetes: 0.35	no support	no support	no support	no support	no support
+Bin_93-contigs.fa	taxid assigned	based on 1/1 ORFs	1;131567;2;1224;1236;135613;1046;1047;61644	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	Chromatiales: 1.00	Chromatiaceae: 1.00	Chromatium: 1.00	Chromatium okenii: 1.00
+Bin_94-contigs.fa	taxid assigned	based on 1/1 ORFs	1;131567;2;1224;1236;135613;1046;1047;61644	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	Chromatiales: 1.00	Chromatiaceae: 1.00	Chromatium: 1.00	Chromatium okenii: 1.00
+Bin_95-contigs.fa	taxid assigned	based on 5539/7295 ORFs	1;131567;2;1783270;68336;976	1.00;0.93;0.91;0.56;0.56;0.55	Bacteria: 0.91	Bacteroidetes: 0.55	no support	no support	no support	no support	no support
+Bin_96-contigs.fa	taxid assigned	based on 2628/2937 ORFs	1;131567;2;1783272;200795	1.00;1.00;0.99;0.84;0.82	Bacteria: 0.99	Chloroflexi: 0.82	no support	no support	no support	no support	no support
+Bin_97-contigs.fa	no taxid assigned	no hits to database
+Bin_98-contigs.fa	no taxid assigned	no hits to database
+Bin_99-contigs.fa	taxid assigned	based on 8513/10696 ORFs	1;131567;2;1783272;1239;526524;526525;128827;544447;2049044	1.00;0.87;0.79;0.38;0.36;0.32;0.32;0.32;0.32;0.32	Bacteria: 0.79	Firmicutes: 0.36	Erysipelotrichia: 0.32	Erysipelotrichales: 0.32	Erysipelotrichaceae: 0.32	NA	Erysipelotrichaceae bacterium: 0.32
