@@ -7,8 +7,9 @@ Meromictic Lake Cadagno is situated at 1921 m within Swiss Alps. Lake Cadagno is
 ### Step by step guide
 There are total eight metagenomics samples collected from the water column of Lake Cadagno. Three from mixolimnion (5m, 9m, 11m), four from chemocline (13m, 15mw, 15mm, 15.5m), and one from monimolimnion (17m). The samples were collected from different meter depths of the Lake Cadagno. Chemocline metagenomics samples were primarily used in this study to obtain the near complete genome of Chlorella-like microbial eukaryote. 
 
-#### 1-3 Sample collection, Pre-processing, and assembly of raw reads
+#### 1-3 Sample collection 
 For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Shotgun sequencing. 
+Metagenomics sample collection is in parallel to 16S rRNA gene sequencing mentioned in ASM mbio article ([https://pages.github.com/](https://journals.asm.org/doi/10.1128/mbio.00052-22)).
 
 #### 4-5 Pre-processing, and assembly of raw reads
 > Required tools with installation links: Anvio: https://anvio.org/install/  | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
