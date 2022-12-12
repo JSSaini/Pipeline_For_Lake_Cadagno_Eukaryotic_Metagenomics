@@ -9,7 +9,7 @@ There are total eight metagenomics samples collected from the water column of La
 
 #### 1-3 Sample collection 
 For metagenomics sequencing, 20L lake water was collected from the chemocline (oxic-anoxic boundry; 13-15.5 m) of Lake Cadagno. The biomass was captured on 0.2μm filters, and after DNA extractions samples were sent for Shotgun sequencing. 
-Metagenomics sample collection is in parallel to 16S rRNA gene sequencing mentioned in ASM mbio article ([https://pages.github.com/](https://journals.asm.org/doi/10.1128/mbio.00052-22)).
+Metagenomics sample collection is in parallel to 16S rRNA gene sequencing mentioned in ASM mbio article ([ASM mBIO](https://journals.asm.org/doi/10.1128/mbio.00052-22)).
 
 #### 4-5 Pre-processing, and assembly of raw reads
 > Required tools with installation links: Anvio: https://anvio.org/install/  | BBtools https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ | Spades https://github.com/ablab/spades 
@@ -374,10 +374,4 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
            #Phylogenomic inference
            
            [selected_markers_with_links_and_description.txt]    (https://github.com/JSSaini/Eukaryotic_Metagenomic_Lake_Cadagno/files/8986487/selected_markers_with_links_and_description.txt)
-
-
-
-
-
-
 
