@@ -5,7 +5,7 @@ Meromictic Lake Cadagno is situated at 1921 m within Swiss Alps. Lake Cadagno is
 ###  Microbial Eukaryotes Metagenomics Pipeline
 
 #### R Code and Data availibility
-Raw reads are available at the NCBI under the sequence read archive SUB11916861 and under the accessions SRR21025699, SRR21025700, SRR21025701, and SRR21025702. The GenBank ID for the Chlorella-like MAG is JAOAOU000000000.1. The assembled contigs from raw reads, MAGs, and other data were deposited in the Zenodo (https://zenodo.org/record/7505505).
+Raw reads are available at the NCBI under the sequence read archive SUB11916861 and under the accessions SRR21025699, SRR21025700, SRR21025701, and SRR21025702. The GenBank ID for the Chlorella-like MAG is JAOAOU000000000.1. The assembled contigs from raw reads, MAGs, R scriptsincluding files to generate figures for the manuscript and other data were deposited in the Zenodo (https://zenodo.org/record/7505505).
 
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
 
