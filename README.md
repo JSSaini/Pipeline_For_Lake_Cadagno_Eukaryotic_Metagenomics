@@ -2,8 +2,13 @@
 Publication under review (Saini et al. ISMEJ 2022)
 ## Introduction
 Meromictic Lake Cadagno is situated at 1921 m within Swiss Alps. Lake Cadagno is permanently stratisfied into three zones called 1) mixolimnion (upper oxic), 2) monimolimnion (lower anoxic), and 3) in between oxic-anoxic interface called chemocline which harbours a persistent microbial bloom. This study focussed on eukaryotic microbes, and investigated the microbial bloom using Shotgun DNA sequencing (Illumina HighSeq 4000). Following pipeline was used to obtain near complete genome of Chlorella-like microbial eukaryote from metagenomics dataset.
-###  Microbial Eukaryotes Metagenomics Pipeline 
+###  Microbial Eukaryotes Metagenomics Pipeline
+
+#### R Code and Data availibility
+Raw reads are available at the NCBI under the sequence read archive SUB11916861 and under the accessions SRR21025699, SRR21025700, SRR21025701, and SRR21025702. The GenBank ID for the Chlorella-like MAG is JAOAOU000000000.1. The assembled contigs from raw reads, MAGs, and other data were deposited in the Zenodo (https://zenodo.org/record/7505505).
+
 ![Screenshot](Microbial_Eukaryote_M_Github.png)
+
 ### Step by step guide
 There are total eight metagenomics samples collected from the water column of Lake Cadagno. Three from mixolimnion (5m, 9m, 11m), four from chemocline (13m, 15mw, 15mm, 15.5m), and one from monimolimnion (17m). The samples were collected from different meter depths of the Lake Cadagno. Chemocline metagenomics samples were primarily used in this study to obtain the near complete genome of Chlorella-like microbial eukaryote. 
 
