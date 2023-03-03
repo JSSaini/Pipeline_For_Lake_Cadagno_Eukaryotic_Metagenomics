@@ -328,25 +328,31 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
             https://chlorobox.mpimp-golm.mpg.de/geseq.html
 
 
-#### 12. Metabolic Prediction of Microbial Eukaryotic Genomes 
-> Required tools with installation links: EukMetaSanity https://github.com/cjneely10/EukMetaSanity | KEGG https://www.kegg.jp/ghostkoala/ | Anvio
+#### 12. Proteome Prediction and functional annotation of Microbial Eukaryotic Genomes 
+> Required tools with installation links: EukMetaSanity https://github.com/cjneely10/EukMetaSanity | Orthologer https://orthologer.ezlab.org/ | KEGG https://www.kegg.jp/ghostkoala/ | Anvio | Eggnog https://github.com/eggnogdb/eggnog-mapper 
 
 
 - 12.1  EukMetaSanity was used for gene prediction
       
             yapim run -i directory_containing_genome -c run-config.yaml -p $EukMS_run -o name_of_out_put_directory #(needs to make the output directory manually prior to running code)
-- 12.2  EggNOG annotations of Chlorella genomes:
+
+- 12.2  Orthologer annotations of Chlorella-like MAG:
+             
+             docker run -u $(id -u) -v $(pwd)/odb:/odbwork ezlabgva/orthologer:v3.0.2 orthomapper -c run -p LC_MAG -f input/Chlorella-like_MAG.faa -n 3041 
+            
+- 12.3  EggNOG annotations of Chlorella genomes:
            
            python ../emapper.py -m diamond --sensmode more-sensitive -i GCA_002245835.2_unplaced.scaf.1.Tier.faa --decorate_gff GCA_002245835.2_unplaced.scaf.1.Tier.gff3 -o GCA_002245835.2_unplaced.scaf.1.Tier --cpu 32 --target_taxa 3041
 
 #Optionally
-- 12.3  Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
+
+- 12.4  Mapping of protein coding gene sequences (.faa) from EukMetaSanity to KEGG Pathways using GhostKoala Online
 
             https://www.kegg.jp/ghostkoala/
       
 **OR**
 
-- 12.3  Anvio Metabolism Prediction 
+- 12.5  Anvio Metabolism Prediction 
             
             anvi-setup-kegg-kofams --reset
 
@@ -372,11 +378,7 @@ Following is the example of Spades Assembly of 15.5m sample of Lake Cadagno mapp
 
 - 13.2 Microbial Eukaryote Nuclear Genome
            
-           #Extraction of Markers
-           
-           #Alignment
-           
-           #Phylogenomic inference
+           #BUSCO (v5.2.2) was run in genome mode (BUSCO_Metaeuk workflow) on each genome assembly using the chlorophyta_odb10 dataset (1,519 markers). The identified single-copy genes that were shared across 100% of the species (with no duplicates across all species) were extracted. For each orthologous group, proteins were aligned using MAFFT (v7.505) 89 and trimmed using trimAl (v1.4 rev15) 90. The single alignments were concatenated with AMAS (v1.0) 91, and the resulting super-alignment was used to infer a maximum likelihood phylogeny with IQ-TREE (v2.1.2) 92
            
            [selected_markers_with_links_and_description.txt]    (https://github.com/JSSaini/Eukaryotic_Metagenomic_Lake_Cadagno/files/8986487/selected_markers_with_links_and_description.txt)
 
